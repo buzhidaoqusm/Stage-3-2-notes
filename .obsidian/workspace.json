@@ -11,10 +11,14 @@
             "id": "c6a8476b1c3243c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Information Retrieval/0 Introduction.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "0 Introduction"
             }
           }
         ]
@@ -177,8 +181,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85e9b2e50a562d93",
+  "active": "c6a8476b1c3243c6",
   "lastOpenFiles": [
+    "Information Retrieval/0 Introduction.md",
     "Information Retrieval",
     "Distributed Systems/11 Security 2.md",
     "Distributed Systems/10 Security.md",
