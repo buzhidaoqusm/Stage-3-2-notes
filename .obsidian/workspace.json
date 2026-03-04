@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "0 Introduction"
             }
-          },
-          {
-            "id": "4f2318f9fc36085d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.4"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f2318f9fc36085d",
+  "active": "c6a8476b1c3243c6",
   "lastOpenFiles": [
     "Information Retrieval/0 Introduction.md",
     "Information Retrieval",
