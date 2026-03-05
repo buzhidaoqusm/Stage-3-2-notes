@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.md",
+                "file": "System Des & Verification/1.md",
                 "mode": "source",
                 "source": false
               },
@@ -181,10 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c6a8476b1c3243c6",
+  "active": "85e9b2e50a562d93",
   "lastOpenFiles": [
+    "System Des & Verification",
     "Information Retrieval/0 Introduction.md",
-    "1.md",
+    "System Des & Verification/1.md",
     "Information Retrieval",
     "Distributed Systems/11 Security 2.md",
     "Distributed Systems/10 Security.md",
@@ -209,7 +210,6 @@
     "Software Methodology/6 Architectural Design.md",
     "Software Methodology/2 Software Processes.md",
     "Software Methodology/1 SE Introduction.md",
-    "Software Methodology/4.5 User Story.md",
     "Img/Pasted image 20251227153329.png",
     "Img.zip",
     "Img/Pasted image 20251226134724.png",
