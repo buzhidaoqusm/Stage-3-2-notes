@@ -38,3 +38,9 @@ i := 0
 Variant
 (K↓199)−i
 
+
+Postcondition
+<∀i:0<=i<100: f.i <= f.k>
+0<=k<100
+
+Domain model
