@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temp.md",
+                "file": "System Des & Verification/Binary Chop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "temp"
+              "title": "Binary Chop"
             }
           }
         ],
@@ -198,8 +198,9 @@
   },
   "active": "fcfb029d7d4a0d92",
   "lastOpenFiles": [
-    "System Des & Verification/1.md",
     "temp.md",
+    "System Des & Verification/Binary Chop.md",
+    "System Des & Verification/1.md",
     "System Des & Verification/3.md",
     "System Des & Verification",
     "Information Retrieval/0 Introduction.md",
@@ -225,7 +226,6 @@
     "Software Methodology/8 Software Testing.md",
     "Software Methodology/7 Design and Implementation.md",
     "Software Methodology/6 Architectural Design.md",
-    "Software Methodology/2 Software Processes.md",
     "Img/Pasted image 20251227153329.png",
     "Img.zip",
     "Img/Pasted image 20251226134724.png",
