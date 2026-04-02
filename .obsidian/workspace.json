@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Des & Verification/Binary Chop.md",
+                "file": "System Des & Verification/The integer square root.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Chop"
+              "title": "The integer square root"
             }
           }
         ],
@@ -198,8 +198,9 @@
   },
   "active": "fcfb029d7d4a0d92",
   "lastOpenFiles": [
-    "temp.md",
     "System Des & Verification/Binary Chop.md",
+    "System Des & Verification/The integer square root.md",
+    "temp.md",
     "System Des & Verification/1.md",
     "System Des & Verification/3.md",
     "System Des & Verification",
@@ -225,7 +226,6 @@
     "Software Methodology/3 Agile Software Development.md",
     "Software Methodology/8 Software Testing.md",
     "Software Methodology/7 Design and Implementation.md",
-    "Software Methodology/6 Architectural Design.md",
     "Img/Pasted image 20251227153329.png",
     "Img.zip",
     "Img/Pasted image 20251226134724.png",
