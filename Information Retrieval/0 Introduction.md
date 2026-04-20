@@ -39,3 +39,29 @@ It merely informs on the **existence** (or non-existence) and **whereabouts** of
 - Whereabouts: Tells the user **where that document is.**
 
 principal function: give users a **list of documents** that are relevant to the user’s information need
+
+It makes **no** attempt to **take a subset of the information** contained **in a document** and present that to the user
+## Relevance
+A document is ”relevant” if its content **satisfies** (or helps to satisfy) the user’s **information need**.
+a **subjective concept**, that is entirely **up to** the **user** to judge
+
+# if the system is good
+if the documents it returns **satisfy the information need**
+
+Laboratory experiments use “**test collections**” for which **standard queries** have been created.
+**Documents** in these collections have been **judged by human** judges
+
+# Question Answering
+the system is designed to **provide a full answer** to a **question**
+>Question: What is the capital city of France? 
+>Answer: Paris is the capital city of France
+![](assets/0%20Introduction/file-20260420163904433.png)
+
+# Information Extraction
+An Information Extraction system is designed to take **unstructured text** and try to **create structured data** from it.
+
+> Input:  “Kate Hudson was born in Los Angeles, California, the daughter of Academy Award-winning actress Goldie Hawn and Bill Hudson, an actor, comedian, and musician. Her parents divorced eighteen months after her birth; she and her brother, actor Oliver Hudson, were raised in Colorado by her mother and her mother’s long-time boyfriend, actor Kurt Russell.” 
+> Output (examples): mother(Kate Hudson, Goldie Hawn), brother(Kate Hudson, Oliver Hudson), gender(Kate Hudson, female)
+
+# Note
+Question Answering和Information Extraction不是Information Retrieval
