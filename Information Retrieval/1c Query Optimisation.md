@@ -20,3 +20,4 @@ Simple heuristic: for postings of length L, use `根号L`
 Easy if the **index is relatively static**; **harder** if L keeps **changing** because of updates.
 
 This **definitely** used to **help**; with **modern hardware** it may **not** unless you have a memory-based index
+The **I/O cost of loading a bigger postings** list can **outweigh** the gains from quicker in **memory merging**!
