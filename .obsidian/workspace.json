@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Des & Verification/The integer square root.md",
+                "file": "Information Retrieval/0 Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The integer square root"
+              "title": "0 Introduction"
             }
           }
         ],
@@ -198,8 +198,8 @@
   },
   "active": "fcfb029d7d4a0d92",
   "lastOpenFiles": [
-    "System Des & Verification/Binary Chop.md",
     "System Des & Verification/The integer square root.md",
+    "System Des & Verification/Binary Chop.md",
     "temp.md",
     "System Des & Verification/1.md",
     "System Des & Verification/3.md",
