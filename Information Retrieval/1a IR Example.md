@@ -17,3 +17,9 @@ find those that contain Brutus and Caesar and then remove those that contain Cal
 Slow
 
 A **corpus** is a **collection of documents**. The **plural is corpora**.
+
+### Term-document incidence matrix
+This is an example of a representation of a text document.
+一些戏剧中包含的一些单词
+
+![](assets/1a%20IR%20Example/file-20260420174636022.png)
