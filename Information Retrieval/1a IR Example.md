@@ -11,3 +11,9 @@ output is **not ranked**
 
 >contain the words **Brutus AND Caesar** but **NOT Calpurnia**
 
+### Attempt 1
+find those that contain Brutus and Caesar and then remove those that contain Calpurnia
+
+Slow
+
+A **corpus** is a **collection of documents**. The **plural is corpora**.
