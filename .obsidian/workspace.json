@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d01feeacf7ddd0e6",
@@ -194,8 +193,11 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
-    "Information Retrieval/1c Query Optimisation.md",
+    "02a-Preprocessing.pdf",
+    "temp.md",
     "Information Retrieval/2a Preprocessing.md",
+    "Prompt.md",
+    "Information Retrieval/1c Query Optimisation.md",
     "assets/1c Query Optimisation/file-20260420204704593.png",
     "assets/1c Query Optimisation/file-20260420203323040.png",
     "assets/1c Query Optimisation",
@@ -218,7 +220,6 @@
     "Information Retrieval/assets",
     "System Des & Verification/The integer square root.md",
     "System Des & Verification/Binary Chop.md",
-    "temp.md",
     "System Des & Verification/1.md",
     "System Des & Verification/3.md",
     "System Des & Verification",
@@ -237,8 +238,6 @@
     "Distributed Systems/2 introduction.md",
     "Software Methodology/不太会.md",
     "Software Methodology/重点.md",
-    "Software Methodology/4 Requirements Engineering.md",
-    "Software Methodology/5 System Modeling.md",
     "Img.zip"
   ]
 }
