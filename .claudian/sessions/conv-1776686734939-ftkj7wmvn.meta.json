@@ -4,8 +4,8 @@
   "title": "Debug table rendering issue",
   "titleGenerationStatus": "success",
   "createdAt": 1776686734957,
-  "updatedAt": 1776686941687,
-  "lastResponseAt": 1776686941687,
+  "updatedAt": 1776688089221,
+  "lastResponseAt": 1776688089221,
   "sessionId": "1f63d95e-9f40-4690-bae1-b7d2f1f0acae",
   "providerState": {
     "providerSessionId": "1f63d95e-9f40-4690-bae1-b7d2f1f0acae"
@@ -13,12 +13,12 @@
   "currentNote": "Information Retrieval/1b Indexing.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 126,
-    "cacheCreationInputTokens": 4547,
+    "inputTokens": 9103,
+    "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 18669,
     "contextWindow": 200000,
-    "contextTokens": 23342,
-    "percentage": 12,
+    "contextTokens": 27772,
+    "percentage": 14,
     "contextWindowIsAuthoritative": true
   }
 }

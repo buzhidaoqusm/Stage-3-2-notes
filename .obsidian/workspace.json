@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/1b Indexing.md",
+                "file": "Information Retrieval/1c Query Optimisation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1b Indexing"
+              "title": "1c Query Optimisation"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Retrieval/1b Indexing.md",
+                "file": "Information Retrieval/1c Query Optimisation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1b Indexing 的大纲"
+              "title": "1c Query Optimisation 的大纲"
             }
           },
           {
@@ -194,6 +194,10 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "assets/1c Query Optimisation/file-20260420203323040.png",
+    "assets/1c Query Optimisation",
+    "Information Retrieval/1b Indexing.md",
+    "Information Retrieval/1c Query Optimisation.md",
     "assets/1b Indexing/file-20260420200501081.png",
     "assets/1b Indexing/file-20260420200449683.png",
     "assets/1b Indexing/file-20260420200428967.png",
@@ -202,7 +206,6 @@
     "assets/1b Indexing/file-20260420195733455.png",
     "assets/1b Indexing",
     "Information Retrieval/1a IR Example.md",
-    "Information Retrieval/1b Indexing.md",
     "assets/1a IR Example/file-20260420174636022.png",
     "assets/1a IR Example",
     "Information Retrieval/0 Introduction.md",
@@ -235,10 +238,7 @@
     "Software Methodology/重点.md",
     "Software Methodology/4 Requirements Engineering.md",
     "Software Methodology/5 System Modeling.md",
-    "Software Methodology/9 Software Evolution.md",
     "Img/Pasted image 20251227153329.png",
-    "Img.zip",
-    "Img/Pasted image 20251226134724.png",
-    "未命名.base"
+    "Img.zip"
   ]
 }
