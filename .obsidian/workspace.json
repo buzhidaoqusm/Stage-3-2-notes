@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/2a Preprocessing.md",
+                "file": "Information Retrieval/3a Phrase Queries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2a Preprocessing"
+              "title": "3a Phrase Queries"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d01feeacf7ddd0e6",
@@ -191,8 +192,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "e89b7bc04acf5ed8",
+  "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "Information Retrieval/2b Stopwords, Stemming and Lemmatisation.md",
+    "Information Retrieval/3a Phrase Queries.md",
+    "assets/2b Stopwords, Stemming and Lemmatisation/file-20260421213211943.png",
+    "assets/2b Stopwords, Stemming and Lemmatisation",
+    "Information Retrieval/2a Preprocessing.md",
     "ilovepdf_pages-to-jpg/02a-Preprocessing_unlocked_page-0002.jpg",
     "ilovepdf_pages-to-jpg/02a-Preprocessing_unlocked_page-0001.jpg",
     "ilovepdf_pages-to-jpg",
@@ -200,7 +206,6 @@
     "02a-Preprocessing_unlocked.pdf",
     "02a-Preprocessing.pdf",
     "temp.md",
-    "Information Retrieval/2a Preprocessing.md",
     "Prompt.md",
     "Information Retrieval/1c Query Optimisation.md",
     "assets/1c Query Optimisation/file-20260420204704593.png",
@@ -212,15 +217,12 @@
     "assets/1b Indexing/file-20260420200428967.png",
     "assets/1b Indexing/file-20260420200358009.png",
     "assets/1b Indexing/file-20260420200356563.png",
-    "assets/1b Indexing/file-20260420195733455.png",
     "assets/1b Indexing",
     "Information Retrieval/1a IR Example.md",
-    "assets/1a IR Example/file-20260420174636022.png",
     "assets/1a IR Example",
     "Information Retrieval/0 Introduction.md",
     "assets/0 Introduction",
     "assets",
-    "Information Retrieval/assets/0 Introduction",
     "System Des & Verification/The integer square root.md",
     "System Des & Verification/Binary Chop.md",
     "System Des & Verification/1.md",
@@ -237,7 +239,6 @@
     "Distributed Systems/4 Logical Clocks.md",
     "Distributed Systems/3 Architectures.md",
     "Distributed Systems/2 introduction.md",
-    "Software Methodology/不太会.md",
-    "Software Methodology/重点.md"
+    "Software Methodology/不太会.md"
   ]
 }
