@@ -191,8 +191,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2adbed7e0f0fffbd",
+  "active": "e89b7bc04acf5ed8",
   "lastOpenFiles": [
+    "ilovepdf_pages-to-jpg/02a-Preprocessing_unlocked_page-0002.jpg",
+    "ilovepdf_pages-to-jpg/02a-Preprocessing_unlocked_page-0001.jpg",
+    "ilovepdf_pages-to-jpg",
+    "ilovepdf_pages-to-jpg.zip",
+    "02a-Preprocessing_unlocked.pdf",
     "02a-Preprocessing.pdf",
     "temp.md",
     "Information Retrieval/2a Preprocessing.md",
@@ -213,17 +218,13 @@
     "assets/1a IR Example/file-20260420174636022.png",
     "assets/1a IR Example",
     "Information Retrieval/0 Introduction.md",
-    "assets/0 Introduction/file-20260420163904433.png",
     "assets/0 Introduction",
     "assets",
     "Information Retrieval/assets/0 Introduction",
-    "Information Retrieval/assets",
     "System Des & Verification/The integer square root.md",
     "System Des & Verification/Binary Chop.md",
     "System Des & Verification/1.md",
     "System Des & Verification/3.md",
-    "System Des & Verification",
-    "Information Retrieval",
     "Distributed Systems/11 Security 2.md",
     "Distributed Systems/10 Security.md",
     "Distributed Systems/9 Replication Systems.md",
@@ -237,7 +238,6 @@
     "Distributed Systems/3 Architectures.md",
     "Distributed Systems/2 introduction.md",
     "Software Methodology/不太会.md",
-    "Software Methodology/重点.md",
-    "Img.zip"
+    "Software Methodology/重点.md"
   ]
 }
