@@ -34,3 +34,8 @@ positional index **expands** postings **storage** substantially
 positional index is now **standardly used** because of the power and usefulness of phrase queries.
 
 ## Rules of thumb
+A **positional index** is **2–4 times** as large as a non-positional index.
+Positional index size 35–50% of volume of original text.
+
+a combination of **selected biwords** and a **positional index** are used, with good results
+
