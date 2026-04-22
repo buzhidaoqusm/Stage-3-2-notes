@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/5b Evaluation.md",
+                "file": "Information Retrieval/5c Precision & Recall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5b Evaluation"
+              "title": "5c Precision & Recall"
             }
           }
         ]
@@ -194,8 +194,12 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
-    "Information Retrieval/5a BM25 Model.md",
     "Information Retrieval/5b Evaluation.md",
+    "Information Retrieval/5c Precision & Recall.md",
+    "assets/5b Evaluation/file-20260422204435751.png",
+    "assets/5b Evaluation/file-20260422203740753.png",
+    "assets/5b Evaluation",
+    "Information Retrieval/5a BM25 Model.md",
     "assets/5a BM25 Model/file-20260422194856490.png",
     "assets/5a BM25 Model/file-20260422183911363.png",
     "assets/5a BM25 Model/file-20260422181458760.png",
@@ -212,11 +216,9 @@
     "assets/3c Cosine Similarity",
     "Information Retrieval/3b Vector Space Model.md",
     "assets/3b Vector Space Model/file-20260422152847677.png",
-    "assets/3b Vector Space Model/file-20260422152835629.png",
     "assets/3b Vector Space Model",
     "Information Retrieval/3a Phrase Queries.md",
     "Information Retrieval/2b Stopwords, Stemming and Lemmatisation.md",
-    "assets/2b Stopwords, Stemming and Lemmatisation/file-20260421213211943.png",
     "assets/2b Stopwords, Stemming and Lemmatisation",
     "Information Retrieval/2a Preprocessing.md",
     "ilovepdf_pages-to-jpg",
@@ -226,7 +228,6 @@
     "temp.md",
     "Prompt.md",
     "Information Retrieval/1c Query Optimisation.md",
-    "assets/1c Query Optimisation",
     "Information Retrieval/1b Indexing.md",
     "Information Retrieval/1a IR Example.md",
     "Information Retrieval/0 Introduction.md",
@@ -238,7 +239,6 @@
     "Distributed Systems/10 Security.md",
     "Distributed Systems/9 Replication Systems.md",
     "Distributed Systems/9 Group Communication.md",
-    "Distributed Systems/8 p2p.md",
-    "Distributed Systems/6 Distributed File Systems.md"
+    "Distributed Systems/8 p2p.md"
   ]
 }
