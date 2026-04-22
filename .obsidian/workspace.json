@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/3c Cosine Similarity.md",
+                "file": "Information Retrieval/4a Term Weighting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3c Cosine Similarity"
+              "title": "4a Term Weighting"
             }
           }
         ]
@@ -194,10 +194,11 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "Information Retrieval/3c Cosine Similarity.md",
+    "Information Retrieval/4a Term Weighting.md",
     "assets/3c Cosine Similarity/file-20260422160036222.png",
     "assets/3c Cosine Similarity",
     "Information Retrieval/3b Vector Space Model.md",
-    "Information Retrieval/3c Cosine Similarity.md",
     "assets/3b Vector Space Model/file-20260422152847677.png",
     "assets/3b Vector Space Model/file-20260422152835629.png",
     "assets/3b Vector Space Model",
@@ -221,7 +222,6 @@
     "Information Retrieval/1b Indexing.md",
     "assets/1b Indexing/file-20260420200501081.png",
     "assets/1b Indexing/file-20260420200449683.png",
-    "assets/1b Indexing/file-20260420200428967.png",
     "assets/1b Indexing",
     "Information Retrieval/1a IR Example.md",
     "assets/1a IR Example",
