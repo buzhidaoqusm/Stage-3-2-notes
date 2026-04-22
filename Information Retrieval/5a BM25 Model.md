@@ -43,3 +43,22 @@ Effect
 $$
 sim_{BM25}(d_j, q)\sim \sum_{k_i \in d_j \land k_i \in q} \frac{f_{i,j}\times(1+k)}{f_{i,j}+k\left((1-b)+\frac{b\times len(d_j)}{avg\_doclen}\right)} \times \log\left(\frac{N-n_i+0.5}{n_i+0.5}\right)
 $$
+- ki: term
+- 𝑓ij is the frequency of ki in dj
+- k and b are constants that can be set to **suit the document collection** and the desired behaviour
+	- k=1, b=0.75
+- k controls how much the **overall TF increases** for terms that are common within the document.
+# Example
+Query: “President Lincoln” 
+N = 500,000 documents 
+“president” occurs in 40,000 documents (𝑛i = 40,000) 
+“lincoln” occurs in 300 documents (𝑛i = 300) 
+“president” occurs 15 times in this document (𝑓i,j = 15) 
+“lincoln” occurs 25 times in this document (𝑓i,j = 25) 
+The document is 90% of the length of the average
+𝑘 = 1, 𝑏 = 0.75
+
+![](assets/5a%20BM25%20Model/file-20260422194856490.png)
+# Variations
+BM25F: Allows **different fields** to be given **different importance** in the document (e.g. document **title**, **headlines**, main text, etc.). 
+BM25+: addresses an issue with BM25 whereby **very short documents** would be given scores that are **too high**.
