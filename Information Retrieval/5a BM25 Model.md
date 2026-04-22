@@ -33,3 +33,13 @@ not every document collection is the same
 ![](assets/5a%20BM25%20Model/file-20260422181458760.png)
 where N is the total **number of documents** in the corpus, and 𝑛i is the number of documents **containing term** i.
 
+Effect
+- It results in a **negative weight** for documents that **appear in > 50%** of the documents in the corpus.
+- 2 options:
+	- Treat all these terms as **stopwords** and do **not index** them
+	- ![](assets/5a%20BM25%20Model/file-20260422183911363.png)
+# Full Formula
+
+$$
+sim_{BM25}(d_j, q)\sim \sum_{k_i \in d_j \land k_i \in q} \frac{f_{i,j}\times(1+k)}{f_{i,j}+k\left((1-b)+\frac{b\times len(d_j)}{avg\_doclen}\right)} \times \log\left(\frac{N-n_i+0.5}{n_i+0.5}\right)
+$$
