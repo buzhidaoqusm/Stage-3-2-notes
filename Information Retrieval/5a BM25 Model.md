@@ -21,3 +21,15 @@ It is also important to **normalise for document lengths**
 ¤ 如果一份很长的文件只提到“大象”一次，那么它可能不是关于大象的。
 
 BM25 achieves this by **adjusting k** depending on the **length of the document**.
+¤ 对于超过平均长度的文档，k 将增加。对于低于平均长度的文档，k 将减少。
+
+not every document collection is the same
+- tunable parameter called b
+	- b=0: document length is not considered
+	- b=1: full document length adjustment from the **previous slide**
+	- Any value 0 ≤ b ≤ 1 can be chosen
+# Document Frequency in BM25
+## IDF
+![](assets/5a%20BM25%20Model/file-20260422181458760.png)
+where N is the total **number of documents** in the corpus, and 𝑛i is the number of documents **containing term** i.
+
