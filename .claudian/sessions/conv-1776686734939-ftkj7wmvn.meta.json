@@ -4,20 +4,20 @@
   "title": "Debug table rendering issue",
   "titleGenerationStatus": "success",
   "createdAt": 1776686734957,
-  "updatedAt": 1776701080985,
-  "lastResponseAt": 1776701080985,
+  "updatedAt": 1776842087561,
+  "lastResponseAt": 1776842087561,
   "sessionId": "1f63d95e-9f40-4690-bae1-b7d2f1f0acae",
   "providerState": {
     "providerSessionId": "1f63d95e-9f40-4690-bae1-b7d2f1f0acae"
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 16140,
+    "inputTokens": 0,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 18669,
+    "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 34809,
-    "percentage": 17,
+    "contextTokens": 0,
+    "percentage": 0,
     "contextWindowIsAuthoritative": true
   }
 }
