@@ -194,6 +194,8 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "assets/3c Cosine Similarity/file-20260422160036222.png",
+    "assets/3c Cosine Similarity",
     "Information Retrieval/3b Vector Space Model.md",
     "Information Retrieval/3c Cosine Similarity.md",
     "assets/3b Vector Space Model/file-20260422152847677.png",
@@ -224,7 +226,6 @@
     "Information Retrieval/1a IR Example.md",
     "assets/1a IR Example",
     "Information Retrieval/0 Introduction.md",
-    "assets/0 Introduction",
     "System Des & Verification/The integer square root.md",
     "System Des & Verification/Binary Chop.md",
     "System Des & Verification/1.md",
@@ -238,7 +239,6 @@
     "Distributed Systems/7 Andrew File System.md",
     "Distributed Systems/6.5 Flat FileSystem.md",
     "Distributed Systems/5 Election Algorithms.md",
-    "Distributed Systems/4 Logical Clocks.md",
-    "Distributed Systems/3 Architectures.md"
+    "Distributed Systems/4 Logical Clocks.md"
   ]
 }
