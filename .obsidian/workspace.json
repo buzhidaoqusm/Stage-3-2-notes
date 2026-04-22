@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/3b Vector Space Model.md",
+                "file": "Information Retrieval/3c Cosine Similarity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3b Vector Space Model"
+              "title": "3c Cosine Similarity"
             }
           }
         ]
@@ -194,8 +194,12 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
-    "Information Retrieval/3a Phrase Queries.md",
     "Information Retrieval/3b Vector Space Model.md",
+    "Information Retrieval/3c Cosine Similarity.md",
+    "assets/3b Vector Space Model/file-20260422152847677.png",
+    "assets/3b Vector Space Model/file-20260422152835629.png",
+    "assets/3b Vector Space Model",
+    "Information Retrieval/3a Phrase Queries.md",
     "Information Retrieval/2b Stopwords, Stemming and Lemmatisation.md",
     "assets/2b Stopwords, Stemming and Lemmatisation/file-20260421213211943.png",
     "assets/2b Stopwords, Stemming and Lemmatisation",
@@ -216,14 +220,11 @@
     "assets/1b Indexing/file-20260420200501081.png",
     "assets/1b Indexing/file-20260420200449683.png",
     "assets/1b Indexing/file-20260420200428967.png",
-    "assets/1b Indexing/file-20260420200358009.png",
-    "assets/1b Indexing/file-20260420200356563.png",
     "assets/1b Indexing",
     "Information Retrieval/1a IR Example.md",
     "assets/1a IR Example",
     "Information Retrieval/0 Introduction.md",
     "assets/0 Introduction",
-    "assets",
     "System Des & Verification/The integer square root.md",
     "System Des & Verification/Binary Chop.md",
     "System Des & Verification/1.md",
@@ -238,7 +239,6 @@
     "Distributed Systems/6.5 Flat FileSystem.md",
     "Distributed Systems/5 Election Algorithms.md",
     "Distributed Systems/4 Logical Clocks.md",
-    "Distributed Systems/3 Architectures.md",
-    "Distributed Systems/2 introduction.md"
+    "Distributed Systems/3 Architectures.md"
   ]
 }

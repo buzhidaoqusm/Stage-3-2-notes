@@ -14,22 +14,21 @@ Basic **vector algebra** is used to calculate the most **similar** documents to 
 	- This number is known as a **term weight**.
 - Other dimensions get a value of **zero**. （not contain）
 - A **similarity score** is calculated based on the **proximity of two vectors**
+
+
+the Vector Space Model facilitates **partial matching** by using **non-binary term weights**
+similarity score：**sim(q,d)** (i.e. the similarity between a query **q** and a document **d**)
+These models return a **ranked list of documents**, where the documents with the **highest similarity scores** are at the **top** of the list.
 ## Example
-假设我们有 4 个文档，词典为 {cat, dog, fish, bird}：
+**documents**:  
+1. Information Retrieval is an exciting subject  
+2. Mathematics is important in Information Retrieval
+**6 distinct terms**: information; retrieval; exciting; subject; mathematics; important.
 
-|           | cat | dog | fish | bird |
-| --------- | --- | --- | ---- | ---- |
-| **Doc1**  | 2   | 1   | 0    | 0    |
-| **Doc2**  | 0   | 1   | 3    | 0    |
-| **Doc3**  | 1   | 0   | 0    | 2    |
-| **Query** | 1   | 0   | 0    | 0    |
+vector space will have **six dimensions**
+wi,j refers to the weight of **term i** in **document j**
+0≤w(i,j)≤1
 
-- **权重值** = 该 term 在文档中出现的**次数**（或 TF-IDF 等更复杂的值）
-- **0** 表示该 term 不在文档中
-
-**向量表示：**
-- Doc1 = (2, 1, 0, 0) — “cat” 出现2次，”dog” 出现1次
-- Doc3 = (1, 0, 0, 2) — “cat” 出现1次，”bird” 出现2次
-- Query = (1, 0, 0, 0) — 找关于猫的文档
-
-→ Doc1 和 Doc3 都与 Query 相关（都包含 “cat”），但 Doc1 的权重更高（2 vs 1）
+query: important information  =>  (1, 0, 0, 0, 0, 1)
+the **order** of the **terms** in the vector is the same as for the **corpus**
+![](assets/3b%20Vector%20Space%20Model/file-20260422152835629.png)
