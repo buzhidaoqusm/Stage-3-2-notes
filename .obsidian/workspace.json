@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/4a Term Weighting.md",
+                "file": "Information Retrieval/4b Vector Space Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4a Term Weighting"
+              "title": "4b Vector Space Summary"
             }
           }
         ]
@@ -194,8 +194,13 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
-    "Information Retrieval/3c Cosine Similarity.md",
+    "2026-04-22.md",
+    "Information Retrieval/4b Vector Space Summary.md",
     "Information Retrieval/4a Term Weighting.md",
+    "assets/4a Term Weighting/file-20260422170722042.png",
+    "assets/4a Term Weighting/file-20260422165729592.png",
+    "assets/4a Term Weighting",
+    "Information Retrieval/3c Cosine Similarity.md",
     "assets/3c Cosine Similarity/file-20260422160036222.png",
     "assets/3c Cosine Similarity",
     "Information Retrieval/3b Vector Space Model.md",
@@ -220,11 +225,8 @@
     "assets/1c Query Optimisation/file-20260420203323040.png",
     "assets/1c Query Optimisation",
     "Information Retrieval/1b Indexing.md",
-    "assets/1b Indexing/file-20260420200501081.png",
-    "assets/1b Indexing/file-20260420200449683.png",
     "assets/1b Indexing",
     "Information Retrieval/1a IR Example.md",
-    "assets/1a IR Example",
     "Information Retrieval/0 Introduction.md",
     "System Des & Verification/The integer square root.md",
     "System Des & Verification/Binary Chop.md",
@@ -237,8 +239,6 @@
     "Distributed Systems/8 p2p.md",
     "Distributed Systems/6 Distributed File Systems.md",
     "Distributed Systems/7 Andrew File System.md",
-    "Distributed Systems/6.5 Flat FileSystem.md",
-    "Distributed Systems/5 Election Algorithms.md",
-    "Distributed Systems/4 Logical Clocks.md"
+    "Distributed Systems/6.5 Flat FileSystem.md"
   ]
 }
