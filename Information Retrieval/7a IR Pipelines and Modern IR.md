@@ -35,3 +35,8 @@ Therefore, **recall** is more important at this stage
 ## Query Expansion
 **Related terms** are **added** to the **query** to increase the chance of matching relevant documents.
 
+Many sources of related terms: 
+- A **manually-created thesaurus**, such as WordNet1 . 
+- An **automatically-created thesaurus** from some external corpus like a web crawl, or Wikipedia2  
+- **Word embeddings**, where words are represented by vectors (e.g. word2vec, GloVe, ELMo and BERT-based embeddings).
+![](assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423153655027.png)
