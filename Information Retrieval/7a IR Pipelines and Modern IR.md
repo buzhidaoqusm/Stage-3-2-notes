@@ -40,3 +40,27 @@ Many sources of related terms:
 - An **automatically-created thesaurus** from some external corpus like a web crawl, or Wikipedia2  
 - **Word embeddings**, where words are represented by vectors (e.g. word2vec, GloVe, ELMo and BERT-based embeddings).
 ![](assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423153655027.png)
+using “OR”
+## Pseudo-Relevance Feedback
+Relevance Feedback is when users are **shown** a set of **documents** in response to a query, and tell the system **which ones are relevant**.
+- The system can then **use** this **information** to **re-run the search** (with different term weights) and hopefully find more relevant documents that are similar to the ones the user has said are relevant.
+- However, **users don’t like** giving relevance feedback!
+Pseudo-Relevance Feedback simulates relevance feedback by **assuming** that the **top k ranked documents are relevant**, and then **re-running** the search in the **same way.** 
+- Why does this work? “**Terms** that **occur consistently** in relevant documents also tend to **appear consistently** in **top ranked** documents.”
+- But it’s not perfect: danger of **query drift** towards the topic of the top-ranked documents.
+# Modern IR
+![](assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423155331348.png)
+- QL: Query Likelihood 
+- DocLen: Document Length 
+- LTR: Learning To Rank 
+- RF: Random Forest 
+- CEDR: Contextualized Embeddings for Document Ranking
+## Fusion
+Input: a set of **results** (for one query) from several Ranked Retrieval systems. 
+Output: a **single, combined set** of results that are (hopefully) **better than the input** results in isolation.
+
+Can be based on: 
+- the **scores** calculated by the Ranked Retrieval systems; 
+- the **rank of the documents** in each results list; 
+- the **probability** of a document **being relevant**, based on past performance.
+## Learning to Rank (LTR)
