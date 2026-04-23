@@ -70,3 +70,16 @@ Can be based on:
 In **LTR**, the actual scores calculated for each document are not important – the **relative ordering** of the documents is the **key challenge**.
 ### Features
 Each **piece of information** used as an input to the LTR models is known as a **feature** in Machine Learning.
+- Textual Features: 
+	- Term occurrence/non-occurrence  
+	- Term frequency 
+	- Inverse Document Frequency 
+	- Document Length 
+	- Term Proximity 
+- Non-Textual Features: 
+	- PageRank (see next slide) 
+	- URL Depth 
+	- Document Quality 
+	- Readability 
+	- Sentiment 
+	- Query Clarity
