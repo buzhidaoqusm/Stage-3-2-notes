@@ -64,3 +64,9 @@ Can be based on:
 - the **rank of the documents** in each results list; 
 - the **probability** of a document **being relevant**, based on past performance.
 ## Learning to Rank (LTR)
+**Machine Learning** used to **re-rank** the documents that have been retrieved.
+- Aim: improve the result by putting the **most-relevant** documents at the **top** of the ranked list of results.
+**Different** to a lot of **classical machine learning** where problems are either **classification** or **regression**
+In **LTR**, the actual scores calculated for each document are not important – the **relative ordering** of the documents is the **key challenge**.
+### Features
+Each **piece of information** used as an input to the LTR models is known as a **feature** in Machine Learning.
