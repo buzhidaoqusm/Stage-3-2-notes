@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/6b bpref.md",
+                "file": "Information Retrieval/7a IR Pipelines and Modern IR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6b bpref"
+              "title": "7a IR Pipelines and Modern IR"
             }
           }
         ]
@@ -194,10 +194,20 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "assets/7a IR Pipelines and Modern IR/file-20260423145941528.png",
+    "assets/7a IR Pipelines and Modern IR",
+    "Information Retrieval/6c Normalised Discounted Cumulated Gain.md",
+    "Information Retrieval/7a IR Pipelines and Modern IR.md",
+    "assets/6c Normalised Discounted Cumulated Gain/file-20260423142338169.png",
+    "assets/6c Normalised Discounted Cumulated Gain/file-20260423141619903.png",
+    "assets/6c Normalised Discounted Cumulated Gain/file-20260423140512804.png",
+    "assets/6c Normalised Discounted Cumulated Gain",
+    "Information Retrieval/6b bpref.md",
+    "assets/6b bpref/file-20260423135609187.png",
+    "assets/6b bpref/file-20260423134936842.png",
     "assets/6b bpref/file-20260423133505176.png",
     "assets/6b bpref",
     "Information Retrieval/5b Evaluation.md",
-    "Information Retrieval/6b bpref.md",
     "Information Retrieval/6a Single Value Metrics.md",
     "assets/6a Single Value Metrics/file-20260422220440917.png",
     "assets/6a Single Value Metrics/file-20260422214348037.png",
@@ -206,18 +216,12 @@
     "assets/5c Precision & Recall/file-20260422213443627.png",
     "assets/5c Precision & Recall",
     "assets/5b Evaluation/file-20260422204435751.png",
-    "assets/5b Evaluation/file-20260422203740753.png",
     "assets/5b Evaluation",
     "Information Retrieval/5a BM25 Model.md",
-    "assets/5a BM25 Model/file-20260422194856490.png",
-    "assets/5a BM25 Model/file-20260422183911363.png",
-    "assets/5a BM25 Model/file-20260422181458760.png",
-    "assets/5a BM25 Model/file-20260422174150453.png",
     "assets/5a BM25 Model",
     "Information Retrieval/4b Vector Space Summary.md",
     "2026-04-22.md",
     "Information Retrieval/4a Term Weighting.md",
-    "assets/4a Term Weighting/file-20260422170722042.png",
     "assets/4a Term Weighting",
     "Information Retrieval/3c Cosine Similarity.md",
     "assets/3c Cosine Similarity",
@@ -225,9 +229,7 @@
     "assets/3b Vector Space Model",
     "Information Retrieval/3a Phrase Queries.md",
     "Information Retrieval/2b Stopwords, Stemming and Lemmatisation.md",
-    "assets/2b Stopwords, Stemming and Lemmatisation",
     "Information Retrieval/2a Preprocessing.md",
-    "ilovepdf_pages-to-jpg",
     "temp.md",
     "Prompt.md",
     "Information Retrieval/1c Query Optimisation.md",
@@ -237,8 +239,6 @@
     "System Des & Verification/The integer square root.md",
     "System Des & Verification/Binary Chop.md",
     "System Des & Verification/1.md",
-    "System Des & Verification/3.md",
-    "Distributed Systems/11 Security 2.md",
-    "Distributed Systems/10 Security.md"
+    "System Des & Verification/3.md"
   ]
 }
