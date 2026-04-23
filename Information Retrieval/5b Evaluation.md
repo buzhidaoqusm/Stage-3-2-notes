@@ -4,6 +4,7 @@ There are many measureable quantities for this:
 3. Search: How effective is the system in satisfying the user’s information need?
 
 关注3
+# The Cranfield Paradigm
 ![](assets/5b%20Evaluation/file-20260422203740753.png)
 
 A **relevant document** is one that (at least partially) **satisfies** a user’s information **need**.
@@ -14,7 +15,7 @@ This results in **standard test collections**, that researchers use to test how 
 - A **standard corpus** used for all queries. 
 - A set of **standard queries**. 
 - A set of **relevance judgments** – i.e. for each query, the human judges provide a **list of all the documents** in the corpus that are relevant to that query.
-
+# Document sets
 3 sets of documents
 - **C**: The collection or **corpus** is the set of all **available documents** (provided in the test collection)
 - **Rel**: The relevant set is the **set of documents** that have been **judged** by the experts to be **relevant** for that **query** (provided in the test collection).

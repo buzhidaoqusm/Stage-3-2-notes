@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/6a Single Value Metrics.md",
+                "file": "Information Retrieval/6b bpref.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6a Single Value Metrics"
+              "title": "6b bpref"
             }
           }
         ]
@@ -194,13 +194,15 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "Information Retrieval/5b Evaluation.md",
+    "Information Retrieval/6b bpref.md",
+    "Information Retrieval/6a Single Value Metrics.md",
+    "assets/6a Single Value Metrics/file-20260422220440917.png",
     "assets/6a Single Value Metrics/file-20260422214348037.png",
     "assets/6a Single Value Metrics",
     "Information Retrieval/5c Precision & Recall.md",
-    "Information Retrieval/6a Single Value Metrics.md",
     "assets/5c Precision & Recall/file-20260422213443627.png",
     "assets/5c Precision & Recall",
-    "Information Retrieval/5b Evaluation.md",
     "assets/5b Evaluation/file-20260422204435751.png",
     "assets/5b Evaluation/file-20260422203740753.png",
     "assets/5b Evaluation",
@@ -214,10 +216,8 @@
     "2026-04-22.md",
     "Information Retrieval/4a Term Weighting.md",
     "assets/4a Term Weighting/file-20260422170722042.png",
-    "assets/4a Term Weighting/file-20260422165729592.png",
     "assets/4a Term Weighting",
     "Information Retrieval/3c Cosine Similarity.md",
-    "assets/3c Cosine Similarity/file-20260422160036222.png",
     "assets/3c Cosine Similarity",
     "Information Retrieval/3b Vector Space Model.md",
     "assets/3b Vector Space Model",
