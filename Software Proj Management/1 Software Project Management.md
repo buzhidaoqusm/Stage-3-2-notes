@@ -24,7 +24,20 @@ A project is a **temporary** endeavor undertaken to create a **unique product**,
 **Product** : bridge, building 
 **Service**:    training 
 **Result** :     research
+> Project与其他(Ongoing work, Operation)的比较
 
+- Ongoing work
+	- a repetitive process
+- Project
+	- may be **uncertainties** or **differences** in the products
+	- Temporary: **Time Limited** 
+	- **Unique** 
+	- A lot of **change management**
+- Operations
+	- Operations are **ongoing** endeavor that produce **repetitive** **outputs**, with **resources** assigned to do basically the **same set of tasks**
+	- **Repetitive** 
+	- **Continuity** 
+	- Remain sustained and **continuity**
 # Software Project Management
 ## The Role andImportance
 ## The MainContents
