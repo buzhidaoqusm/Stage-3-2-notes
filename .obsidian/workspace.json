@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d01feeacf7ddd0e6",
@@ -192,8 +191,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2adbed7e0f0fffbd",
+  "active": "85e9b2e50a562d93",
   "lastOpenFiles": [
+    "Software Proj Management",
     "assets/8a Query Expansion/file-20260423165556625.png",
     "assets/8a Query Expansion/file-20260423165533258.png",
     "assets/8a Query Expansion",
@@ -211,7 +211,6 @@
     "assets/6c Normalised Discounted Cumulated Gain/file-20260423140512804.png",
     "assets/6c Normalised Discounted Cumulated Gain",
     "Information Retrieval/6b bpref.md",
-    "assets/6b bpref/file-20260423135609187.png",
     "assets/6b bpref",
     "Information Retrieval/5b Evaluation.md",
     "Information Retrieval/6a Single Value Metrics.md",
