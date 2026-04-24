@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/8a Query Expansion.md",
+                "file": "Software Proj Management/1 Software Project Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8a Query Expansion"
+              "title": "1 Software Project Management"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d01feeacf7ddd0e6",
@@ -191,14 +192,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "85e9b2e50a562d93",
+  "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "Information Retrieval/8a Query Expansion.md",
+    "Software Proj Management/1 Software Project Management.md",
     "Software Proj Management",
     "assets/8a Query Expansion/file-20260423165556625.png",
     "assets/8a Query Expansion/file-20260423165533258.png",
     "assets/8a Query Expansion",
     "Information Retrieval/7a IR Pipelines and Modern IR.md",
-    "Information Retrieval/8a Query Expansion.md",
     "assets/7a IR Pipelines and Modern IR/file-20260423164726711.png",
     "assets/7a IR Pipelines and Modern IR/file-20260423164725020.png",
     "assets/7a IR Pipelines and Modern IR/file-20260423155331348.png",
@@ -225,7 +227,6 @@
     "Information Retrieval/4a Term Weighting.md",
     "assets/4a Term Weighting",
     "Information Retrieval/3c Cosine Similarity.md",
-    "assets/3c Cosine Similarity",
     "Information Retrieval/3b Vector Space Model.md",
     "Information Retrieval/3a Phrase Queries.md",
     "Information Retrieval/2b Stopwords, Stemming and Lemmatisation.md",
