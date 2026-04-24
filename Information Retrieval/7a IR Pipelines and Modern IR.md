@@ -83,3 +83,25 @@ Each **piece of information** used as an input to the LTR models is known as a *
 	- Readability 
 	- Sentiment 
 	- Query Clarity
+#### PageRank: Document Importance
+Measures the **importance** of a document based on the **link structure of the web**.
+A **document** is considered to be **important** if: 
+- **Many** pages **link to it**; or 
+- Other **important** pages **link to it**.
+# Neural Language Models
+Bidirectional Encoder Representations from Transformers (**BERT**) is a deep-learning based Large Language Model (LLM) for Natural Language Processing.
+- In simple terms, it learns the **relationships between words** to aid document understanding, representing them as **dense vectors**.
+## ChatGPT
+LLMs are made by **learning patterns** and **relationships** between words/phrases from enormous quantities of text.
+- Challenges:
+	- It is not designed to provide knowledge and so it is **often confidently wrong**. The output can be plausible and believable, but might still be incorrect. 
+		- Often described as “**hallucinating**”.
+	- It **cannot cite its sources**, so you cannot find where it got its information from. 
+## Retrieval Augmented Generation (RAG)
+When a user asks a question, an IR system is **first** used to **find documents** that contain the information required to satisfy the information need.
+Important for: 
+-  More **reliable generation** of facts. 
+- Allowing users to **check original sources**, in case of hallucinations. 
+- Events that have **occurred** since the model was **trained**.
+![](assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423164726711.png)
+In some architectures, the **LLM** will be **involved** in the **retrieval process** also, for example by performing **query expansion**
