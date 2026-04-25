@@ -59,6 +59,6 @@ The key benefit of this process is a central document that **defines the basis o
 1. Project Charter 
 	1. Output of the process of “developproject charter”
 2. Outputs from Other Processes
-	1. Any baselines and subsidiary plans that areanoutputfrom other planning processes 
+	1. Any baselines and **subsidiary plans** that areanoutputfrom other planning processes 
 3. Enterprise Environmental Factors
 4. Organizational Process Assets
