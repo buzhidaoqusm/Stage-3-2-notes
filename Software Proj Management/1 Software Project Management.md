@@ -189,3 +189,6 @@ That provides an opportunity for **quick and frequent feedback** to keep the pro
 
 ## Process
 A process is a set of **interrelated actions** and **activities** performed to create a pre-specified product, service, or result.
+
+Input, Tools&Techniques, Output
+
