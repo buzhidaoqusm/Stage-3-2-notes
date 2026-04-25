@@ -88,6 +88,36 @@ An **individual, group, or organization** who may **affect, be affected** by, or
 Organizational structure is an **enterprise environment factor**, which can affect the availability of resources and influence how projects are conducted.
 
 - Functional organizational structure
+	- ![](assets/1%20Software%20Project%20Management/file-20260425160056685.png)
 - Projectized organizational structure
+	- ![](assets/1%20Software%20Project%20Management/file-20260425160106061.png)
 - Matrix organizational structure
+	- It reflects a blend of **functional** and **projectized** characteristics. It can be classifiedas:
+	- weak: ![](assets/1%20Software%20Project%20Management/file-20260425160120116.png)
+	- Strong: ![](assets/1%20Software%20Project%20Management/file-20260425160357666.png)
+	- Balanced: ![](assets/1%20Software%20Project%20Management/file-20260425160410018.png)
 
+### Summary
+![](assets/1%20Software%20Project%20Management/file-20260425160622812.png)
+
+> Example
+
+In the functional organizational structure, the project manager manages the project budget. 
+In the projectized organizational structure, the project manager has high authority.
+## The Role and Importance of **SPM**
+- Invisible
+	- SPM: making the invisible visible
+- Complexity
+	- Per dollar spent, More complexity
+- Conformity
+	- Conform to the requirements of humanclients
+- Flexibility
+	- Software is easy to change
+
+### Why important
+- Critical to the success of software project
+	- involves a large number of personnel and activities with **schedule and funding constraints** 
+	- will encounter a variety of **changes, risks and contradictions**
+- Important for improving professional qualities
+	- Adapt to team development
+	- Understand project planning and be qualifiedfor the management job
