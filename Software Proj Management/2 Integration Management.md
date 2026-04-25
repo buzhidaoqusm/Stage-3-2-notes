@@ -129,4 +129,7 @@ The key benefit of this process is that it provides **overall management** of th
 	- Brainstorming 
 	- Decision making
 - Project Management Information System
-	- 
+	- provides access totools:
+		- scheduling tool 
+		- work authorization system 
+		- configuration management system
