@@ -133,3 +133,18 @@ The key benefit of this process is that it provides **overall management** of th
 		- scheduling tool 
 		- work authorization system 
 		- configuration management system
+## Output
+- Deliverables 
+	- any unique and verifiable product, result or capabilitytoperform a service that is required to be producedtocomplete a process, phase, or project. 
+- Work Performance Data 
+	- work completed 
+	- key performance indicators 
+	- technical performance measures 
+	- start and finish dates of schedule activities
+	- number of change requests, number of defectsn … 
+- Change Requests 
+- Project Management Plan Updates 
+- Project Documents Updates
+# Monitor and Control Project Work
+Monitor and Control Project Work is the process of tracking, reviewing, and reporting the progress to meet the performance objectives defined in the project management plan. 
+The key benefit of this process is that it allows stakeholders to understand the current state of the project, the steps taken, and budget, schedule,andscope forecasts.
