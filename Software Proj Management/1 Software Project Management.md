@@ -120,4 +120,72 @@ In the projectized organizational structure, the project manager has high author
 	- will encounter a variety of **changes, risks and contradictions**
 - Important for improving professional qualities
 	- Adapt to team development
-	- Understand project planning and be qualifiedfor the management job
+	- Understand project planning and be qualified for the management job
+## The Main Contentsof SPM
+Software DevelopmentLife Cycle
+1. **Requirements Analysis**
+	- Starts with **requirements gathering** which establishes what the potential users and their managers require of the new system. e.g. function, quality
+2. **Architecture design**
+	- Identify the **components** of the new system that fulfil each requirement
+3. **Detailed design**
+	- Each software componentismade up of a number of **separately** coded and tested software **units**, detaileddesigned
+4. **Code and test**
+	- **Writing code** for eachsoftwareunit.Initial testing to debugindividualunits
+5. **Integration**
+	- The **components** are **tested together** to see if they meet the overall requirements
+6. **Qualification testing**
+	- Test the system carefully to ensure that **all** the **requirements** have been **fulfilled**
+7. **Installation**
+	- The process of making the new system operational
+		- installingthesoftware onto thehardwareplatform
+8. **Acceptance support**
+	 - **Resolving of problems** with the newly installed system, including the **correction of any errors**
+
+> 每个阶段都要遵循五大过程组
+
+## Project Life Cycle
+A project life cycle is the **series of phases** that a project passes through **from its initiation to its closure.**
+- Starting the project, 
+- Organizing and preparing, 
+- Carrying out the project work, and 
+- Closing the project.
+![](assets/1%20Software%20Project%20Management/file-20260425163556981.png)![](assets/1%20Software%20Project%20Management/file-20260425163610411.png)
+### Predictive Life Cycles
+Project proceed through a **series of sequential** or overlapping phases
+The **work** performed in each phase is usually **different in nature** to that in the preceding and subsequent phases, therefore,the **makeup and skills required** of the project team may **vary** from phase to phase.
+#### Waterfall model
+![](assets/1%20Software%20Project%20Management/file-20260425163919682.png)
+
+##### Problems
+Problems many times **not discovered** **until final testing**
+### Iterative Life Cycles
+Iterations develop the product through a **series of repeated cycles**
+产品每次迭代都做 **部分功能或部分版本的原型改进**，通过多次迭代逐步完善最终产品。
+![](assets/1%20Software%20Project%20Management/file-20260425164220968.png)
+It first focuses on an initial, **simplified set user features**, which then **progressively gains more complexity** and a broader set of features until the targeted system is complete.
+> Example
+
+- 第 1 次迭代：完成网站登录和注册的基础功能
+- 第 2 次迭代：改进登录安全性，增加用户验证
+- 第 3 次迭代：增加用户界面美化和操作提示
+- 用户第一次可能只能用到部分功能，但系统在不断完善。
+### Incremental Life Cycles
+increments **successively add** to the functionality of the product
+产品被拆成若干个“增量（Increment）”，每个增量都是可交付的完整功能模块。
+![](assets/1%20Software%20Project%20Management/file-20260425164301179.png)
+
+>Example
+
+- 第 1 版网站：用户登录功能
+- 第 2 版网站：用户个人主页功能
+- 第 3 版网站：购物车功能
+- 每一版都是独立交付，用户可以使用第 1 版即登录。
+### Adaptive Life Cycles
+- Adaptive life cycles are intended to respond to high levels of **change** and **ongoing stakeholder involvement**. 
+- Adaptive methods are also **iterative and incremental**, but differ in that iterations are very **rapid** (usually with a duration of 2 to 4 weeks) and are **fixed in time and cost**.
+#### Agile model
+![](assets/1%20Software%20Project%20Management/file-20260425165340668.png)
+That provides an opportunity for **quick and frequent feedback** to keep the project on the right track and to **maximize the business value** that is delivered
+
+## Process
+A process is a set of **interrelated actions** and **activities** performed to create a pre-specified product, service, or result.
