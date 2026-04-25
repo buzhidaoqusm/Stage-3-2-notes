@@ -146,5 +146,23 @@ The key benefit of this process is that it provides **overall management** of th
 - Project Management Plan Updates 
 - Project Documents Updates
 # Monitor and Control Project Work
-Monitor and Control Project Work is the process of tracking, reviewing, and reporting the progress to meet the performance objectives defined in the project management plan. 
-The key benefit of this process is that it allows stakeholders to understand the current state of the project, the steps taken, and budget, schedule,andscope forecasts.
+Monitor and Control Project Work is the process of **tracking, reviewing, and reporting** the progress to meet the performance objectives defined in the project management plan. 
+The key benefit of this process is that it allows **stakeholders** to **understand the current state** of the project, the steps taken, and budget, schedule,and scope forecasts.
+
+Monitor
+- **collecting**, measuring, and distributing performance information, and assessing measurements and trends.
+Control
+- determining **corrective**, preventiveactions,replanning and following up on a ction plans
+
+先monitor收集信息，在比对，如果需要change就control
+![](assets/2%20Integration%20Management/file-20260426012746893.png)
+
+## Input
+1. Project Management Plan
+2. Schedule Forecasts---time management
+3. Cost Forecasts----cost management
+4. Validated Changes 
+5. Work Performance Informationn 
+	1. Work Performance Data? 
+6. Enterprise Environmental Factors
+7. Organizational Process Assets
