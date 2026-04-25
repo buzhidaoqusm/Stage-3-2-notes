@@ -192,3 +192,24 @@ A process is a set of **interrelated actions** and **activities** performed to c
 
 Input, Tools&Techniques, Output
 
+# Summary
+- Project: a temporary endeavor undertakentocreatea unique product, service, or result. 
+- Operations, Program, Portfolio 
+- Project Management: the applicationof knowledge,skills, tools, and techniques to project activitiestomeet the project requirements. 
+- Five Process Groups 
+- Ten Knowledge areas 
+- Project Manager
+- Stakeholder 
+- Organizational Structure: 
+	- functional, projectized, matrix(weak, strong, balanced) 
+- Software Project 
+- Software Project Management
+- Software Development Life Cycle 
+- Software Development Life Cycle Models 
+	- Predictive Life Cycles 
+		- Waterfall model 
+	- Incremental Life Cycles 
+	- Iterative Life Cycles 
+	- Adaptive Life Cycles 
+		- Agile model 
+- Process
