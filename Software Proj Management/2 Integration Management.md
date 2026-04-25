@@ -96,7 +96,7 @@ Facilitation Techniques
 - Project Management Plan
 	- It **integrates and consolidates** all of the **subsidiary plans** and **baselines** from the planning processes.:
 	- Who develop:  PM? No (它通常由 **项目经理牵头组织**，但需要很多人共同参与)
-	- Who authorize:  sponsor,  Steering group,  Key stakeholders
+	- **Who authorize**:  **sponsor,  Steering group,  Key stakeholders**
 - baselines
 	- Scope baselines 
 	- Schedule baselines
@@ -113,3 +113,20 @@ Facilitation Techniques
 	- Risk management plan
 	- Procurement management plan
 	- Stakeholder management plan
+# Direct and Manage ProjectWork
+Direct and Manage Project Work is the process of **leading and performing the work** defined in the project management plan and implementing approved changes to achieve the project’s objectives. 
+The key benefit of this process is that it provides **overall management** of the project work.
+## Input
+1. Project Management Plann 
+	1. Output of the process of “developproject managementplan” 
+2. Approved Change Requests 
+3. Enterprise Environmental Factors
+4. Organizational Process Assets
+## TT
+- Expert Judgment(同前面两个)
+- Meetings 
+	- Information exchange 
+	- Brainstorming 
+	- Decision making
+- Project Management Information System
+	- 
