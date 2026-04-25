@@ -192,6 +192,7 @@ A process is a set of **interrelated actions** and **activities** performed to c
 
 Input, Tools&Techniques, Output
 
+Unstructured management -> Structuredmanagement
 # Summary
 - Project: a temporary endeavor undertakentocreatea unique product, service, or result. 
 - Operations, Program, Portfolio 
