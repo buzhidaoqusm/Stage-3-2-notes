@@ -13,11 +13,11 @@ What is Develop Project Charter
 	- narrative description of products, services, orresults
 	- provided by sponsor or customer. 
 - **Business Case** 
-	- business standpoint, worth the requiredinvestment?
+	- business standpoint, worth the required investment?
 	- market demand, customer request, legal requirement
 - **Agreements** 
 	- define initial intentions, contracts, email,…
 - **Enterprise Environmental Factors** 
-	- Governmental standards, Marketplaceconditions,…
+	- Governmental standards, Market place conditions,…
 - **Organizational Process Assets** 
 	- Historical information, project charter template
