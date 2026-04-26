@@ -119,7 +119,7 @@ The key benefit of this process is that it provides **overall management** of th
 ## Input
 1. Project Management Plann 
 	1. Output of the process of “developproject managementplan” 
-2. Approved Change Requests 
+2. **Approved Change Requests** 
 3. Enterprise Environmental Factors
 4. Organizational Process Assets
 ## TT
@@ -134,7 +134,7 @@ The key benefit of this process is that it provides **overall management** of th
 		- work authorization system 
 		- configuration management system
 ## Output
-- Deliverables 
+- **Deliverables** 
 	- any unique and verifiable product, result or capabilitytoperform a service that is required to be producedtocomplete a process, phase, or project. 
 - Work Performance Data 
 	- work completed 
@@ -220,4 +220,38 @@ The key benefit of this process is that it allows for documented changes within 
 - Project Management Plan Updates 
 - Project Documents Updates
 
-# Close Project orPhase
+# Close Project or Phase
+Close Project or Phase is the process of finalizing all activities acrossallofthe Project Management Process Groups to formally completetheprojector phase. 
+The key benefit of this process is that it **provides lessons learned**, the formal **ending** of project work, and the **release of organization resources** to pursue new endeavors.
+
+## Input
+- Project Management Plann 
+	- the agreement between the project managerandproject sponsor, 
+	- defining what constitutes project completion
+- **Accepted Deliverables** 
+	- approved product specifications, deliveryreceipts,andwork performance documents. 
+	- **formal acceptance** 
+- Organizational Process Assets 
+	- closure guidelines or requirements 
+	- historical information and lessons learnedknowledgebase
+## TT
+- Expert Judgment
+- Meetings 
+	- face-to-face 
+	- virtual 
+	- formal, or informal.
+- Analytical Techniques 
+	- Regression analysis, and
+	- Trend analysis
+## Output
+- Final Product, Service, or Result Transitionn 
+- Organizational Process Assets **Updates**
+	- Project files 
+	- Project or phase closure documents 
+	- Historical information
+
+# Summary
+Master the concept of Integration Management 
+Mastering the process of develop project charter 
+Mastering the process of develop project management plan 
+Understanding the ITTO/output of eachprocess
