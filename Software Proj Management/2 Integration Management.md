@@ -113,7 +113,7 @@ Facilitation Techniques
 	- Risk management plan
 	- Procurement management plan
 	- Stakeholder management plan
-# Direct and Manage ProjectWork
+# Direct and Manage Project Work
 Direct and Manage Project Work is the process of **leading and performing the work** defined in the project management plan and implementing approved changes to achieve the project’s objectives. 
 The key benefit of this process is that it provides **overall management** of the project work.
 ## Input
@@ -196,3 +196,28 @@ Perform Integrated Change Control is the process of **reviewin** gall changerequ
 
 The key benefit of this process is that it allows for documented changes within the project to be considered in an integrated fashion while reducing project risk, which often arises from changes made without consideration to the overall project objectives or plans.
 
+- This process is conducted from **project inception through completion** and is the ultimate responsibility of the **project manager**.
+- Changes may be requested by any stakeholder involved, verbally or in written, but they should be **recorded in written** form.
+- Every documented change request needs to be either approved or rejected by  a responsible individual, usually the **project sponsor** or **project manager**. When required, includes a change control board (CCB).
+
+## Input
+- Project Management Plann 
+- **Work Performance Reports** (来自上个阶段)
+- **Change Requests** (来自上个阶段)
+- Enterprise Environmental Factorsn 
+- Organizational Process Assets
+
+## TT
+- Expert Judgment
+- Meetings
+- Change Control Tools
+	- manual or automated tools 
+	- Tool selection should be based on the needs of the project stakeholders
+
+## Output
+- **Approved Change Requests** (到Direct and Manage Project Work中)
+- Change log 
+- Project Management Plan Updates 
+- Project Documents Updates
+
+# Close Project orPhase
