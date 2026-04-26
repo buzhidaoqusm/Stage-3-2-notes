@@ -166,3 +166,28 @@ Control
 	1. Work Performance Data?  (从2.3中来)
 6. Enterprise Environmental Factors
 7. Organizational Process Assets
+## TT
+- Expert Judgment
+- Meetings
+- Project Management Information System
+- Analytical Techniques
+	- Regression analysis, 
+	- Grouping methods, 
+	- Causal analysis, 
+	- Root cause analysis, 
+	- Forecasting methods
+	- Failure mode and efect analysis
+	- Fault tree analysis (FTA),
+## Output
+- **Change Requests** 
+	- Corrective action 
+	- Preventive action
+	- Defect repair 
+- Work Performance Reports 
+	- status reports, memos, justifications, informationnotes, recommendations, and updates. 
+- Project Management Plan Updates 
+- Project Documents Updates
+
+data->information->report
+
+2023.01.01 100W   2023.03.01 -50W   -> data
