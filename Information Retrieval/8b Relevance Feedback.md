@@ -65,3 +65,13 @@ But sometimes relevant documents can be in several clusters:
 - A query that combines two **very different things**
 - General concepts that combine **many more specific subjects** (e.g. ”felines” includes both wild animals and domestic pets)
 
+## Pseudo Relevance Feedback
+users generally do not wish to provide feedback (known as **explicit feedback**)
+Instead, **pseudo relevance feedback** (also called blind relevance feedback) can be used: **assume the top k ranked documents are relevant** and then **apply** a relevance feedback **algorithm**
+
+### Indirect Relevance Feedback
+implicit feedback, For example: 
+- Which documents does the user choose to click on? 
+- How long did the user spend viewing a document? 
+- How long did the user spend browsing the results?
+
