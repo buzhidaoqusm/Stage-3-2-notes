@@ -8,3 +8,6 @@
 5. Risk Reduction
 # SA Definitions: From Formulas to Standards
 All definitions agree on **components + relationships**. They differ on whether to include *rationale, evolution principles, visible properties, or formal constraints*
+# Influences on the Architecture
+#exam 
+memorize the chain 'influences → requirements/qualities → architect → architecture → system'.
