@@ -167,3 +167,9 @@ Rule-Based System
 | Modular Monolith    | Bounded modules       | In-process calls           | New projects, small teams     |
 | Cell-Based          | Self-contained cells  | Cell gateway routing       | Blast radius, multi-region    |
 | Edge Computing      | Cloud/edge/device tiers | Sync, edge functions     | IoT, AR/VR, low latency      |
+# Decision Framework for Choosing Styles
+1. Dominant Force? Data flow → Pipe/Batch | Events → Pub/Sub | Request-response → Call/Return | Shared state → Repository | Portability → VM | AI reasoning → Agent 
+2. Scale & Team Size? <10 devs → Modular Monolith | 10-50 → Microservices (selective) | 50+ → Cell-Based + Microservices 
+3. Latency & Consistency? Sub-ms → In-process/edge | Strong consistency → ACID+Call/Return | Eventual OK → CQRS/Event-driven | Offline → Edge 
+4. Operational Capability? Low DevOps → Monolith/Serverless | Medium → Microservices+Mesh | High → Cell-Based multi-region 
+5. How Will It Evolve? Scale → Modular boundaries | Integrations → Event-driven | Regulation → Event Sourcing | AI → Agent patterns
