@@ -37,3 +37,27 @@ Because words are represented as vectors, a **similarity between words** can eas
 The query log stores details about **previous queries** and **user behaviour**. 
 - Example: After searching for “palm”, many users next search for “palm oil”. 
 - Example: Users searching for “football” and “soccer ball” often click on the same URL in the search results.
+# Term Selection Value (TSV)
+combining the idea of **Pseudo Relevance Feedback** (PRF) and **Query Expansion**.
+Process:
+- Run the user’s initial query as normal
+- As with PRF, assume the **top k documents** are relevant to the query
+- Use the contents of these **top documents** to find suitable **extra terms** to **expand the query** with
+- the terms with the **highest Term Selection Value** (TSV) are **added to the query**
+- **After adding** these terms to the query, **retrieval** happens a second time
+
+𝑇𝑆𝑉(𝑡) = 𝑘𝑡 × 𝑖𝑑𝑓𝑡 
+Where: 
+- t is the term 
+- 𝑘𝑡 is the number of the top k documents that contain term t. 
+- 𝑖𝑑𝑓𝑡 is the IDF of term t
+## TSV with BM25
+𝑄𝑜𝑟𝑖𝑔 the original query
+𝑄𝑒𝑥𝑝 the chosen expansion terms, chosen as the n terms with the highest TSV
+
+Two options for calculating a BM25 score between **document D** and **query Q** for the re-submitted query
+- Unweighted
+	- $Score(D, Q) = \sum_{t \in Q_{orig} \cup Q_{exp}} BM25(t, D)$
+- Weighted
+	- $Score(D, Q) = \sum_{t \in Q_{orig}} BM25(t, D) + \beta \sum_{t' \in Q_{exp}} BM25(t', D)$
+	- where 𝛽 is the weight applied to the expanded terms (e.g. 0.5) so that they **have less impact on the final result** than the terms chosen by the user originally

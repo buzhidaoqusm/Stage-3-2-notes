@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/8b Relevance Feedback.md",
+                "file": "Information Retrieval/8a Query Expansion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8b Relevance Feedback"
+              "title": "8a Query Expansion"
             }
           }
         ]
@@ -194,11 +194,11 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "Information Retrieval/8b Relevance Feedback.md",
     "assets/8b Relevance Feedback/file-20260427101614012.png",
     "assets/8b Relevance Feedback/file-20260427101345630.png",
     "assets/8b Relevance Feedback",
     "Information Retrieval/7a IR Pipelines and Modern IR.md",
-    "Information Retrieval/8b Relevance Feedback.md",
     "Information Retrieval/8a Query Expansion.md",
     "Software Proj Management/3 Scope Management.md",
     "assets/3 Scope Management/file-20260426183455671.png",
@@ -213,7 +213,6 @@
     "assets/1 Software Project Management/file-20260425164301179.png",
     "assets/1 Software Project Management/file-20260425164220968.png",
     "assets/1 Software Project Management/file-20260425163919682.png",
-    "assets/1 Software Project Management/file-20260425163610411.png",
     "assets/1 Software Project Management",
     "Software Proj Management",
     "assets/8a Query Expansion",
