@@ -121,3 +121,25 @@ Style Family Connection
 
 ## Data-Centered
 ### Repository & Blackboard
+Repository Pattern 
+- Central data structure + independent components 
+- Two trigger types: Database (input transactions) vs Blackboard (data state) 
+e.g. Windows Registry, IDEs, Redis, Git 
+Blackboard Pattern 
+- When no algorithm exists — KS collaborate via shared state 
+- Controller monitors state, selects knowledge source 
+- Condition-action: "if X, I can add Y" 
+e.g. HEARSAY-II, LLM agent architectures
+## Virtual Machine
+### Interpreter & Rule-Based
+4 essential parts:
+- Execution engine (state machine) 
+- Program being interpreted 
+- Current state of engine 
+- Current state of program
+
+Rule-Based System 
+- "Program" is a set of rules 
+- Inference engine matches facts vs rules 
+- Knowledge Base + Working Memory 
+- Cycle: match → select → fire → repeat
