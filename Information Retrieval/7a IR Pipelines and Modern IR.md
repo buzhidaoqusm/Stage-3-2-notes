@@ -9,7 +9,7 @@ This is similar to a **linear pipeline**, where each stage happens sequentially.
 An alternative is a **non-linear pipeline**, where some **stages** can happen in **parallel**.
 
 ## Issues
-- Vocabulary mismatch
+- **Vocabulary mismatch**
 	- The words chosen by the user may **not match** the words used in a relevant document.
 	- **polysemy**: the same word can have different meanings (e.g. “bank”). 
 	- **synonymy**: two different words can have the same meaning (e.g. plane/airplane/aeroplane/aircraft).
