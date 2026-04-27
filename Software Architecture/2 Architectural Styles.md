@@ -143,3 +143,27 @@ Rule-Based System
 - Inference engine matches facts vs rules 
 - Knowledge Base + Working Memory 
 - Cycle: match → select → fire → repeat
+# Classical Styles
+| Style              | Key Components       | Key Connectors     | Best For                    |
+|-------------------|-------------------|-----------------|-----------------------------|
+| Batch Sequential   | Programs           | Files/media      | Overnight batch, ETL        |
+| Pipe-and-Filter    | Filters            | Pipes (streams)  | Compilers, data pipelines   |
+| Event System       | Sources/handlers   | Event bindings   | GUIs, reactive systems      |
+| Main/Sub & OO      | Procedures/objects | Calls/methods    | Business logic, CRUD        |
+| Layered            | Layer composites   | Restricted calls | Service hierarchies         |
+| Client/Server      | Clients/servers    | Network protocols| Distributed multi-user      |
+| Repository         | Central data+comp  | Data access      | IDEs, databases             |
+| Blackboard         | BB, KS, controller | Read/write       | AI, speech, diagnosis       |
+| Interpreter        | Engine + memories  | Data access      | JVM, Wasm, Docker           |
+| Rule-Based         | KB, inference eng  | Rule matching    | Expert systems, OPA         |
+
+# Modern Style
+| Modern Style        | Key Components          | Key Connectors              | Best For                     |
+|--------------------|-----------------------|----------------------------|-------------------------------|
+| Microservices       | Independent services  | HTTP/gRPC, messaging       | Large-scale web apps          |
+| Serverless/FaaS     | Functions             | Event triggers             | Event-driven, variable load   |
+| Event Sourcing      | Event store, projections | Event streams           | Audit trails, finance         |
+| Agent-Oriented      | Agents, tools, memory | Perception/action          | AI reasoning tasks            |
+| Modular Monolith    | Bounded modules       | In-process calls           | New projects, small teams     |
+| Cell-Based          | Self-contained cells  | Cell gateway routing       | Blast radius, multi-region    |
+| Edge Computing      | Cloud/edge/device tiers | Sync, edge functions     | IoT, AR/VR, low latency      |
