@@ -75,4 +75,67 @@ quickly defining **cross-functional requirements**
 ### Brainstorming（头脑风暴）
 free-thinking, no criticism, **no obstruction**不能打断
 ### Nominal group technique（名义小组）
-A technique that enhances brainstorming with a voting process used to rank the most useful ideas
+A technique that enhances brainstorming with a **voting** process used to **rank the most useful** ideas
+### Idea/mind mapping（思维导图）
+**ideas** created through individual **brainstorming** sessions are **consolidated into a single map**
+
+### Group creativity techniques
+#### Affinity diagram（亲和图)
+allows **large numbers of ideas** to be classified into **groups**
+#### Unanimity（一致同意）
+everyone agrees
+**Delphi technique**, a selected group of experts answers **questionnaires** and provides feedback regarding the responses from each round of requirements gathering. The **responses** are only **available to the facilitator** to maintain **anonymity**.
+#### Majority（大多数原则）
+support obtained frommorethan 50 %
+#### Plurality（多数原则)
+largest block in a group decides
+generally used when the **number of options nominated** is more than **two**
+#### Dictatorship（独裁）
+One individual makes the decision
+#### Questionnaires and Surveys（问卷调查）
+## Output
+1. Requirements Documentation
+	1. business requirements 
+	2. stakeholder requirements 
+	3. solution requirements 
+	4. transition requirements 
+	5. project requirements 
+	6. quality requirements 
+2. Requirements TraceabilityMatrix
+	1. grid that links product requirements from their **origin** to the **deliverables** that satisfy them.
+
+## Software Requirements
+Functional requirements
+Non-functional requirements
+Domain requirements: are the requirements which are **characteristic** of a **particular category** or domain of projects.
+# Define Scope
+Define Scope is the process of developing a **detailed description** of the project and product.
+The key benefit of this process is that it describes the project, service, or result boundaries by defining **which** of the **requirements** collected will be **included** in and **excluded** from the project scope.
+
+The project scope statement is the **description of the project scope**, major deliverables, assumptions, and constraints.
+## Input
+1. Scope management plan
+2. Project charter
+3. Requirements documentation
+4. Urganizational process assets
+## TT
+1. Expert judgment 
+2. Product analysis 
+	1. **product breakdown (WBS)** 
+	2. systems analysis 
+	3. requirements analysis 
+	4. systems engineering 
+	5. value engineering 
+	6. value analysis. 
+3. Alternatives generation
+4. Facilitated workshops
+## Output
+1. **Project scope statement** 
+	1. Description of the project scope, major deliverables, assumptions, andconstraints.
+	2. Documents the entire scope, including project and product scope. 
+	3. Describes, in detail, the project’s deliverables and the work requiredtocreatethose deliverables. 
+2. Project Documents Updates
+# Create WBS
+WBS (**Work Breakdown Structure**)
+The WBS is a **hierarchical decomposition** of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables.
+
