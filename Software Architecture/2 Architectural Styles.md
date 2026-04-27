@@ -24,3 +24,100 @@ Filter Operations
 Filter Types: 
 - Active (pull/push data) 
 - Passive (data-driven)
+### Batch Sequential vs Pipe-and-Filter
+#exam 
+
+| Criterion | Batch Sequential | Pipe-and-Filter |
+|---|---|---|
+| Granularity | Total (coarse, 粗粒度) | Incremental (fine, 细粒度) |
+| Latency | High latency (高延迟) | Can be real-time (可实时处理) |
+| Concurrency | No concurrency possible | Concurrency possible (可并发) |
+| Data Transfer | Whole dataset (整体传输) | Stream/tokens (流式传输) |
+## Event System
+### Dispatch, Observer & Pros/Cons
+Implicit Invocation 
+- Publishers don't know subscribers 
+- One-to-many communication
+- Event-based trigger 
+- Asynchronous by nature
+
+| 类型              | 有没有中间调度器(Dispatcher) | 典型形式             |
+| --------------- | -------------------- | ---------------- |
+| No Dispatcher   | 没有                   | Observer Pattern |
+| With Dispatcher | 有                    | P2P / Pub/Sub    |
+### P2P vs Pub/Sub
+#exam 
+Point-to-Point (Message Queue)
+- Only **ONE consumer** receives each message 
+- **Message deleted** after consumption 
+- e.g. Meituan: one rider per order
+
+Publish-Subscribe (Topic)
+- ALL subscribers receive every message 
+- Message **deleted on expiry**, not consumption 
+- e.g. stock price feeds to all traders
+## Call/Return
+### Layered Architecture
+#exam 
+Application Layer 
+Middleware Layer
+Operating System
+Hardware
+
+Advantages 
+- **High cohesion** within layers 
+- **Implementation hiding** 
+- **Coupling constrained** to adjacent layers 
+- Layers **replaceable** independently 
+**Variants** & Related 
+- Strict: use only layer directly below 
+- Relaxed: use any layer below (better perf) 
+- **Client/Server: 2-tier → 3-tier → B/S** 
+- **Clean Arch / Hexagonal / Ports & Adapters** 
+- **Enterprise AI: Infra > Data > Model > App**
+### C/S Evolution: 2-Tier → 3-Tier → B/S
+#exam 
+#### 2-Tier C/S 
+Thick Client, Thin Server 
+- **Client** handles **UI** + business **logic** 
+- **Server** handles **data storage** only 
+**Limitations**: 
+- **Bloated** client software 
+- **Direct DB** access → security **risk** 
+- Maintenance nightmare: **update every client** 
+- **Different UI styles**, complex usage
+#### 3-Tier C/S
+Thin Client + App Server 
+- Presentation tier (**UI**) 
+- Application tier (**logic**) 
+- Data tier (**DB**) 
+**Advantages**: 
+- Better **performance** & scalability 
+- Centralized **security** 
+- **Parallel development** of tiers
+#### B/S (Browser/Server)
+Special case of 3-Tier (浏览器 Browser → Web/App Server → 数据库)
+- **Client** = HTTP browser 
+- Standard HTTP/HTTPS **protocol** 
+- **No client installation** needed 
+Trade-offs: 
+- Can **only "pull,"** not "push" 
+- **Security harder** to control (SQL injection) 
+- **Server load heavy**, client resources wasted
+
+
+## MVC: Model-View-Controller
+#exam 
+Three Components 
+- Model (模型): Data + business logic; **notifies View** of state changes 
+- View (视图): Presentation/UI; **renders data** from Model 
+- Controller (控制器): **Handles user input**; updates Model, selects View 
+Core principle: **Separation of Concerns** (关注点分离)
+
+Style Family Connection 
+- Call/Return: **Controller calls Model** methods 
+- **Layered**: View → Controller → Model layers 
+- Observer: **Model notifies View** of changes
+
+## Data-Centered
+### Repository & Blackboard
