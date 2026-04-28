@@ -147,4 +147,10 @@ The key benefit of this process is that it provides a **structured** vision of w
 1. Decomposition 
 	1. Decomposition is a technique used for **dividing and subdividing** the project scope
 	2. The **work package** is the work defined at the **lowest level** of the WBS
-	3. 
+	3. Decomposition of the total project work into work packages(框起来了):
+		1. Identifying and analyzing the deliverables andrelatedwork;
+		2. Structuring and organizing the WBS; 
+		3. Decomposing the upper WBS levels intolower-leveldetailedcomponents; 
+		4. Developing and assigning identification codes to the WBScomponents; and 
+		5. Verifying that the degree of decompositionof thedeliverables is appropriate.
+2.  Expert Judgment
