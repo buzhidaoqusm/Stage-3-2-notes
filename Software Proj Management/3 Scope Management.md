@@ -167,3 +167,21 @@ Approaches to create WBS
 	- component of Project Management Plan
 	- is the **approved** version of a **scope statement,WBS**, and its associated **WBS dictionary**, that can be changed only through **formal** change control procedures and is used as a **basis** for comparison.
 		- WBS dictionary: is a document that provides detailed deliverable, activity, and scheduling information about each component in the WBS
+# Validate Scope
+The process of **formalizing acceptance** of the completed project deliverables
+The key benefit of this process is that it brings objectivity to the **acceptance** process and increases the chance of final **product,service**, or **result acceptance** by validating **each deliverable**
+
+input和output的1可能是重点
+## Input
+1. Project management plan
+2. Requirements documentation
+3. Requirements traceability matrix
+4. Verified deliverables
+5. Work performance data
+## Output
+1. Accepted Deliverables 
+	1. are formally signed off and approved by the **customer or sponsor** 
+	2. Formal documentation is forwarded to the **Close** **Project** or Phase (见2.6)
+2. Change Requests 
+3. Work Performance Information
+4. Project Documents Updates
