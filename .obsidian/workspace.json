@@ -194,6 +194,10 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "assets/3 Scope Management/file-20260428150104264.png",
+    "assets/3 Scope Management/file-20260428150051161.png",
+    "assets/3 Scope Management/file-20260428145737926.png",
+    "assets/3 Scope Management/file-20260428145705608.png",
     "Software Architecture/3 Architecture Description.md",
     "Software Architecture/2 Architectural Styles.md",
     "Software Architecture/1 Intro.md",
@@ -214,9 +218,6 @@
     "assets/2 Integration Management",
     "Software Proj Management/1 Software Project Management.md",
     "assets/1 Software Project Management/file-20260425165340668.png",
-    "assets/1 Software Project Management/file-20260425164301179.png",
-    "assets/1 Software Project Management/file-20260425164220968.png",
-    "assets/1 Software Project Management/file-20260425163919682.png",
     "assets/1 Software Project Management",
     "Software Proj Management",
     "assets/8a Query Expansion",
@@ -238,7 +239,6 @@
     "Information Retrieval/2b Stopwords, Stemming and Lemmatisation.md",
     "Information Retrieval/2a Preprocessing.md",
     "temp.md",
-    "Prompt.md",
-    "Information Retrieval/1c Query Optimisation.md"
+    "Prompt.md"
   ]
 }
