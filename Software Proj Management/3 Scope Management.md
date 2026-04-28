@@ -139,3 +139,5 @@ The project scope statement is the **description of the project scope**, major d
 WBS (**Work Breakdown Structure**)
 The WBS is a **hierarchical decomposition** of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables.
 
+Create WBS is the process of subdividing project deliverables and project work into smaller, more manageable components. 
+The key benefit of this process is that it provides a structured vision of what has to be delivered.
