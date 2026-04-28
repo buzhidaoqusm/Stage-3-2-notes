@@ -185,3 +185,20 @@ input和output的1可能是重点
 2. Change Requests 
 3. Work Performance Information
 4. Project Documents Updates
+
+**Control Quality** is generally performed **before** **validate** scope, althoughthetwo processes may be performed in parallel
+# Control Scope
+The process of **monitoring** the status of the project and product scope and **managing changes** to the scope baseline.
+The key benefit of this process is that it allows the scope baseline to be **maintained** throughout the project.
+
+- Scope creep （做了范围外的事）
+	- The uncontrolled expansion to product or project scopewithoutadjustments to time, cost, and resources. 
+	- is given by **customer** 
+- Gold Plating （镀金，团队觉得做的更好的事）
+	- is the act of giving the customer more thanwhat heoriginallyasked for. 
+	- is done by team **members actively**
+# Summary
+Mastering the concept of Scope Management
+Mastering the Tools and Techniques used for Collect Requirements 
+Understanding the role of WBS
+Understanding the Scope Baseline
