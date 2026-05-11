@@ -20,4 +20,5 @@ System A gives 2.5 points to each of the 4 documents it didn’t choose: i.e. (4
 System B gives 3.5 points to each of the 5 documents it didn’t choose: i.e. (5+1)/2
 
 ![](assets/9b%20Fusion%20Rank-Based/file-20260511204800516.png)
-- [ ] `q` 11
+
+# Reciprocal Rank Fusion
