@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/9a Fusion.md",
+                "file": "Information Retrieval/9b Fusion Rank-Based.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9a Fusion"
+              "title": "9b Fusion Rank-Based"
             }
           }
         ]
@@ -194,8 +194,9 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "Information Retrieval/9a Fusion Intro.md",
+    "Information Retrieval/9b Fusion Rank-Based.md",
     "Software Architecture/2 Architectural Styles.md",
-    "Information Retrieval/9a Fusion.md",
     "Software Architecture/3 Architecture Description.md",
     "Prompt.md",
     "temp.md",
@@ -238,7 +239,6 @@
     "Information Retrieval/3c Cosine Similarity.md",
     "Information Retrieval/3b Vector Space Model.md",
     "Information Retrieval/3a Phrase Queries.md",
-    "Information Retrieval/2b Stopwords, Stemming and Lemmatisation.md",
-    "Information Retrieval/2a Preprocessing.md"
+    "Information Retrieval/2b Stopwords, Stemming and Lemmatisation.md"
   ]
 }
