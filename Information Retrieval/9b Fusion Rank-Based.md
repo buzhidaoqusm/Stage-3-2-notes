@@ -22,3 +22,5 @@ System B gives 3.5 points to each of the 5 documents it didn’t choose: i.e. (5
 ![](assets/9b%20Fusion%20Rank-Based/file-20260511204800516.png)
 
 # Reciprocal Rank Fusion
+a simple rank-based method
+the score for each document: $RRF_{score}(d \in D) = \sum_{r \in R} \frac{1}{k + r(d)}$
