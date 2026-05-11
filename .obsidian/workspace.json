@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Architecture/2 Architectural Styles.md",
+                "file": "Information Retrieval/9a Fusion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Architectural Styles"
+              "title": "9a Fusion"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d01feeacf7ddd0e6",
@@ -176,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
-    "collapsed": true
+    "width": 359.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +194,8 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
+    "Software Architecture/2 Architectural Styles.md",
+    "Information Retrieval/9a Fusion.md",
     "Software Architecture/3 Architecture Description.md",
     "Prompt.md",
     "temp.md",
@@ -207,7 +209,6 @@
     "assets/3 Scope Management/file-20260428150051161.png",
     "assets/3 Scope Management/file-20260428145737926.png",
     "assets/3 Scope Management/file-20260428145705608.png",
-    "Software Architecture/2 Architectural Styles.md",
     "Software Architecture/1 Intro.md",
     "Software Architecture",
     "Information Retrieval/8b Relevance Feedback.md",

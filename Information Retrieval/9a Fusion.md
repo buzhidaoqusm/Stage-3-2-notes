@@ -1,0 +1,2 @@
+Basic definition: 
+**Combining** the **outputs** of **multiple** different Information Retrieval systems/algorithms into a **single ranked result set** that can be shown to a user in response to a **query**
