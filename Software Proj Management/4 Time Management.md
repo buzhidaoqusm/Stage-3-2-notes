@@ -96,15 +96,26 @@ The key benefit of this process is that it **identifies** the **type, quantity, 
 9. Enterprise environmental factors
 10. Organizational process assets
 ## TT
-2,3,4框起来了
+#exam 要考选择题，Three-point estimating默认用beta
+2,3,4,6框起来了
 1. Expert judgment 
 2. Analogous estimating 
 	- 使用historical data from a similar activity or project来估计
 	- A **gross** value estimating approach, 
 	- when there is a **limited amount** of detailed information
 3. Parametric estimating 
-	- `Duration time= quantity of work ×labor hours perunitofwork`
-	- 
+	- `Duration time = quantity of work × labor hours per unit of work`
 4. Three-point estimating 
+	- Most likely (tM)，Optimistic (tO)，Pessimistic (tP)
+	- Triangular Distribution: `tE=(tO+tM+tP)/3`
+	- Beta Distribution: `tE=(tO+4tM+tP)/6`
 5. Group decision-making techniques
 6. Reserve analysis
+	- Reserve analysis is used to determine the **amount** of **contingency** and **management** **reserve** needed for the project
+		- Contingency reserves: The **estimated duration** within the **schedule baseline**, which is allocated for **identified risks** that are **accepted**, it is associated with the “**known-unknowns**”. should be **clearly identified** in the **schedule documentation**
+		- Management reserves: A **specified amount of the project budget withheld for management control purposes** and are reserved for **unforeseen work** that is within scope of the project. Management reserves are intended to address the “**unknown-unknowns**” that can affect a project. **not included** in the **schedule baseline**
+## Output
+1. Activity Duration Estimates
+	- Activity duration estimates mayincludesomeindication of the range of possible results:
+		- 2 weeks ±2 days,
+2. Project Documents Updates
