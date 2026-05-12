@@ -161,3 +161,11 @@ A method used to estimate the **minimum project duration** and determine the **a
 
 ### Critical chain method
 A method that allows the project team to **place buffers** on any project schedule path to account for limited resources and project uncertainties.
+
+It is developed from the **critical path method** approach and considers the **effects of resource allocation, resource optimization, resource leveling**, and **activity duration uncertainty** on the critical path determined using the critical path method
+
+#### Project buffer vs Feeding buffers
+Feeding buffers只能加在进入critical chain的时候
+ Project buffer 会影响critical chain，影响整个项目的完成时间
+![](assets/4%20Time%20Management/file-20260512215637746.png)
+### Resource optimizationtechniques
