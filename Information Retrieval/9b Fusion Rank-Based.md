@@ -24,3 +24,8 @@ System B gives 3.5 points to each of the 5 documents it didn’t choose: i.e. (5
 # Reciprocal Rank Fusion
 a simple rank-based method
 the score for each document: $RRF_{score}(d \in D) = \sum_{r \in R} \frac{1}{k + r(d)}$
+where **r(d)** is the **rank** of document d in result set r, and k=60 (set by experiment in the original paper)
+# Other Rank-Based Techniques
+A variation on interleaving is to use **historical data** to **estimate** which input system(s) tends to **perform better**.
+
+A **weighted** version of **interleaving** is then used so that **more documents** are **taken** from the better systems
