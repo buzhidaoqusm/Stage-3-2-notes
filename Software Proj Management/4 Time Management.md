@@ -44,4 +44,5 @@ The key benefit of this process is to **break down work packages into activities
 2. Activity Attributes 
 3. Milestone List
 	1. A **milestone** is a **significant point** or event inaproject.
-	2. 
+	2. **Milestones** are similar to regular **schedule activities**, with the same structure and attributes, but they have **zero duration** because milestones represent a **moment** in time.
+# Sequence Activities
