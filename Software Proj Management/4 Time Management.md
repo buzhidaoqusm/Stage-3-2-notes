@@ -155,5 +155,7 @@ A method used to estimate the **minimum project duration** and determine the **a
 > 如果前一个任务在第6天结束，下一个任务的最早开始时间是7
 
 ![](assets/4%20Time%20Management/file-20260512211503767.png)
-> 其他path
+> 其他path的最晚时间需要回推：
+> 从后往前计算
 ![](assets/4%20Time%20Management/file-20260512211653293.png)
+
