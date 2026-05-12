@@ -46,3 +46,65 @@ The key benefit of this process is to **break down work packages into activities
 	1. A **milestone** is a **significant point** or event inaproject.
 	2. **Milestones** are similar to regular **schedule activities**, with the same structure and attributes, but they have **zero duration** because milestones represent a **moment** in time.
 # Sequence Activities
+Sequence Activities is the process of **identifying** and **documenting** the **relationships** among the project **activities**.
+The key benefit of this process is that it defines the **logical sequence** of work to obtain the greatest efficiency given all project constraints.
+
+## Input
+2,3,4框起来了
+1. Schedule management plan
+2. Activity list
+3. Activity attributes
+4. Milestone list
+5. Project scope statement
+6. Enterprise environmental factors
+7. Organizational process assets
+## TT
+1. **Precedence diagramming method**(PDM)
+	1. Finish-to-start (FS) 前一个结束，后一个才能开始
+	2. Finish-to-finish (FF) 
+	3. Start-to-start (SS) 
+	4. Start-to-finish (SF)
+2. Dependency determination
+	- Mandatory/discretionary:
+		- Mandatory: often involved physical limitations
+		- discretionary: based on knowledge of best practices within a particular application area
+	- external/internal:
+		- external: relationship betweenproject activities and non-project activities
+		- internal: Involve a precedence relationship between project activities
+3. Leads and lags
+	- Lag: 前一个活动完成后，必须停止一段时间，才能开始下一个（记作SS +15 Days）
+## Output
+#exam 要考Project schedule network diagram
+1. Project Schedule NetworkDiagramsn 
+2. Project Documents Updates
+![](assets/4%20Time%20Management/file-20260512195027987.png)
+# Estimate Activity Durations
+The process of estimating the **number** of **work periods** needed to complete individual activities with estimated resources
+The key benefit of this process is that it provides the amount of time each activity will take to complete, which is a **major** **input** into the Develop Schedule process.
+## Estimate Activity Resources
+The process of estimating the **type** and **quantities** of **material, human resources, equipment, or supplies** required to perform each activity.
+The key benefit of this process is that it **identifies** the **type, quantity, and characteristics** of **resources** required to complete the activity which allows more accurate cost and duration estimates.
+## Input
+1. Schedule management plan
+2. Activity list
+3. Activity attributes
+4. Activity resource requirements
+5. Resource calendars
+6. Project scope statement
+7. Risk register
+8. Resource breakdown structure
+9. Enterprise environmental factors
+10. Organizational process assets
+## TT
+2,3,4框起来了
+1. Expert judgment 
+2. Analogous estimating 
+	- 使用historical data from a similar activity or project来估计
+	- A **gross** value estimating approach, 
+	- when there is a **limited amount** of detailed information
+3. Parametric estimating 
+	- `Duration time= quantity of work ×labor hours perunitofwork`
+	- 
+4. Three-point estimating 
+5. Group decision-making techniques
+6. Reserve analysis
