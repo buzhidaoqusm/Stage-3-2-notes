@@ -119,3 +119,18 @@ The key benefit of this process is that it **identifies** the **type, quantity, 
 	- Activity duration estimates mayincludesomeindication of the range of possible results:
 		- 2 weeks ±2 days,
 2. Project Documents Updates
+# Develop Schedule
+The process of **analyzing activity sequences, durations, resource requirements**, and schedule constraints to **create** the project **schedule model**.
+
+The key benefit of this process is that by entering schedule **activities, durations, resources, resource availabilities**, and **logical relationships** into the scheduling tool, it generates a **schedule model** with **planned dates** for completing project activities.
+
+## Input
+略
+## TT
+1. Schedule network analysis 
+	- A technique that generates the project schedule model. 
+	- It employs several other techniques, such as critical path method, critical chain method, resource optimization techniques， and modeling techniques to calculate the early and late start and finish dates for the uncompleted portions of project activities.
+2. Critical path method 
+3. Critical chain method
+4. Resource optimization techniques
+5. Schedule compression
