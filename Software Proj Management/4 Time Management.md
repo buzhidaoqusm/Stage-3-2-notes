@@ -159,3 +159,5 @@ A method used to estimate the **minimum project duration** and determine the **a
 > 从后往前计算
 ![](assets/4%20Time%20Management/file-20260512211653293.png)
 
+### Critical chain method
+A method that allows the project team to **place buffers** on any project schedule path to account for limited resources and project uncertainties.
