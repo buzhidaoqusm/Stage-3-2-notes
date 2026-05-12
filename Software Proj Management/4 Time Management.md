@@ -127,9 +127,10 @@ The key benefit of this process is that by entering schedule **activities, durat
 ## Input
 略
 ## TT
+#exam 要考critical path的大题
 1. Schedule network analysis 
 	- A technique that generates the project schedule model. 
-	- It employs several other techniques, such as critical path method, critical chain method, resource optimization techniques， and modeling techniques to calculate the early and late start and finish dates for the uncompleted portions of project activities.
+	- It employs several other techniques, such as **critical path method, critical chain method, resource optimization techniques， and modeling** techniques to **calculate** the **early** and **late** **start** and **finish dates** for the uncompleted portions of project activities.
 2. Critical path method 
 3. Critical chain method
 4. Resource optimization techniques
