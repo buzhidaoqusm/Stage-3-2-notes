@@ -143,4 +143,17 @@ A method used to estimate the **minimum project duration** and determine the **a
 
 `critical path`：最长的路径（耗时最多）
 
-Total float vs Free float
+> 计算Total float
+
+1. 计算critical path，给其中的每个任务float=0
+2. 找到第二长的path，每个任务float=critical path-当前path的duration
+3. 再找到下一条的，同理计算。如果有交叉的节点，float保留最小的结果
+![](assets/4%20Time%20Management/file-20260512211349156.png)
+
+![](assets/4%20Time%20Management/file-20260512211415110.png)
+> 初始状态：
+> 如果前一个任务在第6天结束，下一个任务的最早开始时间是7
+
+![](assets/4%20Time%20Management/file-20260512211503767.png)
+> 其他path
+![](assets/4%20Time%20Management/file-20260512211653293.png)
