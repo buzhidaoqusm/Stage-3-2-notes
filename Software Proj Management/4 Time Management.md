@@ -135,3 +135,12 @@ The key benefit of this process is that by entering schedule **activities, durat
 3. Critical chain method
 4. Resource optimization techniques
 5. Schedule compression
+
+### Critical path method
+A method used to estimate the **minimum project duration** and determine the **amount of scheduling flexibility** on the logical network paths within the schedule model.
+
+![](assets/4%20Time%20Management/file-20260512210440217.png)
+
+`critical path`：最长的路径（耗时最多）
+
+Total float vs Free float
