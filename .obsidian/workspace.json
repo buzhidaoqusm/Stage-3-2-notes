@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,8 +194,11 @@
   },
   "active": "2adbed7e0f0fffbd",
   "lastOpenFiles": [
-    "Information Retrieval/9b Fusion Rank-Based.md",
+    "Software Proj Management/3 Scope Management.md",
     "Software Proj Management/4 Time Management.md",
+    "assets/4 Time Management/file-20260512150058197.png",
+    "assets/4 Time Management",
+    "Information Retrieval/9b Fusion Rank-Based.md",
     "assets/9b Fusion Rank-Based/file-20260511204800516.png",
     "assets/9b Fusion Rank-Based/file-20260511204722018.png",
     "assets/9b Fusion Rank-Based/file-20260511202753177.png",
@@ -205,7 +208,6 @@
     "Software Architecture/3 Architecture Description.md",
     "Prompt.md",
     "temp.md",
-    "Software Proj Management/3 Scope Management.md",
     "Information Retrieval/6a Single Value Metrics.md",
     "Information Retrieval/5c Precision & Recall.md",
     "Information Retrieval/5b Evaluation.md",
@@ -222,7 +224,6 @@
     "assets/8b Relevance Feedback/file-20260427101345630.png",
     "assets/8b Relevance Feedback",
     "Information Retrieval/7a IR Pipelines and Modern IR.md",
-    "assets/3 Scope Management/file-20260426183455671.png",
     "assets/3 Scope Management",
     "Software Proj Management/2 Integration Management.md",
     "assets/2 Integration Management",
@@ -232,13 +233,11 @@
     "assets/8a Query Expansion",
     "assets/7a IR Pipelines and Modern IR",
     "Information Retrieval/6c Normalised Discounted Cumulated Gain.md",
-    "assets/6c Normalised Discounted Cumulated Gain",
     "Information Retrieval/6b bpref.md",
     "Information Retrieval/4b Vector Space Summary.md",
     "2026-04-22.md",
     "Information Retrieval/4a Term Weighting.md",
     "Information Retrieval/3c Cosine Similarity.md",
-    "Information Retrieval/3b Vector Space Model.md",
-    "Information Retrieval/3a Phrase Queries.md"
+    "Information Retrieval/3b Vector Space Model.md"
   ]
 }
