@@ -172,3 +172,5 @@ Feeding buffers只能加在进入critical chain的时候
 Used to **adjust the start and finish dates** of activities to **adjust planned resource** use to be equal to or less than resource availability.
 > Resource leveling vs Resource smoothing
 
+Resource leveling
+- A technique in which start and finish dates are adjusted **based on resource constraints** with the goal of balancing demand for resources with the available supply.
