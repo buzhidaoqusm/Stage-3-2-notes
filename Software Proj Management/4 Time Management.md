@@ -168,4 +168,7 @@ It is developed from the **critical path method** approach and considers the **e
 Feeding buffers只能加在进入critical chain的时候
  Project buffer 会影响critical chain，影响整个项目的完成时间
 ![](assets/4%20Time%20Management/file-20260512215637746.png)
-### Resource optimizationtechniques
+### Resource optimization techniques
+Used to **adjust the start and finish dates** of activities to **adjust planned resource** use to be equal to or less than resource availability.
+> Resource leveling vs Resource smoothing
+
