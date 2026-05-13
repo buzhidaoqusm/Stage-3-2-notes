@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cdc99a766acf4787",
+        "id": "c6c0807bd5f8d111",
         "type": "tabs",
         "children": [
           {
-            "id": "2adbed7e0f0fffbd",
+            "id": "44752558650c1deb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Proj Management/4 Time Management.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "4 Time Management"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d01feeacf7ddd0e6",
@@ -143,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Retrieval/2a Preprocessing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2a Preprocessing 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -173,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -192,8 +186,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2adbed7e0f0fffbd",
+  "active": "85e9b2e50a562d93",
   "lastOpenFiles": [
+    "未命名.base",
+    "Software Proj Management/4 Time Management.md",
     "assets/4 Time Management/file-20260512215637746.png",
     "assets/4 Time Management/file-20260512211653293.png",
     "assets/4 Time Management/file-20260512211503767.png",
@@ -202,13 +198,11 @@
     "assets/4 Time Management/file-20260512210440217.png",
     "assets/4 Time Management/file-20260512195027987.png",
     "Software Proj Management/3 Scope Management.md",
-    "Software Proj Management/4 Time Management.md",
     "assets/4 Time Management/file-20260512150058197.png",
     "assets/4 Time Management",
     "Information Retrieval/9b Fusion Rank-Based.md",
     "assets/9b Fusion Rank-Based/file-20260511204800516.png",
     "assets/9b Fusion Rank-Based/file-20260511204722018.png",
-    "assets/9b Fusion Rank-Based/file-20260511202753177.png",
     "assets/9b Fusion Rank-Based",
     "Information Retrieval/9a Fusion Intro.md",
     "Software Architecture/2 Architectural Styles.md",
