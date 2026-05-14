@@ -182,4 +182,17 @@ Resource leveling
 ![](assets/4%20Time%20Management/file-20260514161114305.png)
 
 Resource smoothing
+- A technique that adjusts the activities of a schedule model such that the **requirements for resources** on the project do **not exceed certain predefined resource limits**
+- project’s **critical path** is **not changed** and the completion date may not be delayed
+- Activities may only be delayed **within their free and total float**.Thus resource smoothing may **not** be able to **optimize all resources**.
+# Schedule compression
+Used to **shorten or accelerate** the **schedule duration** without **reducing the project scope** in order to meet schedule constraints, imposed dates, or other schedule objectives.
+
+## Crashing VS Fast tracking
+crashing（不计成本地砸钱）:
+- A technique used to shorten the schedule duration for the **least incremental cost** by **adding resources**.
+- e.g. **approving overtime**, bringing in **additional resources**,or paying to **expedite delivery** to activities on the critical path
+- Crashing works only for **activities on the critical path** where additional resources will shorten the activity’s duration. 
+- Crashing does **not always produce a viable alternative** and may result in **increased risk** and/or cost.
+Fast tracking
 - 
