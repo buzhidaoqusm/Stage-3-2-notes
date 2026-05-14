@@ -194,5 +194,21 @@ crashing（不计成本地砸钱）:
 - e.g. **approving overtime**, bringing in **additional resources**,or paying to **expedite delivery** to activities on the critical path
 - Crashing works only for **activities on the critical path** where additional resources will shorten the activity’s duration. 
 - Crashing does **not always produce a viable alternative** and may result in **increased risk** and/or cost.
-Fast tracking
-- 
+Fast tracking(并行任务，可能有风险)
+- A schedule compression technique in which activities or phases normally done in **sequence** are performed in **parallel** for at least a portion of their duration.
+- e.g. Constructing the foundation for a building before completing all of the architectural drawings
+- Fast tracking may result in **rework and increased risk**. It only woks if activities can be **overlapped** to shorten the project duration.
+## Output
+1. Schedule baseline
+	1. is the approved version of a schedule model
+2. Project schedule
+	1. Bar charts. （甘特图）
+	2. Milestone charts. （和甘特图类似，但是只有开始和结束时间，以及milestone）
+	3. Project schedule networkdiagrams
+3. Schedule data
+4. Project calendars
+5. Project management plan updates
+6. Project documents updates
+# Schedule Control
+The process of **monitoring** the **status** of project activities to **update project progress** and manage changes to the schedule baseline to achieve the plan
+The key benefit of this process is that it provides the means to **recognize deviation** from the plan and take corrective and preventive actions and thus minimize risk.
