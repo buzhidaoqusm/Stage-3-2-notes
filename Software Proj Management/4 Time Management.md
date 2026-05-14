@@ -174,3 +174,12 @@ Used to **adjust the start and finish dates** of activities to **adjust planned 
 
 Resource leveling
 - A technique in which start and finish dates are adjusted **based on resource constraints** with the goal of balancing demand for resources with the available supply.
+- often cause the original **critical path to change**, usually to **increase**.
+
+> Example
+
+![](assets/4%20Time%20Management/file-20260514161105678.png)
+![](assets/4%20Time%20Management/file-20260514161114305.png)
+
+Resource smoothing
+- 
