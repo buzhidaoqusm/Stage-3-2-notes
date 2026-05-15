@@ -88,5 +88,9 @@ total average E=(E1+E2+…+En)/n (n represents n experts)
 	- Ci= Ei`*`Human
 	- For example: if a software project workload is 3 person-months, and the company's human cost parameter is 20,000 yuan / person-months, the cost of the project is $ 60,000
 3. Direct cost of the project =C1+C2+…+Ci+…+Cn
+	- Development workload: Effort(Dev)
+	- Management and quality work : Effort(Mgn)=a`*`Effort(Dev)
+	- Direct cost = Effort(Dev) + a`*`Effort(Dev)
 4. Indirect cost estimation
+	- Indirect costs = Direct costs `*`Indirect cost factor
 5. Total project cost = direct cost + indirect cost
