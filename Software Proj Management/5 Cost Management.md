@@ -44,4 +44,49 @@ The detailed cost is then **summarized** or “rolled up” to higher levels for
 
 Software project scale measurement unit
 - LOC
+	- Advantage:
+		- Intuitive and accurate
+		- the easy-to-calculate
+	- Disadvantage:
+		- no accepted measure of lines of code in standard definition
+		- difficult to accurately estimate
 - FP
+	- Count the external and internal functions of the system. (**Unadjusted Function Point Count**)
+	- According to the **technical complexity factor**, they are adjusted to produce the product scale measurement results.
+#### FP计算
+#exam 要考计算
+FP =UFC`*`TCF  
+- UFC(Unadjusted Function Point Count) 
+- TFC(Technical Complexity Factor)
+
+> UFC
+> 根据complexity X 数量加起来
+
+![](assets/5%20Cost%20Management/file-20260515145502794.png)![](assets/5%20Cost%20Management/file-20260515145509548.png)
+
+> TCF
+
+![](assets/5%20Cost%20Management/file-20260515145620551.png)
+
+TCF=0.65+0.01(sum(Fi))：Fi:0-5,TCF:0.65~1.35
+
+sum(Fi)=`1+5+0+3+1+0...`=22
+TCF=0.65+0.01(sum(Fi))=0.65+0.01`*`22=0.87
+
+#### Expert estimation method-Delphi
+给专家做问卷，填表格，让他们评估
+- Minimum ai 
+- The most likely value mi 
+- Maximum bi
+
+Calculating the average estimate of each expert.
+Ei =(ai+4mi + bi)/6 and 
+total average E=(E1+E2+…+En)/n (n represents n experts)
+#### A practical software cost estimationprocess:
+1. Task decomposition(activity): T1, T2,…,Ti,…,Tn
+2. Estimate the cost of each task Ci
+	- Ci= Ei`*`Human
+	- For example: if a software project workload is 3 person-months, and the company's human cost parameter is 20,000 yuan / person-months, the cost of the project is $ 60,000
+3. Direct cost of the project =C1+C2+…+Ci+…+Cn
+4. Indirect cost estimation
+5. Total project cost = direct cost + indirect cost
