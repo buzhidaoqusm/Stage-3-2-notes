@@ -138,3 +138,18 @@ PV=300
 EV=100（做了2页）
 AC=600（实际花了600）
 
+### Forecasting
+Budget at completion (BAC) 完工预算 
+Estimate at completion (EAC)完工估算
+Estimate to complete (ETC) 完工尚需估算（到结束的时候还需要的预算）
+
+EAC=AC+ETC
+
+#exam 必考，根据文字描述选择公式，不考第三个
+work performed at the budgeted rate
+- EAC = AC+ (BAC–EV)
+work performed at the present CPI
+- EAC = BAC/CPI
+work considering both SPI and CPI factors
+- EAC = AC+ [(BAC-EV)/(CPI×SPI)]
+VAC = BAC– EAC
