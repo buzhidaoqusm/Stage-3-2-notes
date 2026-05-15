@@ -104,3 +104,37 @@ The process of **aggregating** the **estimated costs** of individual activities 
 ## Output
 cost baseline
 - is the approved version of the **time-phased project budget**, **excluding** any **management reserves**
+S-curve
+# Control Costs
+## TT
+### Earned Value Management （EVM）
+#exam 大题，计算
+花销超了怎么解决
+
+PV(Planned value)计划花的钱
+EV(Earned value)工作价值
+AC(Actual cost)实际花销
+SV(Schedule variance)
+CV(Cost variance)
+SPI(Schedule Performance Index)
+CPI(Cost Performance Index)
+
+BAC(Budget at completion)
+planned % complete
+
+PV=BAC * planned
+EV=BAC * actual
+
+SV=EV-PV (>0，超前完成)
+CV=EV-AC (>0，干的多花的少)
+SPI=EV/PV (<1，干得少)
+CPI=EV/AC (<1， 花的多)
+
+> Example
+
+100页文章，500元，限时10天
+第六天时：
+PV=300
+EV=100（做了2页）
+AC=600（实际花了600）
+
