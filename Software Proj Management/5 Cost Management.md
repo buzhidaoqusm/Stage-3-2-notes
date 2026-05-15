@@ -103,4 +103,4 @@ The process of **aggregating** the **estimated costs** of individual activities 
 
 ## Output
 cost baseline
-- 
+- is the approved version of the **time-phased project budget**, **excluding** any **management reserves**
