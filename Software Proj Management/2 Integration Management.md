@@ -192,6 +192,7 @@ data->information->report
 
 2023.01.01 100W   2023.03.01 -50W   -> data
 # Perform Integrated Change Control
+#exam 项目发生变更，应该怎么做，大题
 Perform Integrated Change Control is the process of **reviewin** gall changerequests; **approving** changes and **managing** changes to deliverables, organizational process assets, project documents, and the project management plan; and communicating their disposition. 
 
 The key benefit of this process is that it allows for documented changes within the project to be considered in an integrated fashion while reducing project risk, which often arises from changes made without consideration to the overall project objectives or plans.
