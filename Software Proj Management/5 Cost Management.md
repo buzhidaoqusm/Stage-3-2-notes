@@ -74,6 +74,7 @@ sum(Fi)=`1+5+0+3+1+0...`=22
 TCF=0.65+0.01(sum(Fi))=0.65+0.01`*`22=0.87
 
 #### Expert estimation method-Delphi
+#exam 选择题
 给专家做问卷，填表格，让他们评估
 - Minimum ai 
 - The most likely value mi 
@@ -85,7 +86,7 @@ total average E=(E1+E2+…+En)/n (n represents n experts)
 #### A practical software cost estimationprocess:
 1. Task decomposition(activity): T1, T2,…,Ti,…,Tn
 2. Estimate the cost of each task Ci
-	- Ci= Ei`*`Human
+	- Ci= Ei * Human (workload of the task Ei)
 	- For example: if a software project workload is 3 person-months, and the company's human cost parameter is 20,000 yuan / person-months, the cost of the project is $ 60,000
 3. Direct cost of the project =C1+C2+…+Ci+…+Cn
 	- Development workload: Effort(Dev)
@@ -94,3 +95,7 @@ total average E=(E1+E2+…+En)/n (n represents n experts)
 4. Indirect cost estimation
 	- Indirect costs = Direct costs `*`Indirect cost factor
 5. Total project cost = direct cost + indirect cost
+	- = workload * human cost parameters （1+Indirect costcoefficient)
+	- = workload * Cost coefficient
+	- For example: The workload of a project is 40 months, Cost coefficient of 20 thousand yuan/man-month, the total estimatedcost of the project is 40 * 20=800 thousand.
+# Determine Budget
