@@ -31,3 +31,17 @@ The cost of individual **work packages or activities** is estimated to the **gre
 The detailed cost is then **summarized** or “rolled up” to higher levels for subsequent reporting and tracking purposes.
 ![](assets/5%20Cost%20Management/file-20260515101449232.png)
 ## Output
+1. Activity Cost Estimates
+	1. Activity cost estimates are **quantitative assessments**
+	2. can be presented in summary form or in detail.
+2. Basis of Estimates
+## TT
+### Software project cost estimating
+1. Lines Of Code (LOC) 
+2. Function point (FP) 
+3. Expert estimation method 
+4. A practical software cost estimationprocess
+
+Software project scale measurement unit
+- LOC
+- FP
