@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Proj Management/5 Cost Management.md",
+                "file": "Software Proj Management/6 Quality Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 Cost Management"
+              "title": "6 Quality Management"
             }
           }
         ]
@@ -193,6 +193,8 @@
   },
   "active": "44752558650c1deb",
   "lastOpenFiles": [
+    "Software Proj Management/5 Cost Management.md",
+    "Software Proj Management/6 Quality Management.md",
     "assets/5 Cost Management/file-20260515145620551.png",
     "assets/5 Cost Management/file-20260515145608875.png",
     "assets/5 Cost Management/file-20260515145509548.png",
@@ -201,7 +203,6 @@
     "assets/5 Cost Management/file-20260515095601056.png",
     "assets/5 Cost Management",
     "Software Proj Management/2 Integration Management.md",
-    "Software Proj Management/5 Cost Management.md",
     "Software Proj Management/4 Time Management.md",
     "assets/4 Time Management/file-20260514161114305.png",
     "assets/4 Time Management/file-20260514161105678.png",
@@ -210,7 +211,6 @@
     "Information Retrieval/8a Query Expansion.md",
     "assets/4 Time Management/file-20260512215637746.png",
     "assets/4 Time Management/file-20260512211653293.png",
-    "assets/4 Time Management/file-20260512211503767.png",
     "Software Proj Management/3 Scope Management.md",
     "assets/4 Time Management",
     "Information Retrieval/9b Fusion Rank-Based.md",
