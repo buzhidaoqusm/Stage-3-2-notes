@@ -18,3 +18,39 @@ because the scores are added, documents appearing in multiple result sets will a
 	- Document #2 is given a score of 0.65 by System C  
 	- Document #2's CombSUM score is 0.55 + 0 + 0.65 = 1.2
 ## Score Normalisation
+Consider the situation where different IR systems may calculate scores in different ranges: 
+- System A: Assigns scores between 0 and 1000 
+- System B: Assigns scores between 0 and 1
+
+standard normalisation:
+$$
+\text{normalised\_score} = \frac{\text{unnormalised\_score} - \text{min\_score}}{\text{max\_score} - \text{min\_score}}
+$$
+## CombSUM
+归一化之后加起来
+![](assets/10a%20Fusion%20Score%20Based/file-20260518210851936.png)
+![](assets/10a%20Fusion%20Score%20Based/file-20260518210900920.png)
+
+# CombMNZ
+Although CombSUM makes use of the **Chorus Effect** by adding the normalised scores, CombMNZ **emphasises this even further**.
+It does this by **multiplying** each document's **CombSUM** score by the **number of result sets** it was contained in
+MNZ stands for "Multiply by Non Zero".
+
+- Example 1:
+	- Document #1 is given a score of 0.45 by System A
+	- Document #1 is given a score of 0.3 by System B
+	- Document #1 is given a score of 0.35 by System C
+	- Document #1's CombMNZ score is (0.45 + 0.3 + 0.35) x 3 = 3.3
+- Example 2:
+	- Document #2 is given a score of 0.55 by System A
+	- Document #2 is not returned by System B
+	- Document #2 is given a score of 0.65 by System C
+	- Document #2's CombMNZ score is (0.55 + 0 + 0.65) x 2 = 2.4
+
+![](assets/10a%20Fusion%20Score%20Based/file-20260518211328689.png)
+
+
+CombMNZ should only be used for **data fusion tasks**
+# Linear Combination
+CombMNZ and CombSUM: every **input result set** is assumed to be of **equal** quality
+Linear Combination Model apply a weighting
