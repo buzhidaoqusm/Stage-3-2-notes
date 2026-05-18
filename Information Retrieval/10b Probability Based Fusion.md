@@ -32,3 +32,30 @@ The score assigned to a document by each underlying input system is the **probab
 
 only suitable for data fusion
 # SegFuse
+## Motivation
+ProbFuse 分成 25 segments 时效果优于CombMNZ
+
+The input result sets used were up to **1000 documents in length**, meaning that **each segment** contained **40 documents.**
+This means that **document 40** would be treated the **same as document 1**.
+
+Two major **variations** to ProbFuse proposed: 
+- Instead of constant segment sizes, the **size** of the segments **increase exponentially** as we go down the result set. 
+- **Normalised scores** used to boost the **Skimming Effect**, rather than dividing by the segment number.
+
+## Training
+probability is calculated in exactly the **same way** as for **ProbFuse**
+**only difference** is that the **size of the segment**
+
+$$
+Size_k = (10 \times 2^{k-1}) - 5
+$$
+![](assets/10b%20Probability%20Based%20Fusion/file-20260518222835133.png)
+# SlideFuse
+## Motivation
+In particular, **adjacent documents** could be **treated very differently**, for instance under SegFuse: 
+- Document 20 would be grouped with documents 6-20 
+- Document 21 would be grouped with documents 21-55
+## Overview
+**Aside**: Why not just **use the probability** at **each rank** in the result set? 
+Expecially for large-scale tasks, there may be **few judged relevant documents** available, but we **don't want to** give a probability of **zero** to a rank just because **no relevant document was returned** in that exact rank during training
+
