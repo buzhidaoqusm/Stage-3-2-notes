@@ -53,4 +53,17 @@ MNZ stands for "Multiply by Non Zero".
 CombMNZ should only be used for **data fusion tasks**
 # Linear Combination
 CombMNZ and CombSUM: every **input result set** is assumed to be of **equal** quality
-Linear Combination Model apply a weighting
+Linear Combination Model apply a **weighting**
+
+Example 1 (System A, B and C have weights of 1, 2, 3 respectively): 
+- Document #1 is given a score of 0.45 by System A 
+- Document #1 is given a score of 0.3 by System B 
+- Document #1 is given a score of 0.35 by System C 
+- Document #1's overall score is: (0.45 x 1) + (0.3 x 2) +(0.35 x 3) = 2.1
+
+## Weights
+1. CORI, which relies on having access to **details about the document collection** each input system is using (generally used for Distributed IR).
+	- Document Frequency
+	- Inverse Collection Freqency
+2. LMS(using result Length)
+	- **longer** result set results in **higher** weight. Worked surprisingly well in practice.
