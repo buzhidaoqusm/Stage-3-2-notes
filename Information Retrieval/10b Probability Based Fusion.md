@@ -57,5 +57,19 @@ In particular, **adjacent documents** could be **treated very differently**, for
 - Document 21 would be grouped with documents 21-55
 ## Overview
 **Aside**: Why not just **use the probability** at **each rank** in the result set? 
-Expecially for large-scale tasks, there may be **few judged relevant documents** available, but we **don't want to** give a probability of **zero** to a rank just because **no relevant document was returned** in that exact rank during training
+- Expecially for large-scale tasks, there may be **few judged relevant documents** available, but we **don't want to** give a probability of **zero** to a rank just because **no relevant document was returned** in that exact rank during training
 
+we instead use **each rank's neighbours** as evidence
+We describe this as using "**sliding windows**"
+![](assets/10b%20Probability%20Based%20Fusion/file-20260518230151188.png)
+### Distribution of Probabilities
+![](assets/10b%20Probability%20Based%20Fusion/file-20260518225434507.png)
+
+
+## Training
+calculate the probability of relevance at each rank r
+**Number of relevant documents** returned at rank r **divided by** number of **training queries**.
+## Fusion
+final score is the sum of the scores a document receives from the input systems
+
+![](assets/10b%20Probability%20Based%20Fusion/file-20260518230945531.png)
