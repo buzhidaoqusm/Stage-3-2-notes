@@ -101,7 +101,7 @@ One individual makes the decision
 	4. transition requirements 
 	5. project requirements 
 	6. quality requirements 
-2. Requirements TraceabilityMatrix
+2. Requirements Traceability Matrix
 	1. grid that links product requirements from their **origin** to the **deliverables** that satisfy them.
 
 ## Software Requirements
