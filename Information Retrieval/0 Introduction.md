@@ -60,7 +60,7 @@ the system is designed to **provide a full answer** to a **question**
 # Information Extraction
 An Information Extraction system is designed to take **unstructured text** and try to **create structured data** from it.
 
-> Input:  “Kate Hudson was born in Los Angeles, California, the daughter of Academy Award-winning actress Goldie Hawn and Bill Hudson, an actor, comedian, and musician. Her parents divorced eighteen months after her birth; she and her brother, actor Oliver Hudson, were raised in Colorado by her mother and her mother’s long-time boyfriend, actor Kurt Russell.” 
+> Input:  “Kate Hudson was born in Los Angeles, California, the daughter of Academy Award-winning actress Goldie Hawn and Bill Hudson, an actor, comedian, and musician. Her parents divorced eighteen months after her birth; she and her brother, actor Oliver Hudson, were raised in Colorado by her mother and her mother’s long-time boyfriend, actor Kurt Russell.” 
 > Output (examples): mother(Kate Hudson, Goldie Hawn), brother(Kate Hudson, Oliver Hudson), gender(Kate Hudson, female)
 
 # Note
