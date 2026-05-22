@@ -10,3 +10,9 @@ RACI
 ## Output
 Human Resource Managementplan
 # Acquire Project Team
+## TT
+Pre-assignment
+Negotiation
+Acquisition
+Virtual Teams
+Multi-Criteria Decision Analysis
