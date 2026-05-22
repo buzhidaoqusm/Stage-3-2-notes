@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d01feeacf7ddd0e6",
@@ -176,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 359.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +198,6 @@
     "System Des & Verification/1 Intro.md",
     "Prompt.md",
     "temp.md",
-    "System Des & Verification/3 Partitioned Reduction.md",
     "System Des & Verification/Binary Chop.md",
     "System Des & Verification/The integer square root.md",
     "Software Proj Management/4 Time Management.md",
