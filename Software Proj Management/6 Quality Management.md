@@ -58,4 +58,22 @@ Rule of Seven：在平均值上或者下连续7个点，也视为异常
 # Perform Quality Assurance
 ## Output
 Change Requests
-## Quality Management and Control Tools
+## TT
+### Quality Management and Control Tools
+#### Affinity diagrams
+#### Activity network diagrams
+#### Tree diagrams
+#### Matrix diagrams
+#### Prioritization matrices
+#### Process decision program charts (PDPC)
+#### Interrelationship diagraphs
+# Control Quality
+## TT
+Seven basic quality tools
+## Output
+Verified deliverables
+## Control Quality VS Quality Assurance
+#test 
+CQ 主要在执行时
+QA 主要在执行前（计划）
+# Software quality management
