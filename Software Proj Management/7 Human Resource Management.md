@@ -24,3 +24,10 @@ Ground rules
 Co-location
 Interpersonal Skills
 Team-buildingactivities
+## Tuckman Ladder
+#test 
+1. Forming（刚认识，independent）
+2. Storming（震荡期，）
+3. Norming（开始正常工作）
+4. Performing（工作很好）
+5. Adjourning（工作完成）
