@@ -16,3 +16,11 @@ Negotiation
 Acquisition
 Virtual Teams
 Multi-Criteria Decision Analysis
+# Develop Project Team
+## TT
+Recognition and rewards
+Training
+Ground rules
+Co-location
+Interpersonal Skills
+Team-buildingactivities
