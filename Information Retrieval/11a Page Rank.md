@@ -27,3 +27,40 @@ A document will tend to have a high PageRank score if:
 ![](assets/11a%20Page%20Rank/file-20260601162940252.png)
 A and B are **backlinks** of C
 A and B **have outlinks** to C
+
+high PageRank：
+- Many backlinks 
+- Backlinks with high PageRank
+## Simplified Version
+$$
+R(u) = \sum_{v \in B_u} \frac{R(v)}{N_v}
+$$
+- R(u) is the PageRank score for document u. 
+- Bu is the set of **all backlinks** of document u. 
+- R(v) is the PageRank score for document v. 
+- Nv is the number of **outlinks** in document v.
+
+> Example
+
+![](assets/11a%20Page%20Rank/file-20260601164230376.png)
+
+> Question: where does the initial PageRank come from?
+
+we can give an **arbitrary score** to every document
+
+These **continue to be recalculated** until the **scores converge** (i.e. calculating again **does not change** the scores, or changes them **very little**)
+
+## rank sink
+
+which refers to a group of pages that have at least one backlink and link to one another, but do **not link** to anywhere else **outside** the group
+![](assets/11a%20Page%20Rank/file-20260601165413442.png)
+
+### Combating Rank Sinks
+$$
+R(u) = (1-d) + d \times \sum_{v \in B_u} \frac{R(v)}{N_v}
+$$
+damping factor (d), which ensures that **not all of a document**’s PageRank is passed on **via its outlinks**
+## No Backlinks
+a document with no backlinks would have a PageRank of **zero**
+
+With the **modified formula**, a document with no backlinks has a PageRank of **(1-d)** to contribute to the documents it links to.
