@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Retrieval/11a Page Rank.md",
+                "file": "Information Retrieval/12a Web Crawling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11a Page Rank"
+              "title": "12a Web Crawling"
             }
           }
         ]
@@ -193,12 +193,14 @@
   },
   "active": "1e3841cdcb9dd1ed",
   "lastOpenFiles": [
+    "Information Retrieval/11a Page Rank.md",
+    "Information Retrieval/12a Web Crawling.md",
+    "assets/11a Page Rank/file-20260601171723839.jpg",
     "assets/11a Page Rank/file-20260601165413442.png",
     "assets/11a Page Rank/file-20260601164230376.png",
     "assets/11a Page Rank/file-20260601162940252.png",
     "assets/11a Page Rank",
     "Software Proj Management/8 Plan Risk Management.md",
-    "Information Retrieval/11a Page Rank.md",
     "Software Proj Management/7 Human Resource Management.md",
     "Software Proj Management/6 Quality Management.md",
     "Information Retrieval/5a BM25 Model.md",
@@ -229,8 +231,6 @@
     "assets/10b Probability Based Fusion/file-20260518220747515.png",
     "assets/10b Probability Based Fusion/file-20260518220234663.png",
     "assets/10b Probability Based Fusion",
-    "assets/10a Fusion Score Based/file-20260518211328689.png",
-    "assets/10a Fusion Score Based/file-20260518210900920.png",
     "assets/10a Fusion Score Based",
     "assets/5 Cost Management",
     "未命名.base",

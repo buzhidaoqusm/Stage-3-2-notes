@@ -65,3 +65,7 @@ a document with no backlinks would have a PageRank of **zero**
 
 With the **modified formula**, a document with no backlinks has a PageRank of **(1-d)** to contribute to the documents it links to.
 
+![](assets/11a%20Page%20Rank/file-20260601171723839.jpg)
+
+Brin and Page were using a database of 322 million links and believed that the convergence had reached a reasonable level after 52 iterations.
+Doubling the size of the document collection does not double the time taken to converge.
