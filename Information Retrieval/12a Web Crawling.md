@@ -37,3 +37,19 @@ Allow one bot
 ## noindex and nofollow
 Ignore pages that have `<meta name="robots" content="noindex" />`
 # Challenge
+In many cases, there may be **several ways** to find the **same** page, using different URLs. This can affect results because of duplication, but also it can affect PageRank results
+
+> Non-static documents
+
+dynamic environment
+New pages are **added constantly**, and many existing pages may change **frequently**.
+it must still be revisited so the index does not get out-of-date
+
+there are **huge** numbers of pages that are essentially **static**
+A policy must be implemented that **decides** which pages should be **reindexed**
+
+> CAPTCHA
+
+A CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is typically an image containing text that computers find difficult to read
+
+steam人机验证
