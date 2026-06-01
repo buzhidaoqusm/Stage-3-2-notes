@@ -19,3 +19,21 @@ Identifying who they are and who they belong to (“Googlebot”, “Baiduspider
 ## The Robots Exclusion Standard
 a method of asking web crawlers **not to index certain portions** of a web site.
 It is a voluntary standard（无法强制阻止）
+### robots.txt
+```
+Robots Exclusion Rules 
+	User-agent: * 
+	Disallow: /cgi-bin/ 
+	Disallow: /tmp/ 
+	Disallow: /~joe/ 
+
+Allow one bot 
+	User-agent: Googlebot 
+	Disallow: 
+	
+	User-agent: 
+	* Disallow: /
+```
+## noindex and nofollow
+Ignore pages that have `<meta name="robots" content="noindex" />`
+# Challenge
