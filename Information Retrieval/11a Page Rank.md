@@ -64,3 +64,4 @@ damping factor (d), which ensures that **not all of a document**’s PageRank is
 a document with no backlinks would have a PageRank of **zero**
 
 With the **modified formula**, a document with no backlinks has a PageRank of **(1-d)** to contribute to the documents it links to.
+
