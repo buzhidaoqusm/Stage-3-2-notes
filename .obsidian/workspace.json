@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,7 +191,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "98569110b24ae44d",
+  "active": "85e9b2e50a562d93",
   "lastOpenFiles": [
     "Software Proj Management/7 Human Resource Management.md",
     "Software Proj Management/8 Plan Risk Management.md",

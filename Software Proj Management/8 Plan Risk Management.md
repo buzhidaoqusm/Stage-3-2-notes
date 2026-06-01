@@ -25,4 +25,16 @@ Risk Register （记录风险）
 # PerformQuantitative RiskAnalysis
 #exam EMV
 ## Expected monetary value analysis
-
+# Plan Risk Response
+## Strategy
+#test 
+降低负面的
+1. Avoid
+2. Mitigate
+3. Transfer
+4. Accept
+增加积极的
+5. Exploit
+6. Enhance
+7. Share
+8. Accept
