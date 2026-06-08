@@ -8,3 +8,12 @@
 - "Needless Repetition: Copy-paste instead of abstraction."
 
 # Separation of Concerns & Information Hiding
+Separation of Concerns: Each part addresses a separate concern
+A concern = any piece of interest or focus
+Separate concerns -> independent change
+
+Information Hiding: Each module hides a design decision
+Public interface reveals WHAT, hides HOW
+
+How They Connect:
+SoC decides WHERE to draw boundaries. Information Hiding decides WHAT to expose at each boundary
