@@ -165,12 +165,13 @@ MVC enables independent UI evolution, parallel development, and testability
 ## Data-Centered
 ### Repository & Blackboard
 Repository Pattern 
-- Central data structure + independent components 
+- **Central data structure** + independent **components** 
 - Two trigger types: Database (input transactions) vs Blackboard (data state) 
 e.g. Windows Registry, IDEs, Redis, Git 
+
 Blackboard Pattern 
-- When no algorithm exists — KS collaborate via shared state 
-- Controller monitors state, selects knowledge source 
+- When no algorithm exists — KS（Knowledge Sources） collaborate via shared state 
+- Controller **monitors state**, selects knowledge source 
 - Condition-action: "if X, I can add Y" 
 e.g. HEARSAY-II, LLM agent architectures
 ## Virtual Machine
@@ -186,6 +187,11 @@ Rule-Based System
 - Inference engine matches facts vs rules 
 - Knowledge Base + Working Memory 
 - Cycle: match → select → fire → repeat
+
+Advantages:
+- Portability, flexibility, simulate non-native functionality, run code anywhere
+Disadvantages:
+- Slower than native code, added complexity, rule conflicts at scale
 # Classical Styles
 | Style              | Key Components       | Key Connectors     | Best For                    |
 |-------------------|-------------------|-----------------|-----------------------------|
