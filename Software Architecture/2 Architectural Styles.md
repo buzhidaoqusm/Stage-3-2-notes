@@ -25,6 +25,15 @@ Filter Operations
 Filter Types: 
 - Active (pull/push data) 
 - Passive (data-driven)
+Advantages 
+- High cohesion, low coupling 
+- Filters are reusable across pipelines 
+- Supports concurrent execution 
+- Easy to extend with new filters
+Disadvantages 
+- Not suitable for interactive applications 
+- Format conversion overhead between filters 
+- Not appropriate for large shared data
 ### Batch Sequential vs Pipe-and-Filter
 #exam 
 
@@ -41,22 +50,31 @@ Implicit Invocation
 - One-to-many communication
 - Event-based trigger 
 - Asynchronous by nature
-
-| 类型              | 有没有中间调度器(Dispatcher) | 典型形式             |
-| --------------- | -------------------- | ---------------- |
-| No Dispatcher   | 没有                   | Observer Pattern |
-| With Dispatcher | 有                    | P2P / Pub/Sub    |
+Advantages 
+- Decoupled functionality — separate concerns 
+- Easy replacement and addition of handlers 
+- Fault isolation — one handler fails, others continue 
+- High reuse potential across systems
+Disadvantages 
+- Dispatcher: SPOF, bottleneck, simultaneous inputs 
+- No guarantee event will be treated 
+- Components give up control of computation 
+- Correctness harder to guarantee (event storms)
 ### P2P vs Pub/Sub
 #exam 
-Point-to-Point (Message Queue)
+Point-to-Point (Message Queue)一个消息只发给一个人
 - Only **ONE consumer** receives each message 
-- **Message deleted** after consumption 
+- Message **deleted after consumption** 
 - e.g. Meituan: one rider per order
 
-Publish-Subscribe (Topic)
+Publish-Subscribe (**Topic**)一个消息会发给所有的订阅者
 - ALL subscribers receive every message 
 - Message **deleted on expiry**, not consumption 
 - e.g. stock price feeds to all traders
+
+股票交易平台要同时用两种方式
+股票价格：用 Pub/Sub，因为价格变化应该让所有交易者都知道。
+买卖订单：用 P2P，因为一个买入订单只能由一个 broker 执行
 ## Call/Return
 ### Layered Architecture
 #exam 
