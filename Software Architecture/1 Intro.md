@@ -21,6 +21,7 @@ but all agree: architecture = the highest level of abstraction, defining compone
 - Constraints: Rules governing composition.
 - SA Design = Decomposition + Composition.
 # Functional vs. Non-Functional Properties
+#exam 为什么架构对于质量属性非常重要：好的架构更容易满足质量属性，分层架构提高可修改性等等。坏架构的紧耦合可能损害可修改性。
 Non-Functional (Quality Attributes)
 How WELL the system does it
 - Performance — response time, throughput 
@@ -29,6 +30,13 @@ How WELL the system does it
 - Modifiability — ease of change
 
 Architecture has MORE impact on non-functional properties than functional ones
+# Framework vs. Architecture
+#exam 哪个是架构，而不是coding decision
+- "Architecture: Abstract design decisions."
+- "Architecture: Defines structure and relationships."
+- "Framework: Concrete implementation of architecture."
+- "Framework: Language/platform specific."
+- "Example: 'MVC pattern' / Example: Spring, Django, .NET."
 # Influences on the Architecture
 #exam 
 memorize the chain 'influences → requirements/qualities → architect → architecture → system'.
