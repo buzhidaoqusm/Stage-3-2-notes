@@ -13,3 +13,14 @@
 - "Five 9s."
 - "SLI, SLO, SLA." service level indicator/objctive/agreement
 # Modifiability
+Limit Scope of Modification
+- **Reduce Coupling**: Use intermediary, Restrict dependencies (Facade) 
+- **Encapsulate**: Info hiding, Maintain existing interfaces 
+- Increase **Cohesion**: Semantic coherence, Abstract common services 
+- **Name Server** (名称服务器): resolve location dependencies
+Delay Binding Time
+- **Runtime config**: Configuration files (XML, .ini), Feature flags 
+- Component **replacement**, Polymorphism, Runtime registration 
+- On-**Demand Loading** (按需加载): create instances only when needed 
+- **Publish-subscribe**, Interpreter, Name server
+# Performance
