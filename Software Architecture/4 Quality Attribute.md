@@ -41,3 +41,34 @@ CIA Triad (CIA三元组) — Confidentiality, Integrity, Availability
 **Assurance**: Info reaches destination 
 **Availability**: Survives attacks ← CIA 
 **Auditing**: Actions logged
+
+Resist Attacks: Authentication, Authorization, Data confidentiality (HTTPS/TLS), Data integrity
+Detect Attacks: Intrusion detection (IDS/IPS), SIEM, continuous monitoring
+Recover from Attacks: Restore state, Attacker identification, Forensic analysis
+# Usability
+Onboarding: How quickly new users learn 
+Efficiency: Speed for experienced users 
+Error Tolerance: Handles user mistakes 
+Adaptability: Users can customize 
+Confidence: User feels in control
+
+Runtime Tactics 
+- Anticipate user tasks (auto-complete, suggestions) 
+- Provide feedback (progress bars, status) 
+- Maintain consistent experience
+
+Design-Time Tactics 
+- Support undo (recycle bin, multi-step undo) 
+- MVC: separate Model, View, Controller 
+- UI changes don't affect business logic
+# Testability
+Finding Bugs Before Users Do
+
+Black-Box Testing 
+- Record/replay for regression 
+- Separate interfaces from implementation 
+- Controlled input → observable output 
+White-Box Testing 
+- Internal monitoring (IDE debugging) 
+- Breakpoints, step-through, inspection 
+- Specialized tools (WinDbg, Stetho)
