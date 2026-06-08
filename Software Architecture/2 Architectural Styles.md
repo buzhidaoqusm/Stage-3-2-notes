@@ -28,12 +28,12 @@ Filter Types:
 ### Batch Sequential vs Pipe-and-Filter
 #exam 
 
-| Criterion | Batch Sequential | Pipe-and-Filter |
-|---|---|---|
-| Granularity | Total (coarse, 粗粒度) | Incremental (fine, 细粒度) |
-| Latency | High latency (高延迟) | Can be real-time (可实时处理) |
-| Concurrency | No concurrency possible | Concurrency possible (可并发) |
-| Data Transfer | Whole dataset (整体传输) | Stream/tokens (流式传输) |
+| Criterion     | Batch Sequential        | Pipe-and-Filter            |
+| ------------- | ----------------------- | -------------------------- |
+| Granularity   | Total (coarse, 粗粒度)     | Incremental (fine, 细粒度)    |
+| Latency       | High latency (高延迟)      | Can be real-time (可实时处理)   |
+| Concurrency   | No concurrency possible | Concurrency possible (可并发) |
+| Data Transfer | Whole dataset (整体传输)    | Stream/tokens (流式传输)       |
 ## Event System
 ### Dispatch, Observer & Pros/Cons
 Implicit Invocation 
