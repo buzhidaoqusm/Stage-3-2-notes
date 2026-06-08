@@ -103,6 +103,8 @@ Middleware Layer
 Operating System
 Hardware
 
+Each layer serves the one **above**
+
 Advantages 
 - **High cohesion** within layers 
 - **Implementation hiding** 
