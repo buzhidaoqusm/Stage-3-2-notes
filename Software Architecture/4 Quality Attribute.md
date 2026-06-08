@@ -28,3 +28,7 @@ Response Measures (响应指标)
 - Time to process (search in 0.63s) 
 - Events/unit time — TPS (540K txn/sec) 
 - Error/loss rate under high load
+
+Response Time vs Throughput trade-off - optimizing one may degrade the other
+Processing time = Acquiring resources + Using resources
+Resource Demand; Resource Management; Resource Arbitration
