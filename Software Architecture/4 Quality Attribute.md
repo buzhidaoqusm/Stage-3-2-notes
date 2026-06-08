@@ -24,3 +24,7 @@ Delay Binding Time
 - On-**Demand Loading** (按需加载): create instances only when needed 
 - **Publish-subscribe**, Interpreter, Name server
 # Performance
+Response Measures (响应指标) 
+- Time to process (search in 0.63s) 
+- Events/unit time — TPS (540K txn/sec) 
+- Error/loss rate under high load
