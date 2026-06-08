@@ -32,3 +32,12 @@ Response Measures (响应指标)
 Response Time vs Throughput trade-off - optimizing one may degrade the other
 Processing time = Acquiring resources + Using resources
 Resource Demand; Resource Management; Resource Arbitration
+# Security
+CIA Triad (CIA三元组) — Confidentiality, Integrity, Availability
+
+**Non-repudiation**: No one can deny actions 
+**Confidentiality**: Authorized access only ← CIA 
+**Integrity**: Data not tampered ← CIA 
+**Assurance**: Info reaches destination 
+**Availability**: Survives attacks ← CIA 
+**Auditing**: Actions logged
