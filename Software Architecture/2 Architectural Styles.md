@@ -1,13 +1,14 @@
 # What Is an Architectural Style?
-Architecture Style =  Component/Connector vocabulary, Topology, Semantic Constraints 
+#exam 填空题
+Architecture Style =  **Component**/Connector vocabulary, **Topology**, Semantic **Constraints** 
 # Five Classical Style Families
 ## Data Flow
 ### Batch Sequential
 Read All Records ➡ Process All ➡ Generate Outputs
 
 Characteristics 
-- Components: independent programs 
-- Connectors: files / media 
+- **Components**: independent programs 
+- **Connectors**: files / media 
 - Entire dataset per step 
 - No concurrency 
 - High latency, simple logic

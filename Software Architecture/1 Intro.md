@@ -38,5 +38,21 @@ Architecture has MORE impact on non-functional properties than functional ones
 - "Framework: Language/platform specific."
 - "Example: 'MVC pattern' / Example: Spring, Django, .NET."
 # Influences on the Architecture
+架构是怎么产生的
 #exam 
 memorize the chain 'influences → requirements/qualities → architect → architecture → system'.
+
+```
+Stakeholders
+Developing Organization
+Technical Environment
+Architect Experience
+        ↓
+Requirements + Quality Attributes
+        ↓
+Architect
+        ↓
+Architecture
+        ↓
+System
+```
