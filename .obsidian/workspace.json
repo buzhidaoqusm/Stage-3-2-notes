@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Architecture/4 Quality Attribute.md",
+                "file": "Software Architecture/5 Architectural Design Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Quality Attribute"
+              "title": "5 Architectural Design Principles"
             }
           }
         ]
@@ -193,11 +193,12 @@
   },
   "active": "1e3841cdcb9dd1ed",
   "lastOpenFiles": [
+    "Software Architecture/4 Quality Attribute.md",
+    "Software Architecture/5 Architectural Design Principles.md",
     "assets/4 Quality Attribute/file-20260608211255625.png",
     "assets/4 Quality Attribute/file-20260608211054669.png",
     "assets/4 Quality Attribute",
     "Software Architecture/3 Architecture Description.md",
-    "Software Architecture/4 Quality Attribute.md",
     "assets/3 Architecture Description/file-20260608194922986.png",
     "assets/3 Architecture Description/file-20260608194845880.png",
     "assets/3 Architecture Description/file-20260608194819436.png",
@@ -212,7 +213,6 @@
     "Software Proj Management/4 Time Management.md",
     "Software Proj Management/8 Plan Risk Management.md",
     "Information Retrieval/12b Adversarial Information Retrieval.md",
-    "assets/12b Adversarial Information Retrieval/file-20260601204403952.png",
     "assets/12b Adversarial Information Retrieval",
     "Information Retrieval/12a Web Crawling.md",
     "Information Retrieval/11a Page Rank.md",
