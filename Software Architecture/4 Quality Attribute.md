@@ -5,6 +5,7 @@
 - "**Environment**: System state."
 - "**Response**: What system does."
 - "**Response** Measure: Quantifiable metric."
+![](assets/4%20Quality%20Attribute/file-20260608211054669.png)
 # Availability
 - "Availability: **Fault Detection, Fault Recovery, Fault Avoidance**."
 - Detection: "Ping/Echo, Heartbeat, Exceptions."
@@ -31,7 +32,18 @@ Response Measures (响应指标)
 
 Response Time vs Throughput trade-off - optimizing one may degrade the other
 Processing time = Acquiring resources + Using resources
-Resource Demand; Resource Management; Resource Arbitration
+Resource Demand
+- Efficient algorithms
+Resource Management
+- Concurrency (multi-thread/core) 
+- Increase resources (vertical/horiz.) 
+- Maintain multiple data copies 
+- Cloud auto-scaling, CDN
+Resource Arbitration
+- FIFO (first in first out) 
+- Fixed priority (military lanes) 
+- Dynamic priority (no starvation)
+- Earliest deadline first (ER triage)
 # Security
 CIA Triad (CIA三元组) — Confidentiality, Integrity, Availability
 
@@ -61,6 +73,14 @@ Design-Time Tactics
 - Support undo (recycle bin, multi-step undo) 
 - MVC: separate Model, View, Controller 
 - UI changes don't affect business logic
+
+Usability Scenario Example (易用性场景示例) 
+Source: End user (新用户) 
+Stimulus: New user opens app for first time 
+Artifact: User interface 
+Env: Normal operation 
+Response: User completes core task within 5 min without help 
+Measure: Time to task completion, error rate
 # Testability
 Finding Bugs Before Users Do
 
@@ -72,3 +92,5 @@ White-Box Testing
 - Internal monitoring (IDE debugging) 
 - Breakpoints, step-through, inspection 
 - Specialized tools (WinDbg, Stetho)
+# Summary
+![](assets/4%20Quality%20Attribute/file-20260608211255625.png)
