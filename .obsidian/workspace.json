@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Proj Management/4 Time Management.md",
+                "file": "Software Architecture/1 Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Time Management"
+              "title": "1 Intro"
             }
           }
         ]
@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 359.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,6 +193,7 @@
   },
   "active": "1e3841cdcb9dd1ed",
   "lastOpenFiles": [
+    "Software Proj Management/4 Time Management.md",
     "Software Proj Management/8 Plan Risk Management.md",
     "Information Retrieval/12b Adversarial Information Retrieval.md",
     "assets/12b Adversarial Information Retrieval/file-20260601204403952.png",
@@ -206,7 +208,6 @@
     "Software Proj Management/7 Human Resource Management.md",
     "Software Proj Management/6 Quality Management.md",
     "Information Retrieval/5a BM25 Model.md",
-    "Software Proj Management/4 Time Management.md",
     "Software Proj Management/3 Scope Management.md",
     "Software Proj Management/2 Integration Management.md",
     "System Des & Verification/5 Bounded Linear Search.md",
