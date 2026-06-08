@@ -76,6 +76,26 @@ Publish-Subscribe (**Topic**)一个消息会发给所有的订阅者
 股票价格：用 Pub/Sub，因为价格变化应该让所有交易者都知道。
 买卖订单：用 P2P，因为一个买入订单只能由一个 broker 执行
 ## Call/Return
+### Main/Sub & Object-Oriented
+主程序调用子程序，Object调用method
+Main/Subroutine Style 
+Hierarchical decomposition through procedure calls 
+- Single thread of control, call-and-return semantics 
+- Components: procedures + visible data 
+- Connectors: procedure calls + data sharing 
+- Parnas: each module should hide secrets
+
+Object-Oriented Style 
+- Encapsulation — restrict internal state access 
+- Interaction — via method calls (message passing) 
+- Polymorphism — runtime method dispatch 
+- Inheritance — shared functionality
+
+Four OO Problems at Scale 
+- God Object — managing too many objects creates a vast "sea of objects" needing hierarchical structuring 
+- Excessive Coupling — single interface becomes limiting; many interactions are hard to manage 
+- Distributed Difficulty — OO objects hard to distribute across nodes; behavior is spread across many objects 
+- Message Passing Overhead — method invocation overhead at scale; types/classes not enough for design families
 ### Layered Architecture
 #exam 
 Application Layer 
@@ -89,7 +109,7 @@ Advantages
 - **Coupling constrained** to adjacent layers 
 - Layers **replaceable** independently 
 **Variants** & Related 
-- Strict: use only layer directly below 
+- Strict: **use** only layer directly **below** 
 - Relaxed: use any layer below (better perf) 
 - **Client/Server: 2-tier → 3-tier → B/S** 
 - **Clean Arch / Hexagonal / Ports & Adapters** 
@@ -199,8 +219,8 @@ Rule-Based System
 | Pipe-and-Filter                         | Filters                                                                                        | Pipes (streams)                                     | **High cohesion**, **low coupling**; Filters are **reusable** across pipelines; Supports **concurrent** execution; **Easy to extend** with new filters; Can be **real-time**; **Stream**/tokens   | Not suitable for **interactive** applications; **Format conversion overhead** between filters; Not appropriate for **large shared data**                                                                 |
 | Event System (Observer / Pub-Sub / P2P) | Sources / Handlers; Observable / Observer                                                      | Event bindings                                      | **Decoupled functionality** – separate concerns; **Easy replacement** and addition of handlers; **Fault isolation** – one handler fails, others continue; **High reuse** potential across systems | Dispatcher: **SPOF**, bottleneck, simultaneous inputs; **No guarantee** **event** will be **treated**; Components **give up control** of computation; Correctness harder to guarantee (**event storms**) |
 | Main/Subroutine                         | Procedures + visible data                                                                      | Procedure calls + data sharing                      | Single thread of control; Call-and-return semantics; Modules hide secrets                                                                                                                         | Not explicitly stated; large systems require additional structuring                                                                                                                                      |
-| Object-Oriented                         | Objects                                                                                        | Method calls (message passing)                      | Encapsulation; Polymorphism; Inheritance                                                                                                                                                          | God Object; Excessive Coupling; Distributed Difficulty; Message Passing Overhead                                                                                                                         |
-| Layered                                 | Layer composites                                                                               | Restricted calls                                    | High cohesion within layers; Implementation hiding; Coupling constrained to adjacent layers; Layers replaceable independently                                                                     | Strict layering may reduce performance                                                                                                                                                                   |
+| Object-Oriented                         | Objects                                                                                        | Method calls (message passing)                      | Encapsulation; Interaction; Polymorphism; Inheritance                                                                                                                                             | God Object; Excessive Coupling; Distributed Difficulty; Message Passing Overhead                                                                                                                         |
+| Layered                                 | Layer composites                                                                               | Restricted calls                                    | **High cohesion** within layers; **Implementation hiding**; **Coupling constrained** to adjacent layers; **Layers replaceable** independently                                                     | Strict layering may **reduce performance**                                                                                                                                                               |
 | MVC                                     | Model, View, Controller                                                                        | Controller calls Model methods; Model notifies View | Separation of Concerns; Independent UI evolution; Parallel development; Testability                                                                                                               | Not explicitly stated                                                                                                                                                                                    |
 | Client/Server                           | Clients / Servers                                                                              | Network protocols                                   | Better performance & scalability; Centralized security; Parallel development of tiers                                                                                                             | Bloated client software (2-tier); Direct DB access → security risk; Maintenance nightmare; Server load heavy; Security harder to control                                                                 |
 | Repository                              | Central data structure + independent components                                                | Data access                                         | Central data structure; Independent components                                                                                                                                                    | Data format change affects all modules; Hard to enhance or reuse                                                                                                                                         |
