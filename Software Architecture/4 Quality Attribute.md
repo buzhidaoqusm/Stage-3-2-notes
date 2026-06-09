@@ -14,7 +14,7 @@
 - "Five 9s."
 - "SLI, SLO, SLA." service level indicator/objctive/agreement
 # Modifiability
-Limit Scope of Modification
+**Limit Scope** of Modification
 - **Reduce Coupling**: Use intermediary, Restrict dependencies (Facade) 
 - **Encapsulate**: Info hiding, Maintain existing interfaces 
 - Increase **Cohesion**: Semantic coherence, Abstract common services 
