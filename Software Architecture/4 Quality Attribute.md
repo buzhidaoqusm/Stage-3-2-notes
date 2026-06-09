@@ -4,7 +4,7 @@
 - "**Artifact**: System part affected."
 - "**Environment**: System state."
 - "**Response**: What system does."
-- "**Response** Measure: Quantifiable metric."
+- "**Response** **Measure**: Quantifiable metric."
 ![](assets/4%20Quality%20Attribute/file-20260608211054669.png)
 # Availability
 - "Availability: **Fault Detection, Fault Recovery, Fault Avoidance**."
