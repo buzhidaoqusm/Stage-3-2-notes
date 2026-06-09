@@ -193,18 +193,18 @@ Advantages:
 Disadvantages:
 - Slower than native code, added complexity, rule conflicts at scale
 # Classical Styles
-| Style              | Key Components       | Key Connectors     | Best For                    |
-|-------------------|-------------------|-----------------|-----------------------------|
-| Batch Sequential   | Programs           | Files/media      | Overnight batch, ETL        |
-| Pipe-and-Filter    | Filters            | Pipes (streams)  | Compilers, data pipelines   |
-| Event System       | Sources/handlers   | Event bindings   | GUIs, reactive systems      |
-| Main/Sub & OO      | Procedures/objects | Calls/methods    | Business logic, CRUD        |
-| Layered            | Layer composites   | Restricted calls | Service hierarchies         |
-| Client/Server      | Clients/servers    | Network protocols| Distributed multi-user      |
-| Repository         | Central data+comp  | Data access      | IDEs, databases             |
-| Blackboard         | BB, KS, controller | Read/write       | AI, speech, diagnosis       |
-| Interpreter        | Engine + memories  | Data access      | JVM, Wasm, Docker           |
-| Rule-Based         | KB, inference eng  | Rule matching    | Expert systems, OPA         |
+| Style            | Key Components     | Key Connectors    | Best For                  |
+| ---------------- | ------------------ | ----------------- | ------------------------- |
+| Batch Sequential | Programs           | Files/media       | Overnight batch, ETL      |
+| Pipe-and-Filter  | Filters            | Pipes (streams)   | Compilers, data pipelines |
+| Event System     | Sources/handlers   | Event bindings    | GUIs, reactive systems    |
+| Main/Sub & OO    | Procedures/objects | Calls/methods     | Business logic, CRUD      |
+| Layered          | Layer composites   | Restricted calls  | Service hierarchies       |
+| Client/Server    | Clients/servers    | Network protocols | Distributed multi-user    |
+| Repository       | Central data+comp  | Data access       | IDEs, databases           |
+| Blackboard       | BB, KS, controller | Read/write        | AI, speech, diagnosis     |
+| Interpreter      | Engine + memories  | Data access       | JVM, Wasm, Docker         |
+| Rule-Based       | KB, inference eng  | Rule matching     | Expert systems, OPA       |
 
 # Modern Style
 | Modern Style        | Key Components          | Key Connectors              | Best For                     |
