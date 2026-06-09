@@ -7,6 +7,12 @@
 ![](assets/3%20Architecture%20Description/file-20260608194551403.png)
 
 ![](assets/3%20Architecture%20Description/file-20260608194551420.png)
+Dependency
+- 一个对象将另一个对象作为字段/属性
+Aggregation (implies “has-a” or “part-whole”)
+- Team ◇── Player（空心菱形连在弱整体-部分，球员不因为球队解散就“消失”）
+Composition (implies “ownership”)
+- Car ◼── Engine(实心菱形连在强所有权的一方。车没了，发动机也没了)
 ## Sequence diagram
 ![](assets/3%20Architecture%20Description/file-20260608194728529.png)
 ## State Diagram
