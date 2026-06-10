@@ -31,7 +31,7 @@ Low coupling + High cohesion = Well-designed module
 一个类一个职责
 A class should have only one reason to change.
 SRP reduces change ripple by isolating responsibilities that evolve independently
-## Open Closed Principle
+## O — Open Closed Principle
 画图形：需要画一个新的形状时，只需Implement shape。而不用if shape == XX
 Open for extension, closed for modification
 ![](assets/5%20Architectural%20Design%20Principles/file-20260608220629294.png)

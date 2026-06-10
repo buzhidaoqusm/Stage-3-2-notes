@@ -6,7 +6,7 @@
 2. Stakeholder Communication
 	- Architecture is the shared language between users, developers, managers, and customers.
 3. **Early Design Decisions**
-	- Architectural choices constrain all downstream implementation — they are the hardest to change later.
+	- **Architectural** choices **constrain** all downstream **implementation** — they are the hardest to change later.
 4. Reuse of Architectural Knowledge
 	- Proven patterns (MVC, microservices, pipe-and-filter) encode decades of collective experience.
 5. Risk Reduction
