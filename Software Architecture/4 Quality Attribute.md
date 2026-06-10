@@ -87,10 +87,10 @@ Measure: Time to task completion, error rate
 Finding Bugs Before Users Do
 
 **Black-Box** Testing （不看系统内部代码怎么写，只看输入和输出是否正确）
-- Record/replay for regression 
+- **Record/replay** for regression 
 - Separate interfaces from implementation 
 - Controlled input → observable output 
-**White-Box** Testing 
+**White-Box** Testing （看系统内部代码、逻辑、分支和执行路径，检查里面有没有问题）
 - Internal monitoring (IDE debugging) 
 - Breakpoints, step-through, inspection 
 - Specialized tools (WinDbg, Stetho)
