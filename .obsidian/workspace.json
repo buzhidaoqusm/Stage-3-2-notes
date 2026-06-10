@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Architecture/4 Quality Attribute.md",
+                "file": "Software Architecture/5 Architectural Design Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Quality Attribute"
+              "title": "5 Architectural Design Principles"
             }
           }
         ]
@@ -191,8 +191,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "1e3841cdcb9dd1ed",
+  "active": "85e9b2e50a562d93",
   "lastOpenFiles": [
+    "assets.zip",
+    "Software Architecture/4 Quality Attribute.md",
     "Software Architecture/3 Architecture Description.md",
     "Software Architecture/2 Architectural Styles.md",
     "Software Architecture/1 Intro.md",
@@ -202,7 +204,6 @@
     "assets/5 Architectural Design Principles/file-20260608220755462.png",
     "assets/5 Architectural Design Principles/file-20260608220629294.png",
     "assets/5 Architectural Design Principles",
-    "Software Architecture/4 Quality Attribute.md",
     "assets/4 Quality Attribute/file-20260608211255625.png",
     "assets/4 Quality Attribute/file-20260608211054669.png",
     "assets/4 Quality Attribute",
