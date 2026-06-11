@@ -1,3 +1,56 @@
-.obsidian/workspace
-.vscode/
+# ============================
+# Obsidian 应用配置 (设备相关，不同步)
+# ============================
+
+# 工作区状态 - 每台设备不同，由 Obsidian 自动管理
 .obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# ============================
+# Claude Code / Claudian (仅桌面端)
+# ============================
+.claude/
+.claudian/
+
+# ============================
+# 编辑器 / IDE
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================
+# 操作系统临时文件
+# ============================
+# Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# macOS
+.DS_Store
+._*
+
+# Linux
+.directory
+
+# ============================
+# Obsidian 临时 / 缓存
+# ============================
+.trash/
+.obsidian/.trash
+
+# ============================
+# 大型二进制文件 (按需取消注释)
+# ============================
+# 如果仓库体积过大，可取消注释以下规则
+# *.pdf
+# *.pptx
+# *.docx
+# *.xlsx
+# *.zip
+# *.rar
+# *.mp4
+# *.mov
