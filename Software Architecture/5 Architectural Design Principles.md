@@ -48,6 +48,7 @@ Clients should not depend on methods they do not use.
 ![](assets/5%20Architectural%20Design%20Principles/file-20260608221408803.png)
 
 ## D — Dependency Inversion Principle
+高层使用低层  ->  高层继承接口，接口使用低层
 High-level modules should not depend on low-level modules. Both depend on abstractions.
 
 ![](assets/5%20Architectural%20Design%20Principles/file-20260608221736530.png)
