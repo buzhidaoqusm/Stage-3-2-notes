@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Architecture/2 Architectural Styles.md",
+                "file": "Software Architecture/1 Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Architectural Styles"
+              "title": "1 Intro"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Architecture/2 Architectural Styles.md",
+                "file": "Software Architecture/1 Intro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2 Architectural Styles 的大纲"
+              "title": "1 Intro 的大纲"
             }
           },
           {
@@ -193,11 +193,11 @@
   },
   "active": "1e3841cdcb9dd1ed",
   "lastOpenFiles": [
-    "Software Architecture/1 Intro.md",
     "Software Architecture/5 Architectural Design Principles.md",
     "Software Architecture/4 Quality Attribute.md",
-    "Software Architecture/3 Architecture Description.md",
     "Software Architecture/2 Architectural Styles.md",
+    "Software Architecture/1 Intro.md",
+    "Software Architecture/3 Architecture Description.md",
     "assets.zip",
     "assets/5 Architectural Design Principles/file-20260608221736530.png",
     "assets/5 Architectural Design Principles/file-20260608221408803.png",
