@@ -92,7 +92,7 @@ The key benefit of this process is a central document that **defines the basis o
 	1. Output of the process of “developproject charter”
 2. Outputs from Other Processes
 	1. Any baselines and **subsidiary plans** that are an output from other planning processes 
-3. Enterprise Environmental Factors
+3. **Enterprise Environmental Factors**
 	1. refer to conditions, **not under the control** of the project team, that influence, constrain, or direct the project. 
 	2. are considered **inputs to most** planning processes
 	3. **may enhance or constrain** project management options, and may have a **positive or negative** influence on the outcome
@@ -101,7 +101,7 @@ The key benefit of this process is a central document that **defines the basis o
 		2. Infrastructure 
 		3. Existing human resources 
 		4. Political climate
-4. Organizational Process Assets
+4. **Organizational Process Assets**
 	1. the plans, processes, policies, procedures, and knowledge bases specific to and used by the performing organization. 
 	2. are **inputs to most** planning processes. 
 	3. two categories: 
@@ -113,6 +113,9 @@ The key benefit of this process is a central document that **defines the basis o
 | Affect the project               | plans, processes,policies,procedures, and knowledge bases |
 | Can not be affected              |                                                           |
 | Systems                          |                                                           |
+#test 
+1. Enterprise Environmental Factors are under the contr ol of the project team.（错）
+2. Project management plan is a kind of Organizational Process Assets.（错）
 ## TT(同项目章程)
 Expert Judgment 
 - group or individual with specialized knowledge: 
