@@ -174,6 +174,15 @@ A method used to estimate the **minimum project duration** and determine the **a
 ![](assets/4%20Time%20Management/file-20260512211653293.png)
 
 ### Critical chain method
+#test 
+**Which of the following tools is used for adding buffers to a schedule?**
+A. Three-point estimates  
+B. Critical path analysis  
+C. Expert judgment  
+D. Critical chain method
+
+答案：**D. Critical chain method**
+
 A method that allows the project team to **place buffers** on any project schedule path to account for limited resources and project uncertainties.
 
 It is developed from the **critical path method** approach and considers the **effects of resource allocation, resource optimization, resource leveling**, and **activity duration uncertainty** on the critical path determined using the critical path method
