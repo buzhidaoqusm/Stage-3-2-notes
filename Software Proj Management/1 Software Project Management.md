@@ -6,6 +6,7 @@ Software Project Management is a **system management method** based on software 
 
 ### Project定义
 #exam 大题？project概念
+#test 
 
 A project is a **temporary** endeavor undertaken to create a **unique product**, service, or result
 - **temporary**: a project has a **definite beginning** and **end**.
@@ -32,6 +33,7 @@ Example:
 **Service**:    training 
 **Result** :     research
 ### Project与其他(Ongoing work, Operation)的比较
+#predicted 
 - Ongoing work
 	- a **repetitive** process
 - Project
@@ -59,7 +61,7 @@ Example:
 | **5. Daily cleaning is a project**                             | **不是 project** | 每日清洁是典型的重复性、持续性工作，属于 operation，不是 project。除非是第一次建立清洁流程，或一次性大规模专项清洁，才可能被当成 project。 |
 
 ### Project vs. Programvs. Portfolio
-
+#predicted 
 - **Program** : a **group** of **related projects** managed in a **coordinated way** to obtain benefits and control not available from managing them individually
 	- Related Projects
 		- There are multiple projects that **share something**: **inputs**,budgets, people, etc., often to achieve a larger goal.
@@ -84,8 +86,10 @@ Example:
 # Software Project Management
 ## What is Project Management?
 #exam 应该也是简答题，考概念
+#test 
 Project management is the **application** of **knowledge, skills, tools and techniques** to project activities to meet the project requirements
 ## Five process groups
+#exam 5个过程组和10个知识域也要考，还有ITTO
 - Initiating 
 - Planning 
 - Executing 
@@ -95,13 +99,16 @@ Project management is the **application** of **knowledge, skills, tools and tech
 Integration Management, Scope \ Time \ Quality \ Cost \ Stakeholder \ Communication \ Human Resource \ Procurement \ Risk Management
 ## Project vs. Program vs. Portfolio Management
 **Program management**: the application of knowledge, skills, tools, and techniques to a **program** in order to meet the program requirements and to obtain benefits and control not available by managing projects individually.
-**Portfolio management**: refers to the centralized management of one or more portfolios to achieve strategic objectives.
+**Portfolio management**: refers to the **centralized management** of one or more portfolios to achieve strategic objectives.
 ## Project Manager
+#predicted 
 The person responsible for accomplishing the project objectives
 • Leads the **project team**, Develops/obtains approval for the **Project Management Plan**
 • Ensures the project delivers in accordance with **time, cost, scope, quality constraints**
 • Monitors and controls the **plan activities, risks and issues**. 
 • Ensure **project milestones** are met. Keeps all stakeholders informed of project progress
+
+![](assets/1%20Software%20Project%20Management/file-20260612192024821.png)
 ## Stakeholders
 An **individual, group, or organization** who may **affect, be affected** by, or **perceive itself to be affected** by a decision, activity, or outcome of a **project**
 
@@ -111,10 +118,13 @@ An **individual, group, or organization** who may **affect, be affected** by, or
 Organizational structure is an **enterprise environment factor**, which can affect the availability of resources and influence how projects are conducted.
 
 - Functional organizational structure
+	- 权利在Manager手中，项目经理通常只是协调者，真正控制资源和预算的人是部门经理
 	- ![](assets/1%20Software%20Project%20Management/file-20260425160056685.png)
 - Projectized organizational structure
+	- 权力主要在 Project Manager 手里
 	- ![](assets/1%20Software%20Project%20Management/file-20260425160106061.png)
 - Matrix organizational structure
+	- PM 和部门经理权力相对平衡
 	- It reflects a blend of **functional** and **projectized** characteristics. It can be classifiedas:
 	- weak: ![](assets/1%20Software%20Project%20Management/file-20260425160120116.png)
 	- Strong: ![](assets/1%20Software%20Project%20Management/file-20260425160357666.png)
@@ -123,11 +133,11 @@ Organizational structure is an **enterprise environment factor**, which can affe
 ### Summary
 ![](assets/1%20Software%20Project%20Management/file-20260425160622812.png)
 
-> Example
-
-In the functional organizational structure, the project manager manages the project budget. 
-In the projectized organizational structure, the project manager has high authority.
+#test 
+In the functional organizational structure, the project manager manages the project budget.(错) 
+In the projectized organizational structure, the project manager has high authority.(对)
 ## The Role and Importance of **SPM**
+#predicted 
 - Invisible
 	- SPM: making the invisible visible
 - Complexity
@@ -137,14 +147,25 @@ In the projectized organizational structure, the project manager has high author
 - Flexibility
 	- Software is easy to change
 
+#test 
+A software project is always visible（错）
+### What is Software Project Management?
+#exam 应该是概念题
+Software Project Management is a **system management method** based on **software project**, which uses the relevant **knowledge**, **techniques** and **tools** for **planning, organizing, advising and controlling** each stage of **software project cycle** to achieve the project objectives.
+
 ### Why important
 - Critical to the success of software project
-	- involves a large number of personnel and activities with **schedule and funding constraints** 
+	- involves a large number of personnel and activities with **schedule and funding constraints**
 	- will encounter a variety of **changes, risks and contradictions**
-- Important for improving professional qualities
+- Important for **improving professional qualities**
 	- Adapt to team development
 	- Understand project planning and be qualified for the management job
-## The Main Contentsof SPM
+#test 
+Software project management is important for improving professional qualities（对）
+## The Main Contents of SPM
+#test 
+前两个对应5个过程组
+
 Software DevelopmentLife Cycle
 1. **Requirements Analysis**
 	- Starts with **requirements gathering** which establishes what the potential users and their managers require of the new system. e.g. function, quality
@@ -167,6 +188,7 @@ Software DevelopmentLife Cycle
 > 每个阶段都要遵循五大过程组
 
 ## Project Life Cycle
+#predicted 
 A project life cycle is the **series of phases** that a project passes through **from its initiation to its closure.**
 - Starting the project, 
 - Organizing and preparing, 
@@ -210,30 +232,15 @@ increments **successively add** to the functionality of the product
 ![](assets/1%20Software%20Project%20Management/file-20260425165340668.png)
 That provides an opportunity for **quick and frequent feedback** to keep the project on the right track and to **maximize the business value** that is delivered
 
+#test 
+- Agile model provides an opportunity for quick and frequent feedback to keep the project on the right track. （对）
+- Waterfall model belongs to the Adaptive Life Cycle.（错）
 ## Process
 A process is a set of **interrelated actions** and **activities** performed to create a pre-specified product, service, or result.
 
 Input, Tools&Techniques, Output
 
-Unstructured management -> Structuredmanagement
-# Summary
-- Project: a temporary endeavor undertakentocreatea unique product, service, or result. 
-- Operations, Program, Portfolio 
-- Project Management: the applicationof knowledge,skills, tools, and techniques to project activitiestomeet the project requirements. 
-- Five Process Groups 
-- Ten Knowledge areas 
-- Project Manager
-- Stakeholder 
-- Organizational Structure: 
-	- functional, projectized, matrix(weak, strong, balanced) 
-- Software Project 
-- Software Project Management
-- Software Development Life Cycle 
-- Software Development Life Cycle Models 
-	- Predictive Life Cycles 
-		- Waterfall model 
-	- Incremental Life Cycles 
-	- Iterative Life Cycles 
-	- Adaptive Life Cycles 
-		- Agile model 
-- Process
+Unstructured management -> Structured management
+
+#test 
+Process is able to transform the structured management to unstructured management（对）

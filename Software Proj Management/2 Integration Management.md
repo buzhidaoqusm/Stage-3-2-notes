@@ -193,6 +193,14 @@ data->information->report
 2023.01.01 100W   2023.03.01 -50W   -> data
 # Perform Integrated Change Control
 #exam 项目发生变更，应该怎么做，大题
+- 任何 stakeholder 都可以提出 change request；
+- 变更可以口头提出，但必须 written form 记录；
+- 分析变更对 scope、schedule、cost、quality、risk 的影响；
+- 提交给 responsible individual / CCB 审批；
+- 变更被 approved 或 rejected；
+- 如果 approved，更新 project management plan、project documents、change log；
+- approved change requests 进入 Direct and Manage Project Work 执行。
+
 Perform Integrated Change Control is the process of **reviewin** gall changerequests; **approving** changes and **managing** changes to deliverables, organizational process assets, project documents, and the project management plan; and communicating their disposition. 
 
 The key benefit of this process is that it allows for documented changes within the project to be considered in an integrated fashion while reducing project risk, which often arises from changes made without consideration to the overall project objectives or plans.
@@ -202,7 +210,7 @@ The key benefit of this process is that it allows for documented changes within 
 - Every documented change request needs to be either approved or rejected by  a responsible individual, usually the **project sponsor** or **project manager**. When required, includes a change control board (CCB).
 
 ## Input
-- Project Management Plann 
+- Project Management Plan
 - **Work Performance Reports** (来自上个阶段)
 - **Change Requests** (来自上个阶段)
 - Enterprise Environmental Factorsn 
