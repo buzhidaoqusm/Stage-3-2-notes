@@ -230,7 +230,6 @@ D. Requirements document
 The process of **formalizing acceptance** of the completed project deliverables
 The key benefit of this process is that it brings objectivity to the **acceptance** process and increases the chance of final **product,service**, or **result acceptance** by validating **each deliverable**
 
-input和output的1可能是重点
 ## Input
 1. Project management plan
 2. Requirements documentation
@@ -247,6 +246,12 @@ input和output的1可能是重点
 
 **Control Quality** is generally performed **before** **validate** scope, althoughthetwo processes may be performed in parallel
 # Control Scope
+#test 
+In a software project, a programmer thinks of a way to make a feature better and just implements it, without talking it over with anybody. This situation belongs to: 
+- A、Scope creep 
+- B、Gold plating
+B
+
 The process of **monitoring** the status of the project and product scope and **managing changes** to the scope baseline.
 The key benefit of this process is that it allows the scope baseline to be **maintained** throughout the project.
 
