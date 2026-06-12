@@ -54,6 +54,16 @@ The key benefit of this process is that it provides the **basis** for **defining
 5. Stakeholder Register
 ## TT
 #test 
+You have a geographically dispersed team, from whom you would like to get expert opinion about your project. Which information gathering technique should you use:
+A. Brainstorming  
+B. Affinity Diagram  
+C. Delphi Technique  
+D. Focus group
+
+答案：C
+
+As a project manager, you are organizing a brainstorming meeting to collect requirements. You can interrupt someone if you think they are wrong. (true or false)
+False；不能打断
 
 1. Interviews 
 2. Focus Groups 
@@ -140,13 +150,51 @@ The project scope statement is the **description of the project scope**, major d
 	3. Describes, in detail, the project’s deliverables and the work requiredtocreatethose deliverables. 
 2. Project Documents Updates
 # Create WBS
+#test 
+**Which is the purpose of WBS?**
+A. To show which work elements have been assigned to organizational units  
+B. To show the organizational structure of a program  
+C. To ensure that all work within a project is identified and defined within a common framework  
+D. All of the above
+答案：C
+- **A** 更像是在说责任分配或 OBS/RAM，不是 WBS 的主要目的。
+- **B** 是组织结构，不是 WBS。
+- **D** 错，因为 A 和 B 不对。
+
+**Which of the following is TRUE about a work breakdown structure?**
+A. It contains work packages that are described in a linear, unstructured list.  
+B. Each item in the WBS represents a feature in the product scope.  
+C. The WBS represents all of the work that must be done on the project.  
+D. The WBS is created by the product sponsor and stakeholders.
+答案：C
+- **A 错**：WBS 不是 linear, unstructured list，而是 **hierarchical structure**。
+- **B 错**：WBS 表示的是 **project scope / work**，不是单纯的 product features。
+- **D 错**：WBS 不是只由 sponsor 和 stakeholders 创建，通常由项目团队在项目经理组织下完成，stakeholders 可以参与确认。
+
+**A work package is a?**
+A. Required level of reporting  
+B. Task with a unique identifier  
+C. Task that can be assigned to more than one organizational unit  
+D. Deliverable at the lowest level of the WBS
+答案：D
+- **A 错**：这更像 reporting level，不是 work package 的定义。
+- **B 错**：有 unique identifier 不等于就是 work package。
+- **C 错**：一个 work package 通常应有明确责任，不是随便分配给多个组织单位。
+
+**Using the WBS shown below (right), a typical work package would be?**
+A. Software development  
+B. Systems design  
+C. Flowcharting  
+D. Coding
+答案：C
+
+
 WBS (**Work Breakdown Structure**)
 The WBS is a **hierarchical decomposition** of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables.
 
 Create WBS is the process of **subdividing** project deliverables and project work into **smaller**, more **manageable** components. 
 The key benefit of this process is that it provides a **structured** vision of what has to be delivered.
 
-重点可能是TT+Output的第一个
 ## TT
 1. Decomposition 
 	1. Decomposition is a technique used for **dividing and subdividing** the project scope
@@ -171,6 +219,13 @@ Approaches to create WBS
 	- component of Project Management Plan
 	- is the **approved** version of a **scope statement,WBS**, and its associated **WBS dictionary**, that can be changed only through **formal** change control procedures and is used as a **basis** for comparison.
 		- WBS dictionary: is a document that provides detailed deliverable, activity, and scheduling information about each component in the WBS
+#test 
+**Which is NOT included in a scope baseline?**
+A. Project scope statement  
+B. WBS  
+C. WBS Dictionary  
+D. Requirements document
+答案：D
 # Validate Scope
 The process of **formalizing acceptance** of the completed project deliverables
 The key benefit of this process is that it brings objectivity to the **acceptance** process and increases the chance of final **product,service**, or **result acceptance** by validating **each deliverable**
