@@ -24,6 +24,11 @@ ITTO应该不重要
 1. Schedule managementplan
 # Define Activities
 #predicted  
+#test 
+1. Final output of Define Activities is described as work packages. （错）WBS输出是work package
+2. The Create WBS process defines the final outputs as activities. （错）Define Activities
+3. Milestones are similar to activities, but they have zero duration.（对）
+
 Define Activities is the process of **identifying** and **documenting** the **specific actions** to be performed to produce the project **deliverables**. 
 The key benefit of this process is to **break down work packages into activities** that provide a basis for estimating, scheduling,executing, monitoring, andcontrolling the project work.
 
@@ -60,6 +65,14 @@ The key benefit of this process is that it defines the **logical sequence** of w
 6. Enterprise environmental factors
 7. Organizational process assets
 ## TT
+#test 
+You are managing a software project. Your QA manager tells you that you need to plan to have her team start their test planning activity so that it **finishes just before testing begins** What's the relationship between the test planning activity and the testing activity?
+A. Start-to-start (SS)
+B. Start-to-finish (SF)
+C. Finish-to-finish (FF)
+D. Finish-to-start (FS)
+D
+
 1. **Precedence diagramming method**(PDM)
 	1. Finish-to-start (FS) 前一个结束，后一个才能开始
 	2. Finish-to-finish (FF) 
