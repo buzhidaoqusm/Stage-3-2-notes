@@ -8,6 +8,10 @@ What is Project Charter
 What is Develop Project Charter
 - Develop Project Charter is the **process of developing a document** that formally authorizes the existence of a project, and providesthe project manager with the authority to apply organizational resources to project activities.
 
+
+#test 
+The project charter is producedduringtheplanning stage of the project.（错）
+在Initiating process group
 ## Input
 - **Project Statement of Work** (SOW) 
 	- narrative description of products, services, orresults
@@ -128,6 +132,9 @@ Facilitation Techniques
 - problem solving
 - meeting management
 ## Output
+#test 
+The Project Management Planisapprovedbythe sponsor.（对）
+
 - Project Management Plan
 	- It **integrates and consolidates** all of the **subsidiary plans** and **baselines** from the planning processes.:
 	- Who develop:  PM? No (它通常由 **项目经理牵头组织**，但需要很多人共同参与)
@@ -171,7 +178,7 @@ The key benefit of this process is that it provides **overall management** of th
 ## Output
 - **Deliverables** 
 	- any unique and verifiable product, result or capabilitytoperform a service that is required to be producedtocomplete a process, phase, or project. 
-- Work Performance Data 
+- **Work Performance Data** 
 	- work completed 
 	- key performance indicators 
 	- technical performance measures 
@@ -197,7 +204,7 @@ Control
 2. Schedule Forecasts---time management
 3. Cost Forecasts----cost management
 4. Validated Changes 
-5. Work Performance Informationn 
+5. **Work Performance Informationn** 
 	1. Work Performance Data?  (从2.3中来)
 6. Enterprise Environmental Factors
 7. Organizational Process Assets
@@ -214,6 +221,7 @@ Control
 	- Failure mode and efect analysis
 	- Fault tree analysis (FTA),
 ## Output
+#predicted 
 - **Change Requests** 
 	- Corrective action 
 	- Preventive action
