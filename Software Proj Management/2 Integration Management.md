@@ -34,7 +34,6 @@ Facilitation Techniques
 - meeting management
 ## Output
 ### Project Charter
-#exam 大题最后一题
 It documents the business needs,assumptions, constraints, the understanding of the customer’s needs and high-level requirements, and the new product, service, or result that it is intended to satisfy,such as: 
 - Project purpose or justification, 
 - Measurable project objectives 
@@ -48,6 +47,7 @@ It documents the business needs,assumptions, constraints, the understanding of t
 - **Assigned project manager**，
 - Name and authority of the sponsor or other person(s)authorizing the project charter.
 #### template
+#exam 大题最后一题
 1. Background
 	- 为什么要做这个项目？解决什么问题？
 	- This project aims to develop/improve/build ` ______ to solve the problem and support ______`
@@ -80,7 +80,7 @@ It documents the business needs,assumptions, constraints, the understanding of t
 	- Constraints：The project must be completed **before the start** of the next semester. The budget **cannot exceed** ¥200,000. The system must comply with university IT security policies.
 	- Assumptions：It is assumed that key users will **provide requirements** on time. It is assumed that the project team has the **necessary technical skills**. It is assumed that the university will **provide access** to existing student data.
 	- Risks：Major risks include **unclear requirements**, delay in user feedback, **technical integration problems**, and budget overrun
-	- 
+	- Dependency：The project depends on **timely approval** from the sponsor, confirmation of **user requirements**, access to existing data, and **completion of testing** before deployment
 # Develop Project Management Plan
 Project management plan
 - is the document that describes how the **project will be executed, monitored, and controlled**.
