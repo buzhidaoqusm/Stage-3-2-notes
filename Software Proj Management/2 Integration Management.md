@@ -33,10 +33,9 @@ Facilitation Techniques
 - problem solving
 - meeting management
 ## Output
-> 期末大题
-
-Project Charter
-It documents the businessneeds,assumptions, constraints, the understandingofthecustomer’s needs and high-level requirements, andthenewproduct, service, or result that it is intended to satisfy,such as: 
+### Project Charter
+#exam 大题最后一题
+It documents the business needs,assumptions, constraints, the understanding of the customer’s needs and high-level requirements, and the new product, service, or result that it is intended to satisfy,such as: 
 - Project purpose or justification, 
 - Measurable project objectives 
 - High-level requirements, 
@@ -48,7 +47,40 @@ It documents the businessneeds,assumptions, constraints, the understandingofthec
 - Project approval requirements, 
 - **Assigned project manager**，
 - Name and authority of the sponsor or other person(s)authorizing the project charter.
-![](assets/2%20Integration%20Management/file-20260425212355270.png)
+#### template
+1. Background
+	- 为什么要做这个项目？解决什么问题？
+	- This project aims to develop/improve/build ` ______ to solve the problem and support ______`
+2. Goals
+	- specific & measurable goals
+	- 比如: Complete the system within 4 months; Support at least 5,000 student users.
+3. Scope
+	- 项目最终交付什么；包括哪些工作；不包括哪些工作
+	- The project will deliver an online course registration system, including user login, course search, course selection, timetable display, and administrator management. 
+	- The project work includes requirements analysis, system design, coding, testing, deployment, and user training. 
+	- The project will not include hardware procurement or long-term system maintenance after delivery.
+4. Key Stakeholders
+	- Client
+	- Sponsor
+	- Project Manager
+	- Project Team Members
+	- Users
+5. Project Milestones
+	- Project start: Week 1  
+	- Requirements completed: Week 2  
+	- System design completed: Week 4  
+	- Development completed: Week 10  
+	- Testing completed: Week 13  
+	- Final delivery: Week 16
+6.  Project Budget
+	- 不用算特别细，一次性费用和每月持续费用
+	- The estimated budget is `¥______`, subject to approval by the sponsor
+7. Constraints, Assumptions, Risks and Dependencies
+	- **Constraints** 是已经确定为真的限制，必须纳入计划；**Assumptions** 是为了简化计划而假设为真的条件；**Risk** 是不确定事件，发生后会影响 scope、schedule、cost、quality；**Dependency** 是任务之间或项目与外部任务之间的关系。
+	- Constraints：The project must be completed **before the start** of the next semester. The budget **cannot exceed** ¥200,000. The system must comply with university IT security policies.
+	- Assumptions：It is assumed that key users will **provide requirements** on time. It is assumed that the project team has the **necessary technical skills**. It is assumed that the university will **provide access** to existing student data.
+	- Risks：Major risks include **unclear requirements**, delay in user feedback, **technical integration problems**, and budget overrun
+	- 
 # Develop Project Management Plan
 Project management plan
 - is the document that describes how the **project will be executed, monitored, and controlled**.
