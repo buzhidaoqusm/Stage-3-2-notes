@@ -67,6 +67,14 @@ Example:
 		- need a “**program manager**”
 - **Portfolio**: a collection of **projects, programs, sub-portfolios, and operations** managed as a group to achieve **strategic** objectives
 ![](assets/1%20Software%20Project%20Management/file-20260425152657254.png)
+## Test
+#test 
+
+| 题目                                                                                                   | 判断        | 原因                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **1. A portfolio is a set of related projects that together deliver a specific business objective.** | **False** | 这句话更像是在描述 **program**。Portfolio 不要求项目之间一定 related，它是为了实现组织的 **strategic objectives**，可以包含 projects、programs、operations 等。 |
+| **2. A project could be part of a program, or exist individually.**                                  | **True**  | 一个 project 可以属于某个 program，也可以单独存在。只要它本身符合 temporary + unique，就是 project。                                                  |
+| **3. A program consists of all the projects being undertaken by an organization.**                   | **False** | Program 不是组织中所有项目的集合，而是 **related projects** 的集合。组织所有项目、项目集、运营等放在一起管理，更接近 **portfolio** 的概念。                              |
 ## Important points
 - What is project：A project is a temporaryendeavorundertaken to create a unique product, service,orresult 
 - Natures of project：temporary, unique
@@ -75,6 +83,7 @@ Example:
 - Project vs. Programvs. Portfolio
 # Software Project Management
 ## What is Project Management?
+#exam 应该也是简答题，考概念
 Project management is the **application** of **knowledge, skills, tools and techniques** to project activities to meet the project requirements
 ## Five process groups
 - Initiating 
