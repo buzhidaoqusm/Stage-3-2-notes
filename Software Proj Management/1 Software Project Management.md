@@ -5,11 +5,12 @@ Software Project Management is a **system management method** based on software 
 ## Project
 
 ### Project定义
-#exam 大题？概念
+#exam 大题？project概念
 
 A project is a **temporary** endeavor undertaken to create a **unique product**, service, or result
 - **temporary**: a project has a **definite beginning** and **end**.
-- **unique**
+- **unique**: Every project creates a unique product, service, or result. The outcome of the project may be tangible or intangible.
+
 **Repetitive** elements **may be present** insome project deliverables, **not change** the **unique** characteristicsof the project
 
 Example:
@@ -31,9 +32,8 @@ Example:
 **Service**:    training 
 **Result** :     research
 ### Project与其他(Ongoing work, Operation)的比较
-
 - Ongoing work
-	- a repetitive process
+	- a **repetitive** process
 - Project
 	- may be **uncertainties** or **differences** in the products
 	- Temporary: **Time Limited** 
@@ -44,6 +44,19 @@ Example:
 	- **Repetitive** 
 	- **Continuity** 
 	- Remain sustained and **continuity**
+
+> Example
+
+以下哪些是Project
+#test 
+
+| 活动                                                             | 是否是 Project    | 原因                                                                                 |
+| -------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------- |
+| **1. Explore Mars for signs of life**                          | 是 project      | 探索火星寻找生命迹象有明确目标，结果具有独特性，属于 research result。即使时间很长，也仍然可以是项目，因为 temporary 不等于时间短。    |
+| **2. Report to department manager for monthly work**           | **不是 project** | 这是每月重复进行的工作，属于 routine job / operation。它没有明显的独特产出，主要是按照固定周期和流程持续完成。                |
+| **3. The development of new versions of the operating system** | 是 project      | 如果指“开发某一个新版本”，它有明确版本目标、开始和结束、独特交付物，所以是 project。                                    |
+| **4. Updating the website 12306.cn**                           | **不是 project** | 如果只是日常更新网页信息、修 bug、维护内容，就是 operation                                               |
+| **5. Daily cleaning is a project**                             | **不是 project** | 每日清洁是典型的重复性、持续性工作，属于 operation，不是 project。除非是第一次建立清洁流程，或一次性大规模专项清洁，才可能被当成 project。 |
 
 ### Project vs. Programvs. Portfolio
 
