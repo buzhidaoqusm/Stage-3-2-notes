@@ -231,9 +231,12 @@ Control
 - Project Management Plan Updates 
 - Project Documents Updates
 
-data->information->report
+**data->information->report**
 
 2023.01.01 100W   2023.03.01 -50W   -> data
+
+#test 
+Work Performance Reports are produced based on Work Performance Information（对）
 # Perform Integrated Change Control
 #exam 项目发生变更，应该怎么做，大题
 - 任何 stakeholder 都可以提出 change request；
@@ -249,9 +252,14 @@ Perform Integrated Change Control is the process of **reviewin** gall changerequ
 The key benefit of this process is that it allows for documented changes within the project to be considered in an integrated fashion while reducing project risk, which often arises from changes made without consideration to the overall project objectives or plans.
 
 - This process is conducted from **project inception through completion** and is the ultimate responsibility of the **project manager**.
-- Changes may be requested by any stakeholder involved, verbally or in written, but they should be **recorded in written** form.
+- Changes may be requested by **any stakeholder involved**, verbally or in written, but they should be **recorded in written** form.
 - Every documented change request needs to be either approved or rejected by  a responsible individual, usually the **project sponsor** or **project manager**. When required, includes a change control board (CCB).
 
+#test 
+In the process of Perform Integrated Change Control, Changes can only be requested by project manager.（错）any stakeholder involved
+In the process of Perform Integrated Change Control, Change Requests should be recorded in written form.（对）
+The Approved Change Requests will be taken as an input of Perform Integrated Change Control process.（错）
+- **Approved Change Requests** 不是 Perform Integrated Change Control 的输入，而是它的输出。这个过程的输入是 **Change Requests**，输出才是 **Approved Change Requests** 和 **Change log**。
 ## Input
 - Project Management Plan
 - **Work Performance Reports** (来自上个阶段)
@@ -275,6 +283,9 @@ The key benefit of this process is that it allows for documented changes within 
 # Close Project or Phase
 Close Project or Phase is the process of finalizing all activities acrossallofthe Project Management Process Groups to formally completetheprojector phase. 
 The key benefit of this process is that it **provides lessons learned**, the formal **ending** of project work, and the **release of organization resources** to pursue new endeavors.
+
+#test 
+The release of organization resources is needed in the Close Project process. （对）
 
 ## Input
 - Project Management Plann 

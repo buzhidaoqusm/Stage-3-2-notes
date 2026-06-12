@@ -5,6 +5,9 @@ Managing the project scope is primarily concerned with **defining and controllin
 
 > Scopes
 
+#test 
+Product scope和Project Scope分别measured against什么
+
 - Product scope (主要是What)
 	- The **features and functions** that **characterize** a product,service, or result
 	- is measured against **Product requirement**
@@ -29,7 +32,7 @@ The key benefit of this process is that it provides guidance and direction on ho
 Expert Judgment
 Meetings
 ## Output
-位于Subsidiaryplans之中
+位于Subsidiary plans之中
 1. Scope Management plan 
 	1. is a component of the **project management plan**.
 	2. describes how the scope will be defined, developed,monitored, controlled, and validated.
