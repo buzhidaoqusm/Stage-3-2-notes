@@ -23,6 +23,7 @@ ITTO应该不重要
 ## Outputs
 1. Schedule managementplan
 # Define Activities
+#predicted  
 Define Activities is the process of **identifying** and **documenting** the **specific actions** to be performed to produce the project **deliverables**. 
 The key benefit of this process is to **break down work packages into activities** that provide a basis for estimating, scheduling,executing, monitoring, andcontrolling the project work.
 
