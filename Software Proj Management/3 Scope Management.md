@@ -35,18 +35,17 @@ Meetings
 位于Subsidiary plans之中
 1. Scope Management plan 
 	1. is a component of the **project management plan**.
-	2. describes how the scope will be defined, developed,monitored, controlled, and validated.
+	2. describes how the **scope will be defined**, developed,monitored, controlled, and validated.
 2. Requirements Management Plan
 	1. is a component of the project management plan
 	2. describes how **requirements will be analyzed**,documented, and managed.
 # Collect Requirements
 Requirements include the **quantified and documented needs** and **expectations** of the sponsor, customer, and other stakeholders.
-Requirements become the **foundation** of the WBS
+**Requirements** become the **foundation** of the WBS
 
 Collect Requirements is the process of determining , and managing **stakeholder needs and requirements** to meet **project objectives**
 The key benefit of this process is that it provides the **basis** for **defining** the product **scope** and the project scope.
 
-重点可能是TT
 ## Input
 1. Scope Management Plan
 2. Requirements Management Plan
@@ -54,6 +53,8 @@ The key benefit of this process is that it provides the **basis** for **defining
 4. Project Charter
 5. Stakeholder Register
 ## TT
+#test 
+
 1. Interviews 
 2. Focus Groups 
 3. Facilitated Workshops 
