@@ -71,13 +71,24 @@ Rule of Seven：在平均值上或者下连续7个点，也视为异常
 ## Output
 Change Requests
 ## TT
+#predicted 
 ### Quality Management and Control Tools
 #### Affinity diagrams
+将相似的想法放在一起
 #### Activity network diagrams
 #### Tree diagrams
+systematic diagrams
+represent decomposition hierarchies such as WBS, RBS and, OBS
+![](assets/6%20Quality%20Management/file-20260613202827034.png)
 #### Matrix diagrams
+perform data analysis
+![](assets/6%20Quality%20Management/file-20260613202843201.png)
 #### Prioritization matrices
+Identify the **key issues** and the **suitable alternatives** to be **prioritized** asaset of decisions
+A combination of tree diagrams and matrix diagram
+![](assets/6%20Quality%20Management/file-20260613203055843.png)
 #### Process decision program charts (PDPC)
+Used to understand a goal in relation to the steps for getting to the goal
 #### Interrelationship diagraphs
 # Control Quality
 ## TT
