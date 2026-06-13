@@ -46,13 +46,27 @@ updated risk register
 # Plan Risk Response
 ## Strategy
 #test 
+ If the weather's good, then there's a chance youcould see a meteor shower. If the team gets a photo thatwins the meteor photo contest, you can get extrafunding. You have your team stay up all night withtheir telescopes and cameras ready.
+ Exploit
+ 
+ You hear that it's going to rain for the first threedays of your trip, so you bring waterproof tents andindoor projects for the team to work on in themeantime.
+ Mitigate
 降低负面的
-1. Avoid
-2. Mitigate
-3. Transfer
-4. Accept
+2. Avoid
+3. Mitigate
+4. Transfer
+5. Accept
 增加积极的
-5. Exploit
-6. Enhance
-7. Share
-8. Accept
+6. Exploit
+7. Enhance
+8. Share
+9. Accept
+
+# Control Risks
+## TT
+Risk reassessment
+Variance and trend analysis
+Reserve analysis
+Risk audits
+Technical performance measurement
+Status meeting
