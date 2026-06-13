@@ -88,9 +88,14 @@ Identify the **key issues** and the **suitable alternatives** to be **prioritize
 A combination of tree diagrams and matrix diagram
 ![](assets/6%20Quality%20Management/file-20260613203055843.png)
 #### Process decision program charts (PDPC)
-Used to understand a goal in relation to the steps for getting to the goal
+Used to understand a **goal in relation** to the **steps** for getting to the goal
+
 #### Interrelationship diagraphs
+relationship diagrams
+
 # Control Quality
+Identifying the **causes of poor process** or product quality
+**Validating** that project **deliverables** and work meet the requirements
 ## TT
 Seven basic quality tools
 ## Output
@@ -99,4 +104,11 @@ Verified deliverables
 #test 
 CQ 主要在执行时
 QA 主要在执行前（计划）
+
+You use a Pareto chart to figure out which root causes are responsible for the most defects in the current batch of products. It looks like most of them are coming from a Machine Calibration problem. So you run them back through the machine after re-calibrating it.
+- Perform Quality Control
+
+
+You use a histogram to look at the root cause category for all defects that have been found over the past year. You find that Machine errors are habitually responsible for the largest number of errors across all batches of products. You schedule Machine calibration checks at the start of every shift to be sure that the machine is always set properly.
+- Perform Quality Assurance
 # Software quality management
