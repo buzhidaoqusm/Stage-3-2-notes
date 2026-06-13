@@ -130,7 +130,7 @@ S-curve
 #exam 大题，计算
 花销超了怎么解决
 
-PV(Planned value)计划花的钱
+PV(Planned value)计划花的钱/budget
 EV(Earned value)工作价值
 AC(Actual cost)实际花销
 SV(Schedule variance)
@@ -175,3 +175,24 @@ VAC = BAC– EAC
 ### To-Complete Performance Index (TCPI)
 TCPI=(BAC – EV)/(BAC – AC)
 TCPI=(BAC – EV)/(EAC – AC)
+
+> Example
+
+Your project has a total budget of $300,000. You check your records and find that you've spent $175,000 so far. The team has completed 40% of the project work, but when you check the schedule it says that they should have completed 50% of the work. Calculating the following:
+
+BAC=300000
+AC=175000
+EV=BAC * 40% = 120000
+PV=BAC * 50% = 150000
+
+SV=EV-PV=-30000
+CV=EV-AC=-55000
+
+SPI=EV/PV=0.8
+CPI=EV/AC=0.68
+
+It's nine months into your project. The total budget for your project is $4,200,000. You've spent $1,650,000 so far, and you've got a CPI of 0.875. Use the Earned Value Technique formulas from forecasting to figure out where things stand.
+
+EAC=4200000/0.875=4800000
+ETC=EAC-AC=3150000
+VAC=BAC-EAC=-600000
