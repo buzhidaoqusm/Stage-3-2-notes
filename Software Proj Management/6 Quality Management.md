@@ -19,6 +19,7 @@ Project Quality Management
 # Plan QualityManagement
 ## TT
 ### COQ
+#predicted 
 - preventing nonconformance to requirements（避免需求不一致）
 - appraising the product or service for conformance to requirements; （评价产品）
 - and failing to meet requirements（无法满足需求）
@@ -32,30 +33,40 @@ COQ: PAF（Prevention / Appraisal / Failure）
 	- External Failure Costs
 ### Seven basic quality tools
 #test 
+Which of the following tools and techniques is used to show which categories of defects are most common?
+pareto chart
+
+Which quality control tool is sued to analyze processes by visualizing them graphically?
+Flow chart
 #### Cause-and-effect diagrams
 鱼骨图
 某个原因，会有什么结果
+![](assets/6%20Quality%20Management/file-20260613201420162.png)
 #### Flowcharts
 展示项目的流程
 process
+![](assets/6%20Quality%20Management/file-20260613201431785.png)
 #### Checksheets
+![](assets/6%20Quality%20Management/file-20260613201441445.png)
 #### Histogram
 直方图
 #### Pareto diagrams
 #exam 考试经常考
 帕累托图
 发生错误时，各个原因的可能性
+![](assets/6%20Quality%20Management/file-20260613201601724.png)
 ##### Pareto 80/20 rule
 80% of the effects come from 20% of the causes
 #### Control charts
 控制图
 给平均值设上下限，突破了视为异常
 Rule of Seven：在平均值上或者下连续7个点，也视为异常
-
+![](assets/6%20Quality%20Management/file-20260613201622338.png)
 #### Scatter diagrams
 判断相关关系
 正相关/负相关
 强相关/弱相关
+![](assets/6%20Quality%20Management/file-20260613201635608.png)
 # Perform Quality Assurance
 ## Output
 Change Requests
