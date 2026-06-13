@@ -111,6 +111,14 @@ The key benefit of this process is that it **identifies** the **type, quantity, 
 10. Organizational process assets
 ## TT
 #exam 要考选择题，Three-point estimating默认用beta
+#test 
+If the optimistic estimate is one, the pessimistic estimate is nine, and the most likely estimate is eight, what is the three point estimate?
+A. 9
+B. 7
+C.8
+D.3
+答案：B
+
 2,3,4,6框起来了
 1. Expert judgment 
 2. Analogous estimating 
@@ -130,7 +138,7 @@ The key benefit of this process is that it **identifies** the **type, quantity, 
 		- Management reserves: A **specified amount of the project budget withheld for management control purposes** and are reserved for **unforeseen work** that is within scope of the project. Management reserves are intended to address the “**unknown-unknowns**” that can affect a project. **not included** in the **schedule baseline**
 ## Output
 1. Activity Duration Estimates
-	- Activity duration estimates mayincludesomeindication of the range of possible results:
+	- Activity duration estimates may include some indication of the range of possible results:
 		- 2 weeks ±2 days,
 2. Project Documents Updates
 # Develop Schedule
@@ -192,6 +200,7 @@ Feeding buffers只能加在进入critical chain的时候
  Project buffer 会影响critical chain，影响整个项目的完成时间
 ![](assets/4%20Time%20Management/file-20260512215637746.png)
 ### Resource optimization techniques
+#predicted 
 Used to **adjust the start and finish dates** of activities to **adjust planned resource** use to be equal to or less than resource availability.
 > Resource leveling vs Resource smoothing
 
@@ -212,6 +221,7 @@ Resource smoothing
 Used to **shorten or accelerate** the **schedule duration** without **reducing the project scope** in order to meet schedule constraints, imposed dates, or other schedule objectives.
 
 ## Crashing VS Fast tracking
+#predicted 
 crashing（不计成本地砸钱）:
 - A technique used to shorten the schedule duration for the **least incremental cost** by **adding resources**.
 - e.g. **approving overtime**, bringing in **additional resources**,or paying to **expedite delivery** to activities on the critical path
@@ -222,6 +232,7 @@ Fast tracking(并行任务，可能有风险)
 - e.g. Constructing the foundation for a building before completing all of the architectural drawings
 - Fast tracking may result in **rework and increased risk**. It only woks if activities can be **overlapped** to shorten the project duration.
 ## Output
+#predicted Project schedule
 1. Schedule baseline
 	1. is the approved version of a schedule model
 2. Project schedule
