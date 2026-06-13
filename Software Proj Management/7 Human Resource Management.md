@@ -27,7 +27,8 @@ Acquisition
 Virtual Teams
 - 线上，不用现实在一起
 Multi-Criteria Decision Analysis
-- 
+## Output
+Project Staff Assignments
 # Develop Project Team
 ## TT
 Recognition and rewards
@@ -38,6 +39,9 @@ Interpersonal Skills
 Team-buildingactivities
 ## Tuckman Ladder
 #test 
+Project manager has provided each kind of training for the team members. Team members begin to work together and adjust work habits that support the team. What stage is the project team at?
+Norming
+
 1. Forming（刚认识，independent）
 2. Storming（震荡期，）
 3. Norming（开始正常工作）
@@ -45,6 +49,7 @@ Team-buildingactivities
 5. Adjourning（工作完成）
 # Manage Project Team
 ## TT: Conflict management
+#predicted 
 Sources of conflict
 - Resources are scare
 - Priorities
