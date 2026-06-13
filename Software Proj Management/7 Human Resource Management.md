@@ -1,21 +1,33 @@
 # Plan Human Resource Management
 ## TT
+#predicted 
 Organization charts and position descriptions
+![](assets/7%20Human%20Resource%20Management/file-20260613215955855.png)
 ### Hierarchical-type charts
 Organizational breakdown structure (OBS)
+同第一章中的Organizational Structure，weak，strong，balanced等等
 ### Matrix-based charts
 RACI
+谁负责，谁可以咨询等等
+![](assets/7%20Human%20Resource%20Management/file-20260613220655453.png)
 ### Text-oriented formats
 
 ## Output
 Human Resource Managementplan
 # Acquire Project Team
+The process of **confirming human resource availability** and **obtaining the team** necessary to complete project activities
 ## TT
+#predicted 
 Pre-assignment
+- 提前选好人
 Negotiation
+- 通过协商选人（从其他组里选）
 Acquisition
+- 从外部招人
 Virtual Teams
+- 线上，不用现实在一起
 Multi-Criteria Decision Analysis
+- 
 # Develop Project Team
 ## TT
 Recognition and rewards

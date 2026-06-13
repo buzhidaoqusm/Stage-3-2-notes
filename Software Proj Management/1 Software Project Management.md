@@ -115,6 +115,9 @@ An **individual, group, or organization** who may **affect, be affected** by, or
 **All members** of the project team;
 **All interested entities** that are internal or external to the organization.
 ## Organizational Structure
+
+^7ce25b
+
 Organizational structure is an **enterprise environment factor**, which can affect the availability of resources and influence how projects are conducted.
 
 - Functional organizational structure
@@ -191,7 +194,7 @@ Software DevelopmentLife Cycle
 #predicted 
 A project life cycle is the **series of phases** that a project passes through **from its initiation to its closure.**
 - Starting the project, 
-- Organizing and preparing, 
+- Organizing and preparing,  ^3b16ef
 - Carrying out the project work, and 
 - Closing the project.
 ![](assets/1%20Software%20Project%20Management/file-20260425163556981.png)![](assets/1%20Software%20Project%20Management/file-20260425163610411.png)
