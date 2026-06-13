@@ -31,6 +31,7 @@ COQ: PAF（Prevention / Appraisal / Failure）
 	- Internal FailureCosts（rework）
 	- External Failure Costs
 ### Seven basic quality tools
+#test 
 #### Cause-and-effect diagrams
 鱼骨图
 某个原因，会有什么结果
