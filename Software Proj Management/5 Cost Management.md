@@ -17,6 +17,7 @@ The key benefit of this process is that it **determines the amount of cost** req
 Cost estimates are a **prediction** that is based on the **information** known
 ## TT
 ### Three-point estimating
+#test 
 #exam 考三角的
 Most likely (cM)
 Optimistic (cO)
@@ -25,6 +26,14 @@ Pessimistic (cP)
 1) Triangular Distribution cE=(cO+cM+cP)/3
 2) Beta Distribution cE=(cO+4cM+cP)/6
 ### Bottom-up estimating
+#test 
+Alice is a project manager. She estimateseachactivityand resource that the teamis going toneed. Thensheadds up all the estimates into "rolled-up"categories.From there she adds up the categories intoanoverallbudget number. Which tool is Alice using?
+A、Parametric Estimation 
+B、Analogous Estimation 
+C、Bottom-up estimating 
+D、Three-point Estimating
+答案：C
+
 a method of estimating a component of work
 
 The cost of individual **work packages or activities** is estimated to the **greatest level** of specified detail. 
@@ -73,6 +82,15 @@ TCF=0.65+0.01(sum(Fi))：Fi:0-5,TCF:0.65~1.35
 sum(Fi)=`1+5+0+3+1+0...`=22
 TCF=0.65+0.01(sum(Fi))=0.65+0.01`*`22=0.87
 
+> Workload:
+> If the productivity of this project is 15 hours/FP, then please calculate the workload of this project
+
+Workload=15 * 45.12=676.8 hours
+
+> total cost:
+> If the cost for each labor hour is ¥100/hour, what is the total cost of this project
+
+Total cost=676.8 * 100=67680¥
 #### Expert estimation method-Delphi
 #exam 选择题
 给专家做问卷，填表格，让他们评估
@@ -84,6 +102,7 @@ Calculating the average estimate of each expert.
 Ei =(ai+4mi + bi)/6 and 
 total average E=(E1+E2+…+En)/n (n represents n experts)
 #### A practical software cost estimationprocess:
+#predicted 
 1. Task decomposition(activity): T1, T2,…,Ti,…,Tn
 2. Estimate the cost of each task Ci
 	- Ci= Ei * Human (workload of the task Ei)
@@ -95,9 +114,9 @@ total average E=(E1+E2+…+En)/n (n represents n experts)
 4. Indirect cost estimation
 	- Indirect costs = Direct costs `*`Indirect cost factor
 5. Total project cost = direct cost + indirect cost
-	- = workload * human cost parameters （1+Indirect costcoefficient)
-	- = workload * Cost coefficient
-	- For example: The workload of a project is 40 months, Cost coefficient of 20 thousand yuan/man-month, the total estimatedcost of the project is 40 * 20=800 thousand.
+	- = workload * **human cost parameters** （1+Indirect costcoefficient)
+	- = workload * **Cost coefficient**
+	- **For example**: The workload of a project is 40 months, Cost coefficient of 20 thousand yuan/man-month, the total estimatedcost of the project is 40 * 20=800 thousand.
 # Determine Budget
 The process of **aggregating** the **estimated costs** of individual activities or work packages to establish an authorized **cost baseline**.
 
