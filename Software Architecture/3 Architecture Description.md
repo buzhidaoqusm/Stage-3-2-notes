@@ -38,6 +38,8 @@ Composition (implies “ownership”)
 ## Deployment diagram
 
 # Summary
+4+1 defines WHAT to describe; UML defines HOW to describe it.
+
 | View          | Question            | UML Diagrams                | Stakeholder    | Focus              |
 | ------------- | ------------------- | --------------------------- | -------------- | ------------------ |
 | Scenario (+1) | What does it do?    | Use Case                    | Users / All    | Ties all views     |
