@@ -9,11 +9,16 @@
 
 # Separation of Concerns & Information Hiding
 Separation of Concerns: Each part addresses a separate concern
-A concern = any piece of interest or focus
-Separate concerns -> independent change
+A concern = any piece of **interest** or **focus**
+Separate concerns -> **independent change**
+MVC, layered体现了
 
 Information Hiding: Each module hides a design decision
-Public interface reveals WHAT, hides HOW
+Hidden info = **likely change point**
+Public interface **reveals WHAT**, hides HOW
+Change HOW **without affecting clients**
+Info Hiding = PRINCIPLE
+Encapsulation = MECHANISM
 
 How They Connect:
 SoC decides WHERE to draw boundaries. Information Hiding decides WHAT to expose at each boundary
