@@ -13,13 +13,13 @@
 	- Sound architecture identifies and mitigates technical risks before expensive implementation begins
 # SA Definitions: From Formulas to Standards
 All definitions agree on **components + relationships**. 
-but all agree: architecture = the highest level of abstraction, defining components, relationships, and the principles guiding design.
+but all agree: architecture = the **highest level of abstraction**, defining **components**, **relationships**, and the principles guiding design.
 # Components, Connectors, and Constraints
 #exam  三者的区别
 - Components: The building blocks.
 - Connectors: Interaction mechanisms.
 - Constraints: Rules governing composition.
-- SA Design = Decomposition + Composition.
+- SA Design = **Decomposition** + **Composition**.
 # Functional vs. Non-Functional Properties
 #exam 为什么架构对于质量属性非常重要：好的架构更容易满足质量属性，分层架构提高可修改性等等。坏架构的紧耦合可能损害可修改性。
 Non-Functional (Quality Attributes)
@@ -36,7 +36,7 @@ Architecture has MORE impact on non-functional properties than functional ones
 - "Architecture: Defines structure and relationships."
 - "Framework: Concrete implementation of architecture."
 - "Framework: Language/platform specific."
-- "Example: 'MVC pattern' / Example: Spring, Django, .NET."
+- "Architecture Example: '**MVC pattern**' /Framework Example: **Spring, Django**, .NET."
 # Influences on the Architecture
 架构是怎么产生的
 #exam 
