@@ -94,5 +94,8 @@ Finding Bugs Before Users Do
 - Internal monitoring (IDE debugging) 
 - Breakpoints, step-through, inspection 
 - Specialized tools (WinDbg, Stetho)
+# Trade-Off Matrix & Decision Framework
+![](assets/4%20Quality%20Attribute/file-20260614192310736.png)
+Banking (银行) Security > Availability > Performance
 # Summary
 ![](assets/4%20Quality%20Attribute/file-20260608211255625.png)
