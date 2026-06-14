@@ -45,3 +45,14 @@ Composition (implies “ownership”)
 | Process       | What’s concurrent?  | Activity                    | Sys. Engineers | Concurrency & flow |
 | Development   | How organized?      | Package, Component          | Managers       | Team & reuse       |
 | Physical      | Where does it run?  | Deployment                  | Operations     | Hardware topology  |
+
+# Architecture Description Languages
+Formal languages for architecture precision
+Define components, connectors, constraints
+Tools can check consistency
+Support automated code generation
+
+More **precise** than UML or freestyle 
+Tools can **check consistency** and **generate code** 
+**Steep learning curve** and limited tool adoption 
+**Different** ADLs often require their own **toolchains**
