@@ -1,8 +1,17 @@
+# Why Describe Architecture?
+Communication: Stakeholders understand design decisions 
+Forward Engineering: Generate code skeletons from models 
+Reverse Engineering: Extract architecture from source code 
+Blueprint & Guide: Defines work distribution and quality carrier 
+Evaluation: Basis for early analysis and conformance
+
 # Scenario View
+
 ![](assets/3%20Architecture%20Description/file-20260608193605143.png)
 # Logical View
 ## Class diagram
 #exam 要考relationship（线条的关系）
+![](assets/3%20Architecture%20Description/file-20260614181127078.png)
 ![](assets/3%20Architecture%20Description/file-20260608193911986.png)
 ![](assets/3%20Architecture%20Description/file-20260608194551403.png)
 
