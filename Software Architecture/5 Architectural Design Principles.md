@@ -35,7 +35,7 @@ Low coupling + High cohesion = Well-designed module
 ## S — Single Responsibility Principle
 一个类一个职责
 A class should have only one reason to change.
-SRP reduces change ripple by isolating responsibilities that evolve independently
+SRP **reduces change ripple** by **isolating responsibilities** that evolve independently
 ## O — Open Closed Principle
 画图形：需要画一个新的形状时，只需Implement shape。而不用if shape == XX
 Open for extension, closed for modification
@@ -44,12 +44,14 @@ No if/switch to maintain (Rigidity ✓). No scattered type-checks (Fragility ✓
 ## L — Liskov Substitution Principle
 子类需要可以被父类完全替换
 Subtypes must be substitutable for their base types.
+LSP is the **guardrail** that makes **polymorphism safe**
 
 ![](assets/5%20Architectural%20Design%20Principles/file-20260608220755462.png)
 
 ## I — Interface Segregation Principle
 一个接口不能太大，同时包含很多东西
 Clients should not depend on methods they do not use.
+ISP **reduces accidental coupling** by separating interfaces around specific client needs
 ![](assets/5%20Architectural%20Design%20Principles/file-20260608221408803.png)
 
 ## D — Dependency Inversion Principle
