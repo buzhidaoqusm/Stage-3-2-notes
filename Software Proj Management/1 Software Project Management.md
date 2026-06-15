@@ -241,7 +241,7 @@ A process is a set of **interrelated actions** and **activities** performed to c
 
 Input, Tools&Techniques, Output
 
-Unstructured management -> Structured management
+**Unstructured** management -> **Structured** management
 
 #test 
 Process is able to transform the structured management to unstructured management（对）
