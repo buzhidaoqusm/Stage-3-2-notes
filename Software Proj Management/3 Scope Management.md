@@ -32,11 +32,12 @@ The key benefit of this process is that it provides guidance and direction on ho
 Expert Judgment
 Meetings
 ## Output
+#predicted 
 位于Subsidiary plans之中
-1. Scope Management plan 
+1. **Scope Management plan** 
 	1. is a component of the **project management plan**.
 	2. describes how the **scope will be defined**, developed,monitored, controlled, and validated.
-2. Requirements Management Plan
+2. **Requirements Management Plan**
 	1. is a component of the project management plan
 	2. describes how **requirements will be analyzed**,documented, and managed.
 # Collect Requirements
@@ -118,8 +119,8 @@ One individual makes the decision
 	1. grid that links product requirements from their **origin** to the **deliverables** that satisfy them.
 
 ## Software Requirements
-Functional requirements
-Non-functional requirements
+**Functional** requirements
+**Non-functional** requirements
 Domain requirements: are the requirements which are **characteristic** of a **particular category** or domain of projects.
 # Define Scope
 Define Scope is the process of developing a **detailed description** of the project and product.
