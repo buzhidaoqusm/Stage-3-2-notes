@@ -14,14 +14,14 @@ ITTO应该不重要
 ## Inputs
 1. Project management plan
 2. Project charter
-3. Enterprise environmentalfactors
-4. Organizational processassets
+3. Enterprise environmental factors
+4. Organizational process assets
 ## Tools & Techniques
-1. Expertjudgment
+1. Expert judgment
 2. Analytical techniques
 3. Meetings
 ## Outputs
-1. Schedule managementplan
+1. Schedule management plan
 # Define Activities
 #predicted  
 #test 
