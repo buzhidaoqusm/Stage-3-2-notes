@@ -115,9 +115,7 @@ An **individual, group, or organization** who may **affect, be affected** by, or
 **All members** of the project team;
 **All interested entities** that are internal or external to the organization.
 ## Organizational Structure
-
-^7ce25b
-
+#predicted 
 Organizational structure is an **enterprise environment factor**, which can affect the availability of resources and influence how projects are conducted.
 
 - Functional organizational structure
