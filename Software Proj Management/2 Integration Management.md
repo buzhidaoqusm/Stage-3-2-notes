@@ -177,7 +177,7 @@ The key benefit of this process is that it provides **overall management** of th
 		- configuration management system
 ## Output
 - **Deliverables** 
-	- any unique and verifiable product, result or capabilitytoperform a service that is required to be producedtocomplete a process, phase, or project. 
+	- any unique and verifiable product, result or capability to perform a service that is required to be produced to complete a process, phase, or project. 
 - **Work Performance Data** 
 	- work completed 
 	- key performance indicators 
@@ -205,7 +205,7 @@ Control
 3. Cost Forecasts----cost management
 4. Validated Changes 
 5. **Work Performance Informationn** 
-	1. Work Performance Data?  (从2.3中来)
+	1. Work Performance Data?  (从Direct and Manage Project Work中来)
 6. Enterprise Environmental Factors
 7. Organizational Process Assets
 ## TT
