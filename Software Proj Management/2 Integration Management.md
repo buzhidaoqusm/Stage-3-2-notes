@@ -143,7 +143,7 @@ The Project Management Planisapprovedbythe sponsor.（对）
 	- Scope baselines 
 	- Schedule baselines
 	- Cost baselines
-- Subsidiaryplans
+- Subsidiary plans
 	- Scope management plan
 	- Requirements management plan
 	- Schedule management plan
@@ -160,7 +160,7 @@ Direct and Manage Project Work is the process of **leading and performing the wo
 The key benefit of this process is that it provides **overall management** of the project work.
 ## Input
 1. Project Management Plann 
-	1. Output of the process of “developproject managementplan” 
+	1. Output of the process of “develop project management plan” 
 2. **Approved Change Requests** 
 3. Enterprise Environmental Factors
 4. Organizational Process Assets
