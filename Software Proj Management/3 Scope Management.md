@@ -131,7 +131,7 @@ The project scope statement is the **description of the project scope**, major d
 1. Scope management plan
 2. Project charter
 3. Requirements documentation
-4. Urganizational process assets
+4. Organizational process assets
 ## TT
 1. Expert judgment 
 2. Product analysis 
