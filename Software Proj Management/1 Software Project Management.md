@@ -173,16 +173,16 @@ Software DevelopmentLife Cycle
 2. **Architecture design**
 	- Identify the **components** of the new system that fulfil each requirement
 3. **Detailed design**
-	- Each software componentismade up of a number of **separately** coded and tested software **units**, detaileddesigned
+	- Each software component is made up of a number of **separately** coded and tested software **units**, detailed designed
 4. **Code and test**
-	- **Writing code** for eachsoftwareunit.Initial testing to debugindividualunits
+	- **Writing code** for each software unit. Initial testing to debug individual units
 5. **Integration**
 	- The **components** are **tested together** to see if they meet the overall requirements
 6. **Qualification testing**
 	- Test the system carefully to ensure that **all** the **requirements** have been **fulfilled**
 7. **Installation**
 	- The process of making the new system operational
-		- installingthesoftware onto thehardwareplatform
+		- installing the software onto the hardware platform
 8. **Acceptance support**
 	 - **Resolving of problems** with the newly installed system, including the **correction of any errors**
 
