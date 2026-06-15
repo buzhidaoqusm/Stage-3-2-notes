@@ -96,7 +96,7 @@ Project management is the **application** of **knowledge, skills, tools and tech
 - Monitoring & Controlling 
 - Closing
 ## 10 knowledge areas
-Integration Management, Scope \ Time \ Quality \ Cost \ Stakeholder \ Communication \ Human Resource \ Procurement \ Risk Management
+Integration \ Scope \ Time \ Quality \ Cost \ Stakeholder \ Communication \ Human Resource \ Procurement \ Risk Management
 ## Project vs. Program vs. Portfolio Management
 **Program management**: the application of knowledge, skills, tools, and techniques to a **program** in order to meet the program requirements and to obtain benefits and control not available by managing projects individually.
 **Portfolio management**: refers to the **centralized management** of one or more portfolios to achieve strategic objectives.
