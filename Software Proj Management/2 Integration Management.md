@@ -10,7 +10,7 @@ What is Develop Project Charter
 
 
 #test 
-The project charter is producedduringtheplanning stage of the project.（错）
+The project charter is produced during the planning stage of the project.（错）
 在Initiating process group
 ## Input
 - **Project Statement of Work** (SOW) 
