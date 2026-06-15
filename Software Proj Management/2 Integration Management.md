@@ -239,6 +239,7 @@ Control
 Work Performance Reports are produced based on Work Performance Information（对）
 # Perform Integrated Change Control
 #exam 项目发生变更，应该怎么做，大题
+提交 → 影响分析 → CCB审批 → 更新baseline → 通知干系人
 - 任何 stakeholder 都可以提出 change request；
 - 变更可以口头提出，但必须 written form 记录；
 - 分析变更对 scope、schedule、cost、quality、risk 的影响；
@@ -256,8 +257,8 @@ The key benefit of this process is that it allows for documented changes within 
 - Every documented change request needs to be either approved or rejected by  a responsible individual, usually the **project sponsor** or **project manager**. When required, includes a change control board (CCB).
 
 #test 
-In the process of Perform Integrated Change Control, Changes can only be requested by project manager.（错）any stakeholder involved
-In the process of Perform Integrated Change Control, Change Requests should be recorded in written form.（对）
+In the process of Perform Integrated Change Control, Changes can only be requested by project manager.（错）**any stakeholder** involved
+In the process of Perform Integrated Change Control, Change Requests should be recorded in **written form**.（对）
 The Approved Change Requests will be taken as an input of Perform Integrated Change Control process.（错）
 - **Approved Change Requests** 不是 Perform Integrated Change Control 的输入，而是它的输出。这个过程的输入是 **Change Requests**，输出才是 **Approved Change Requests** 和 **Change log**。
 ## Input
