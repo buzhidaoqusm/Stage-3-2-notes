@@ -226,7 +226,7 @@ Control
 	- Corrective action 
 	- Preventive action
 	- Defect repair 
-- Work Performance Reports 
+- Work Performance **Reports** 
 	- status reports, memos, justifications, informationnotes, recommendations, and updates. 
 - Project Management Plan Updates 
 - Project Documents Updates
@@ -242,9 +242,9 @@ Work Performance Reports are produced based on Work Performance Information（�
 - 任何 stakeholder 都可以提出 change request；
 - 变更可以口头提出，但必须 written form 记录；
 - 分析变更对 scope、schedule、cost、quality、risk 的影响；
-- 提交给 responsible individual / CCB 审批；
+- 提交给 responsible individual / Change Control Board(CCB) 审批；
 - 变更被 approved 或 rejected；
-- 如果 approved，更新 project management plan、project documents、change log；
+- 如果 approved，更新 baseline (scope baseline, schedule baseline, cost baseline), project management plan、project documents、change log， 并且 communicated to stakeholders；
 - approved change requests 进入 Direct and Manage Project Work 执行。
 
 Perform Integrated Change Control is the process of **reviewin** gall changerequests; **approving** changes and **managing** changes to deliverables, organizational process assets, project documents, and the project management plan; and communicating their disposition. 
