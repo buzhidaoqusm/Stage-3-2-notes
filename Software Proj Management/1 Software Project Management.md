@@ -192,7 +192,7 @@ Software DevelopmentLife Cycle
 #predicted 
 A project life cycle is the **series of phases** that a project passes through **from its initiation to its closure.**
 - Starting the project, 
-- Organizing and preparing,  ^3b16ef
+- Organizing and preparing, 
 - Carrying out the project work, and 
 - Closing the project.
 ![](assets/1%20Software%20Project%20Management/file-20260425163556981.png)![](assets/1%20Software%20Project%20Management/file-20260425163610411.png)
