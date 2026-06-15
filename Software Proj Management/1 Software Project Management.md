@@ -144,7 +144,7 @@ In the projectized organizational structure, the project manager has high author
 - Complexity
 	- Per dollar spent, More complexity
 - Conformity
-	- Conform to the requirements of humanclients
+	- Conform to the requirements of human clients
 - Flexibility
 	- Software is easy to change
 
