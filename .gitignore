@@ -6,6 +6,10 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
+# 插件 - 桌面端和移动端使用不同插件
+.obsidian/plugins/
+.obsidian/community-plugins.json
+
 # ============================
 # Claude Code / Claudian (仅桌面端)
 # ============================

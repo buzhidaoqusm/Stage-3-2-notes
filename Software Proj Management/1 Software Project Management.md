@@ -34,6 +34,8 @@ Example:
 **Result** :     research
 ### Project与其他(Ongoing work, Operation)的比较
 #predicted 
+Project 是“第一次做/为特定目标做一次”；Ongoing work 是“按已有流程一直做”；Operation 是运营/日常工作
+第一次做一个常规任务可能像 project；但如果做过一次之后再重复同样工作，就更像 process / operation
 - Ongoing work
 	- a **repetitive** process
 - Project
@@ -62,6 +64,9 @@ Example:
 
 ### Project vs. Programvs. Portfolio
 #predicted 
+Program 是一组**相关项目**，需要统一协调管理
+Portfolio 是为了实现组织战略目标，把项目、项目集、子组合和运营工作放在一起管理。
+
 - **Program** : a **group** of **related projects** managed in a **coordinated way** to obtain benefits and control not available from managing them individually
 	- Related Projects
 		- There are multiple projects that **share something**: **inputs**,budgets, people, etc., often to achieve a larger goal.
@@ -77,12 +82,7 @@ Example:
 | **1. A portfolio is a set of related projects that together deliver a specific business objective.** | **False** | 这句话更像是在描述 **program**。Portfolio 不要求项目之间一定 related，它是为了实现组织的 **strategic objectives**，可以包含 projects、programs、operations 等。 |
 | **2. A project could be part of a program, or exist individually.**                                  | **True**  | 一个 project 可以属于某个 program，也可以单独存在。只要它本身符合 temporary + unique，就是 project。                                                  |
 | **3. A program consists of all the projects being undertaken by an organization.**                   | **False** | Program 不是组织中所有项目的集合，而是 **related projects** 的集合。组织所有项目、项目集、运营等放在一起管理，更接近 **portfolio** 的概念。                              |
-## Important points
-- What is project：A project is a temporaryendeavorundertaken to create a unique product, service,orresult 
-- Natures of project：temporary, unique
-- What can a project create: product, service, improvement, result. 
-- Project vs. Operations 
-- Project vs. Programvs. Portfolio
+
 # Software Project Management
 ## What is Project Management?
 #exam 应该也是简答题，考概念
