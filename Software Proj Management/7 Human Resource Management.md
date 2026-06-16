@@ -25,10 +25,11 @@ Pre-assignment
 Negotiation
 - 通过协商选人（从其他组里选）
 Acquisition
-- 从外部招人
+- 从外部招人（招聘临时人员）
 Virtual Teams
 - 线上，不用现实在一起
 Multi-Criteria Decision Analysis
+- 根据多个标准给候选人打分，最后选择最合适的人
 ## Output
 Project Staff Assignments
 # Develop Project Team
@@ -45,8 +46,8 @@ Project manager has provided each kind of training for the team members. Team me
 Norming
 
 1. Forming（刚认识，independent）
-2. Storming（震荡期，）
-3. Norming（开始正常工作）
+2. Storming（震荡期，开始解决项目工作、技术决策和项目管理方法）
+3. Norming（开始正常工作，调整以适应团队）
 4. Performing（工作很好）
 5. Adjourning（工作完成）
 # Manage Project Team
