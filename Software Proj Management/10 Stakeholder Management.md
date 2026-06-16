@@ -9,15 +9,15 @@
 ![](assets/10%20Stakeholder%20Management/file-20260614010716061.png)
 ### Salience model
 #test 
-Which kind of classification model is used to identify stakeholders based on their power, urgency and legitimacy?
+Which kind of classification model is used to identify stakeholders based on their **power, urgency and legitimacy**?
 
 ![](assets/10%20Stakeholder%20Management/file-20260614010946730.png)
 ## Output
 #predicted 
 Stakeholder register
-- Identification information: Name, organizational position,location, role in the project, contact information
-- Assessment information: Major requirements, mainexpectations, potential influence in the project, phaseinthe life cycle with the most interest; 
-- Stakeholder classification: internal/external, supporter/neutral/resistor, etc.
+- **Identification** information: **Name**, organizational position,location, role in the project, contact information
+- **Assessment** information: Major **requirements**, main **expectations**, potential influence in the project, phaseinthe life cycle with the most interest; 
+- **Stakeholder classification**: **internal/external**, supporter/neutral/resistor, etc.
 ![](assets/10%20Stakeholder%20Management/file-20260614011037691.png)
 
 # Communication Management
