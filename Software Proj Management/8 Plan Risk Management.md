@@ -42,11 +42,15 @@ updated risk register
 加上类别，优先级
 ![](assets/8%20Plan%20Risk%20Management/file-20260613232244985.png)
 # Perform Quantitative RiskAnalysis
-#exam EMV
+## Tornado diagram
+![](assets/8%20Plan%20Risk%20Management/file-20260616153359992.png)
 ## Expected monetary value analysis
+#exam EMV
 ![](assets/8%20Plan%20Risk%20Management/file-20260613232357549.png)
 ![](assets/8%20Plan%20Risk%20Management/file-20260613232406848.png)
-
+## Modeling and simulation
+Monte Carlo technique
+项目模拟使用一个模型，将项目指定的详细不确定性转化为它们对项目目标的潜在影响。
 # Plan Risk Response
 ## Strategy
 #test 
