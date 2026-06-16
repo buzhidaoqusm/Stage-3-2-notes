@@ -244,4 +244,4 @@ Input, Tools&Techniques, Output
 **Unstructured** management -> **Structured** management
 
 #test 
-Process is able to transform the structured management to unstructured management（对）
+Process is able to transform the structured management to unstructured management（错）
