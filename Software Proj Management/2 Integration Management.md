@@ -277,7 +277,7 @@ The Approved Change Requests will be taken as an input of Perform Integrated Cha
 
 ## Output
 - **Approved Change Requests** (到Direct and Manage Project Work中)
-- Change log 
+- **Change log** 
 - Project Management Plan Updates 
 - Project Documents Updates
 
@@ -308,7 +308,7 @@ The release of organization resources is needed in the Close Project process. �
 	- Regression analysis, and
 	- Trend analysis
 ## Output
-- Final Product, Service, or Result Transitionn 
+- Final Product, Service, or Result Transition
 - Organizational Process Assets **Updates**
 	- Project files 
 	- Project or phase closure documents 
