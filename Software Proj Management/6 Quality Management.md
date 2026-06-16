@@ -79,6 +79,7 @@ Change Requests
 #### Affinity diagrams
 将相似的想法放在一起
 #### Activity network diagrams
+活动之间的关系
 #### Tree diagrams
 systematic diagrams
 represent decomposition hierarchies such as WBS, RBS and, OBS
@@ -88,7 +89,7 @@ perform data analysis
 ![](assets/6%20Quality%20Management/file-20260613202843201.png)
 #### Prioritization matrices
 Identify the **key issues** and the **suitable alternatives** to be **prioritized** asaset of decisions
-A combination of tree diagrams and matrix diagram
+A **combination** of **tree** diagrams and **matrix** diagram
 ![](assets/6%20Quality%20Management/file-20260613203055843.png)
 #### Process decision program charts (PDPC)
 Used to understand a **goal in relation** to the **steps** for getting to the goal
