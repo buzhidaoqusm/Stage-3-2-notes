@@ -28,7 +28,7 @@ COQ: PAF（Prevention / Appraisal / Failure）
 - Cost of Conformance （Money spent during the project to **avoid failure**）
 	- Prevention Costs
 	- Appraisal Costs （检验成本，测试）
-- Cost of Nonconformance（Money spent duringandafterthe project **because of failure**）
+- Cost of Nonconformance（Money spent during and afterthe project **because of failure**）
 	- Internal FailureCosts（rework）
 	- External Failure Costs
 ### Seven basic quality tools
@@ -47,8 +47,10 @@ Flow chart
 process
 ![](assets/6%20Quality%20Management/file-20260613201431785.png)
 #### Checksheets
+useful for **gathering attributes data** while performing **inspections** to identify defects
 ![](assets/6%20Quality%20Management/file-20260613201441445.png)
 #### Histogram
+describe the **central tendency**, dispersion, and shape of a **statistical** distribution
 直方图
 #### Pareto diagrams
 #exam 考试经常考
@@ -58,6 +60,7 @@ process
 ##### Pareto 80/20 rule
 80% of the effects come from 20% of the causes
 #### Control charts
+whether or not a process is **stable**
 控制图
 给平均值设上下限，突破了视为异常
 Rule of Seven：在平均值上或者下连续7个点，也视为异常
