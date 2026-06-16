@@ -55,7 +55,7 @@ Laboratory experiments use “**test collections**” for which **standard queri
 the system is designed to **provide a full answer** to a **question**
 >Question: What is the capital city of France? 
 >Answer: Paris is the capital city of France
-![](assets/0%20Introduction/file-20260420163904433.png)
+![](/assets/0%20Introduction/file-20260420163904433.png)
 
 # Information Extraction
 An Information Extraction system is designed to take **unstructured text** and try to **create structured data** from it.

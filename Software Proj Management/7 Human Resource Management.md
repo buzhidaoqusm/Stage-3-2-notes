@@ -2,7 +2,7 @@
 ## TT
 #predicted 
 Organization charts and position descriptions
-![](assets/7%20Human%20Resource%20Management/file-20260613215955855.png)
+![](/assets/7%20Human%20Resource%20Management/file-20260613215955855.png)
 ### Hierarchical-type charts
 Organizational breakdown structure (OBS)
 同第一章中的Organizational Structure，weak，strong，balanced等等
@@ -10,7 +10,7 @@ Organizational breakdown structure (OBS)
 RACI
 谁负责，谁可以咨询等等
 确保了任何一项任务只有一个人负责
-![](assets/7%20Human%20Resource%20Management/file-20260613220655453.png)
+![](/assets/7%20Human%20Resource%20Management/file-20260613220655453.png)
 ### Text-oriented formats
 以文本格式指定
 提供职责、权限、能力和资格等信息

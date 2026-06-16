@@ -10,11 +10,11 @@ Typical process:
 Basic Idea
 - Based on the idea that **documents and queries** are represented as **vectors**
 - Wants to find a **query vector** that **maximises similarity** with **relevant** documents and **minimises similarity** with **nonrelevant** documents.
-![](assets/8b%20Relevance%20Feedback/file-20260427101345630.png)
+![](/assets/8b%20Relevance%20Feedback/file-20260427101345630.png)
 
 > example
 
-![](assets/8b%20Relevance%20Feedback/file-20260427101614012.png)
+![](/assets/8b%20Relevance%20Feedback/file-20260427101614012.png)
 离relevant近
 
 ## Centroids

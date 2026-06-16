@@ -24,7 +24,7 @@ A document will tend to have a high PageRank score if:
 - It is linked to by **many documents** and/or 
 - It is linked to by **documents** that themselves have a **high PageRank**.
 ## Link Structure
-![](assets/11a%20Page%20Rank/file-20260601162940252.png)
+![](/assets/11a%20Page%20Rank/file-20260601162940252.png)
 A and B are **backlinks** of C
 A and B **have outlinks** to C
 
@@ -42,7 +42,7 @@ $$
 
 > Example
 
-![](assets/11a%20Page%20Rank/file-20260601164230376.png)
+![](/assets/11a%20Page%20Rank/file-20260601164230376.png)
 
 > Question: where does the initial PageRank come from?
 
@@ -53,7 +53,7 @@ These **continue to be recalculated** until the **scores converge** (i.e. calcul
 ## rank sink
 
 which refers to a group of pages that have at least one backlink and link to one another, but do **not link** to anywhere else **outside** the group
-![](assets/11a%20Page%20Rank/file-20260601165413442.png)
+![](/assets/11a%20Page%20Rank/file-20260601165413442.png)
 
 ### Combating Rank Sinks
 $$
@@ -65,7 +65,7 @@ a document with no backlinks would have a PageRank of **zero**
 
 With the **modified formula**, a document with no backlinks has a PageRank of **(1-d)** to contribute to the documents it links to.
 
-![](assets/11a%20Page%20Rank/file-20260601171723839.jpg)
+![](/assets/11a%20Page%20Rank/file-20260601171723839.jpg)
 
 Brin and Page were using a database of 322 million links and believed that the convergence had reached a reasonable level after 52 iterations.
 Doubling the size of the document collection does not double the time taken to converge.

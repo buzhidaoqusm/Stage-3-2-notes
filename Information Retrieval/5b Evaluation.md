@@ -5,7 +5,7 @@ There are many measureable quantities for this:
 
 关注3
 # The Cranfield Paradigm
-![](assets/5b%20Evaluation/file-20260422203740753.png)
+![](/assets/5b%20Evaluation/file-20260422203740753.png)
 
 A **relevant document** is one that (at least partially) **satisfies** a user’s information **need**.
 
@@ -22,6 +22,6 @@ This results in **standard test collections**, that researchers use to test how 
 - **Ret**: The answer set or retrieved set is the **set of documents** that an **IR** system has **returned** in response to a query (returned by any system that is to be tested).
 
 让rel和ret找到的Document相同
-![](assets/5b%20Evaluation/file-20260422204435751.png)
+![](/assets/5b%20Evaluation/file-20260422204435751.png)
 
 The **purpose** of evaluating the effectiveness of an IR technique is to **evaluate** the quality of this **ranked list**.

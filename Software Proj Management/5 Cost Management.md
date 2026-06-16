@@ -9,7 +9,7 @@ cost management plan
 > Pecision VS Accuracy
 
 
-![](assets/5%20Cost%20Management/file-20260515095601056.png)
+![](/assets/5%20Cost%20Management/file-20260515095601056.png)
 # Estimate Costs
 The process of developing an approximation of the **monetary** resources needed to complete project activities
 The key benefit of this process is that it **determines the amount of cost** required to complete project work
@@ -38,7 +38,7 @@ a method of estimating a component of work
 
 The cost of individual **work packages or activities** is estimated to the **greatest level** of specified detail. 
 The detailed cost is then **summarized** or “rolled up” to higher levels for subsequent reporting and tracking purposes.
-![](assets/5%20Cost%20Management/file-20260515101449232.png)
+![](/assets/5%20Cost%20Management/file-20260515101449232.png)
 ## Output
 1. Activity Cost Estimates
 	1. Activity cost estimates are **quantitative assessments**
@@ -70,11 +70,11 @@ FP =UFC`*`TCF
 > UFC
 > 根据complexity X 数量加起来
 
-![](assets/5%20Cost%20Management/file-20260515145502794.png)![](assets/5%20Cost%20Management/file-20260515145509548.png)
+![](/assets/5%20Cost%20Management/file-20260515145502794.png)![](/assets/5%20Cost%20Management/file-20260515145509548.png)
 
 > TCF
 
-![](assets/5%20Cost%20Management/file-20260515145620551.png)
+![](/assets/5%20Cost%20Management/file-20260515145620551.png)
 
 TCF=0.65+0.01(sum(Fi))：Fi:0-5,TCF:0.65~1.35
 

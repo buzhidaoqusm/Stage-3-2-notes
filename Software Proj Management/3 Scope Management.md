@@ -14,7 +14,7 @@ Product scope和Project Scope分别measured against什么
 - Project Scope (主要是How)
 	- The **work** performed to deliver a product, service, or result with the specified features and functions
 	- is measured against **Project management plan**
-![](assets/3%20Scope%20Management/file-20260426183455671.png)
+![](/assets/3%20Scope%20Management/file-20260426183455671.png)
 # Plan Scope Management
 scope management plan:
 - Scope Management Plan describes how the scope will be **defined,developed, monitored, controlled, and validated**.
@@ -206,14 +206,14 @@ The key benefit of this process is that it provides a **structured** vision of w
 		4. Developing and assigning identification codes to the WBScomponents; and 
 		5. Verifying that the degree of decompositionof thedeliverables is appropriate.
 2.  Expert Judgment
-![](assets/3%20Scope%20Management/file-20260428145737926.png)
+![](/assets/3%20Scope%20Management/file-20260428145737926.png)
 最下面六个都是work package
 
 Approaches to create WBS
 1. Using **phases of the project life cycle** as the second level of decomposition, with the product and project deliverables inserted at the third level. 
-	- ![](assets/3%20Scope%20Management/file-20260428150051161.png)
+	- ![](/assets/3%20Scope%20Management/file-20260428150051161.png)
 2. Using **major deliverables** as the second level of decomposition.
-	- ![](assets/3%20Scope%20Management/file-20260428150104264.png)
+	- ![](/assets/3%20Scope%20Management/file-20260428150104264.png)
 ## Output
 1. **Scope Baseline**
 	- component of Project Management Plan

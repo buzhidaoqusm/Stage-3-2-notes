@@ -23,7 +23,7 @@ An alternative is a **non-linear pipeline**, where some **stages** can happen in
 	- But, **Languages models** are **slooooooow**
 ## Speed is of the essence
 A typical modern IR system will use **multiple different process** to create the final ranking.
-![](assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423145941528.png)
+![](/assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423145941528.png)
 # Increasing Recall
 However, in modern architectures, the **output** of the **basic approaches** (e.g. Boolean retrieval, BM25) will not be shown directly to the users – they are **inputs** to **further processing** to improve the final ranking.
 
@@ -39,7 +39,7 @@ Many sources of related terms:
 - A **manually-created thesaurus**, such as WordNet1 . 
 - An **automatically-created thesaurus** from some external corpus like a web crawl, or Wikipedia2  
 - **Word embeddings**, where words are represented by vectors (e.g. word2vec, GloVe, ELMo and BERT-based embeddings).
-![](assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423153655027.png)
+![](/assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423153655027.png)
 using “OR”
 ## Pseudo-Relevance Feedback
 Relevance Feedback is when users are **shown** a set of **documents** in response to a query, and tell the system **which ones are relevant**.
@@ -49,7 +49,7 @@ Pseudo-Relevance Feedback simulates relevance feedback by **assuming** that the 
 - Why does this work? “**Terms** that **occur consistently** in relevant documents also tend to **appear consistently** in **top ranked** documents.”
 - But it’s not perfect: danger of **query drift** towards the topic of the top-ranked documents.
 # Modern IR
-![](assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423155331348.png)
+![](/assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423155331348.png)
 - QL: Query Likelihood 
 - DocLen: Document Length 
 - LTR: Learning To Rank 
@@ -103,5 +103,5 @@ Important for:
 -  More **reliable generation** of facts. 
 - Allowing users to **check original sources**, in case of hallucinations. 
 - Events that have **occurred** since the model was **trained**.
-![](assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423164726711.png)
+![](/assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423164726711.png)
 In some architectures, the **LLM** will be **involved** in the **retrieval process** also, for example by performing **query expansion**

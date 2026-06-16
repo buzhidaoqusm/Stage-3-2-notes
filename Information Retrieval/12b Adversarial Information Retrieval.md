@@ -12,7 +12,7 @@ Even for many that did, they initially gave a **high weight** to terms appearing
 在meta tag里面加关键词
 ## Hidden Text
 字体颜色和背景一致
-![](assets/12b%20Adversarial%20Information%20Retrieval/file-20260601204403952.png)
+![](/assets/12b%20Adversarial%20Information%20Retrieval/file-20260601204403952.png)
 
 1. **Add extra keywords** for a search engine to pick up that aren’t already contained in the content of the page (known as “**keyword stuffing**”). （增加额外的关键字）
 2. Increase the term frequency of important search terms. （增加关键词的频率）

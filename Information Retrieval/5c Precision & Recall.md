@@ -28,6 +28,6 @@ Ideally every IR system would have **both recall and precision of 100%** (the an
 Basic Precision is a **set-based**, **unranked** retrieval metric (as is recall)
 Most IR systems **return ranked lists**, not sets of documents, so **users** are most likely to look at the **top of the list first**.
 
-![](assets/5c%20Precision%20&%20Recall/file-20260422213443627.png)
+![](/assets/5c%20Precision%20&%20Recall/file-20260422213443627.png)
 R = Relevant
 BUT, clearly **Engine B is better**, because its top-ranked documents are relevant, as a user would expect.

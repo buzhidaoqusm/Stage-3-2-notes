@@ -52,4 +52,4 @@ converting **words** into **lemmas** (i.e. **base words** found in **dictionarie
 - Unlike a stem, a lemma is always a **real word**.
 **slower** than stemming, but is usually more **effective**
 a lemmatiser will often need to know **the part of speech** that the word is being used as (verb, noun, etc.)
-![](assets/2b%20Stopwords,%20Stemming%20and%20Lemmatisation/file-20260421213211943.png)
+![](/assets/2b%20Stopwords,%20Stemming%20and%20Lemmatisation/file-20260421213211943.png)

@@ -26,7 +26,7 @@ For the evaluation metrics we have seen so far, they are simplified by **assumin
 
 It was noticed that **returning** many **unjudged** documents had the effect of **lowering evaluation score**.
 - This does **not mean** that the **retrieval was worse**: whether a document is relevant or not is not affected by whether somebody has judged it.
-![](assets/6b%20bpref/file-20260423133505176.png)
+![](/assets/6b%20bpref/file-20260423133505176.png)
 
 The idea behind bpref is that these **unjudged documents** should **not impact** so largely on the **evaluation score**.
 The **only documents** considered are those that were **judged relevant** or **judged non-relevant**.
@@ -41,7 +41,7 @@ n is a member of the first R judged non-relevant documents
 	- For each relevant document in that was retrieved in the answer set: 
 		- Count the **number of non-relevant** documents **above** it in the result set (this is |𝑛 𝑟𝑎𝑛𝑘𝑒𝑑 ℎ𝑖𝑔ℎ𝑒𝑟 𝑡ℎ𝑎𝑛 𝑟|). This **cannot be greater** than the total number of relevant documents (**R**)
 		- The score for that document is $1 - \frac{\left|\, n \text{ ranked higher than } r \,\right|}{R}$
-![](assets/6b%20bpref/file-20260423134936842.png)
+![](/assets/6b%20bpref/file-20260423134936842.png)
 ## Problems
 when **R is very small** (i.e. there are only one or two relevant documents) it fails
 
@@ -52,6 +52,6 @@ $$
 where **n** is a member of the **first 10+R judged** nonrelevant documents.
 ## Comparison
 As the judgments become less complete, bpref is more **stable** than the others.
-![](assets/6b%20bpref/file-20260423135609187.png)
+![](/assets/6b%20bpref/file-20260423135609187.png)
 y 轴：评估指标得分
 x 轴：使用判断的百分比（他们不断删除判断文件并重新评估）

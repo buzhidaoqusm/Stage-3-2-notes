@@ -6,19 +6,19 @@
 评估关键利益相关者在各种情况下可能如何反应或响应，以便计划如何影响他们以增强他们的支持并减轻潜在的负面影响。
 ### Power/interest grid
 
-![](assets/10%20Stakeholder%20Management/file-20260614010716061.png)
+![](/assets/10%20Stakeholder%20Management/file-20260614010716061.png)
 ### Salience model
 #test 
 Which kind of classification model is used to identify stakeholders based on their **power, urgency and legitimacy**?
 
-![](assets/10%20Stakeholder%20Management/file-20260614010946730.png)
+![](/assets/10%20Stakeholder%20Management/file-20260614010946730.png)
 ## Output
 #predicted 
 Stakeholder register
 - **Identification** information: **Name**, organizational position,location, role in the project, contact information
 - **Assessment** information: Major **requirements**, main **expectations**, potential influence in the project, phaseinthe life cycle with the most interest; 
 - **Stakeholder classification**: **internal/external**, supporter/neutral/resistor, etc.
-![](assets/10%20Stakeholder%20Management/file-20260614011037691.png)
+![](/assets/10%20Stakeholder%20Management/file-20260614011037691.png)
 
 # Communication Management
 包括确保项目信息的及时和适当的规划、收集、创建、分发、存储、检索、管理、控制、监视和最终处置所需的过程。
@@ -35,4 +35,4 @@ C、120
 D、42
 
 D
-![](assets/10%20Stakeholder%20Management/file-20260614011301953.png)
+![](/assets/10%20Stakeholder%20Management/file-20260614011301953.png)

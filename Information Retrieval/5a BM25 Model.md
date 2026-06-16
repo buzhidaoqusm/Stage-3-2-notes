@@ -4,7 +4,7 @@ Based on the belief that good term weighting comes from **three principles**:
 - Document length **normalisation**: (so that longer documents do not get an unfair advantage if they contain query terms often simply because of their length).
 # TF in BM25
 BM25 treats TF slightly differently – a **term** that is **common** in a document will reach **saturation** and should **not get a big advantage** from being even more common.
-![](assets/5a%20BM25%20Model/file-20260422174150453.png)
+![](/assets/5a%20BM25%20Model/file-20260422174150453.png)
 𝑓i,j is the frequency of **term i** in **document j** and k is some constant value
 This version of TF **rises quickly** for **low** frequencies, but more **slowly** for **high** frequencies after saturation occurs.
 
@@ -30,14 +30,14 @@ not every document collection is the same
 	- Any value 0 ≤ b ≤ 1 can be chosen
 # Document Frequency in BM25
 ## IDF
-![](assets/5a%20BM25%20Model/file-20260422181458760.png)
+![](/assets/5a%20BM25%20Model/file-20260422181458760.png)
 where N is the total **number of documents** in the corpus, and 𝑛i is the number of documents **containing term** i.
 
 Effect
 - It results in a **negative weight** for documents that **appear in > 50%** of the documents in the corpus.
 - 2 options:
 	- Treat all these terms as **stopwords** and do **not index** them
-	- ![](assets/5a%20BM25%20Model/file-20260422183911363.png)
+	- ![](/assets/5a%20BM25%20Model/file-20260422183911363.png)
 # Full Formula
 
 $$
@@ -58,7 +58,7 @@ N = 500,000 documents
 The document is 90% of the length of the average
 𝑘 = 1, 𝑏 = 0.75
 
-![](assets/5a%20BM25%20Model/file-20260422194856490.png)
+![](/assets/5a%20BM25%20Model/file-20260422194856490.png)
 # Variations
 BM25F: Allows **different fields** to be given **different importance** in the document (e.g. document **title**, **headlines**, main text, etc.). 
 BM25+: addresses an issue with BM25 whereby **very short documents** would be given scores that are **too high**.

@@ -3,10 +3,10 @@ Query expansion (QE) is a process in Information Retrieval which consists of **s
 - Can be done **automatically or interactively** (with user involvement, similar to relevance feedback).
 ## Interactive Query Expansion
 suggested some query expansion options for the user to choose
-![](assets/8a%20Query%20Expansion/file-20260423165533258.png)
+![](/assets/8a%20Query%20Expansion/file-20260423165533258.png)
 ## Automatic Query Expansion
 The original query “cancer” has been automatically expanded with several related search terms.
-![](assets/8a%20Query%20Expansion/file-20260423165556625.png)
+![](/assets/8a%20Query%20Expansion/file-20260423165556625.png)
 ## Resources for Query Expansion
 main information used is **synonymy**
 A **thesaurus** is a type of database that **collects synonyms** (or near-synonyms) 

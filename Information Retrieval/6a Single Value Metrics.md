@@ -10,7 +10,7 @@ This is a **measure of the quality** of the results that a user is **likely to l
 
 $$P@n=\frac{\text{Relevant in top n results}}{n}$$
 ## Example
-![](assets/6a%20Single%20Value%20Metrics/file-20260422214348037.png)
+![](/assets/6a%20Single%20Value%20Metrics/file-20260422214348037.png)
 P@3 = 2/3; P@10 = 4/10
 
 ## Problems
@@ -36,7 +36,7 @@ three steps:
 2. The **Average Precision** for this query is found by **dividing the sum** of these precision calculations by the total number of relevant documents **|Rel|**.
 3. As with most metrics, for multiple queries the same procedure must be performed for each. We must calculate the **mean of the queries**’ average precision values, giving us Mean Average Precision.
 ## Example
-![](assets/6a%20Single%20Value%20Metrics/file-20260422220440917.png)
+![](/assets/6a%20Single%20Value%20Metrics/file-20260422220440917.png)
 $$\text{Average Precision} = \frac{\sum_{k=1}^{n} P@k \times rel@k}{r}$$
 n is the number of retrieved documents 
 P@k is precision at rank k. 

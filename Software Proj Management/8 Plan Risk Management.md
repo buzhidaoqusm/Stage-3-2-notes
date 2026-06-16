@@ -11,11 +11,11 @@ positive risk = opportunities
 	1. Defines when and how often the risk management processes will be performed
 5. Risk categories
 	1. Risk breakdown structure (RBS)
-	2. ![](assets/8%20Plan%20Risk%20Management/file-20260613231749931.png)
+	2. ![](/assets/8%20Plan%20Risk%20Management/file-20260613231749931.png)
 6. Definitions of risk probability and impact
-	- ![](assets/8%20Plan%20Risk%20Management/file-20260613231759099.png)
+	- ![](/assets/8%20Plan%20Risk%20Management/file-20260613231759099.png)
 7. Probability and impact matrix
-	- ![](assets/8%20Plan%20Risk%20Management/file-20260613231807799.png)
+	- ![](/assets/8%20Plan%20Risk%20Management/file-20260613231807799.png)
 
 **4 Process**
 1. Risk Identification
@@ -40,14 +40,14 @@ The process of **prioritizing risks** for further analysis or action by assessin
 
 updated risk register
 加上类别，优先级
-![](assets/8%20Plan%20Risk%20Management/file-20260613232244985.png)
+![](/assets/8%20Plan%20Risk%20Management/file-20260613232244985.png)
 # Perform Quantitative RiskAnalysis
 ## Tornado diagram
-![](assets/8%20Plan%20Risk%20Management/file-20260616153359992.png)
+![](/assets/8%20Plan%20Risk%20Management/file-20260616153359992.png)
 ## Expected monetary value analysis
 #exam EMV
-![](assets/8%20Plan%20Risk%20Management/file-20260613232357549.png)
-![](assets/8%20Plan%20Risk%20Management/file-20260613232406848.png)
+![](/assets/8%20Plan%20Risk%20Management/file-20260613232357549.png)
+![](/assets/8%20Plan%20Risk%20Management/file-20260613232406848.png)
 ## Modeling and simulation
 Monte Carlo technique
 项目模拟使用一个模型，将项目指定的详细不确定性转化为它们对项目目标的潜在影响。

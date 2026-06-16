@@ -5,7 +5,7 @@
 - "**Environment**: System state."
 - "**Response**: What system does."
 - "**Response** **Measure**: Quantifiable metric."
-![](assets/4%20Quality%20Attribute/file-20260608211054669.png)
+![](/assets/4%20Quality%20Attribute/file-20260608211054669.png)
 # Availability
 - "Availability: **Fault Detection, Fault Recovery, Fault Avoidance**."
 - **Detection**（检测问题）: "Ping/Echo, Heartbeat, Exceptions."
@@ -95,7 +95,7 @@ Finding Bugs Before Users Do
 - Breakpoints, step-through, inspection 
 - Specialized tools (WinDbg, Stetho)
 # Trade-Off Matrix & Decision Framework
-![](assets/4%20Quality%20Attribute/file-20260614192310736.png)
+![](/assets/4%20Quality%20Attribute/file-20260614192310736.png)
 Banking (银行) Security > Availability > Performance
 # Summary
-![](assets/4%20Quality%20Attribute/file-20260608211255625.png)
+![](/assets/4%20Quality%20Attribute/file-20260608211255625.png)

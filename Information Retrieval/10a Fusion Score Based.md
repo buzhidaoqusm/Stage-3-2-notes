@@ -28,8 +28,8 @@ $$
 $$
 ## CombSUM
 归一化之后加起来
-![](assets/10a%20Fusion%20Score%20Based/file-20260518210851936.png)
-![](assets/10a%20Fusion%20Score%20Based/file-20260518210900920.png)
+![](/assets/10a%20Fusion%20Score%20Based/file-20260518210851936.png)
+![](/assets/10a%20Fusion%20Score%20Based/file-20260518210900920.png)
 
 # CombMNZ
 Although CombSUM makes use of the **Chorus Effect** by adding the normalised scores, CombMNZ **emphasises this even further**.
@@ -47,7 +47,7 @@ MNZ stands for "Multiply by Non Zero".
 	- Document #2 is given a score of 0.65 by System C
 	- Document #2's CombMNZ score is (0.55 + 0 + 0.65) x 2 = 2.4
 
-![](assets/10a%20Fusion%20Score%20Based/file-20260518211328689.png)
+![](/assets/10a%20Fusion%20Score%20Based/file-20260518211328689.png)
 
 
 CombMNZ should only be used for **data fusion tasks**

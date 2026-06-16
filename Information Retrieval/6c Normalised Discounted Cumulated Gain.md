@@ -11,7 +11,7 @@ Rank **highly-relevant** documents **ahead** of **mildly** relevant ones (MAP tr
 The first thing that is required is a **set of graded relevance judgments**.
 **assume** that a 0-3 scale where **3** is a **highly relevant** document and **0** is a **non-relevant** document
 ## Example
-![](assets/6c%20Normalised%20Discounted%20Cumulated%20Gain/file-20260423140512804.png)
+![](/assets/6c%20Normalised%20Discounted%20Cumulated%20Gain/file-20260423140512804.png)
 We create a **gain vector** that records the relevance level at each rank
 G = (1, 0, 1, 0, 0, 3, 0, 0, 0, 2, 0, 0, 0, 0, 3)
 The gain vector can be thought of as the **amount of information** that a user gains by reading each document(they gain more information from highly-relevant documents)
@@ -42,7 +42,7 @@ G[1], & i = 1 \\
 \frac{G[i]}{\log_2 i} + DCG[i-1], & i > 1
 \end{cases}
 $$
-![](assets/6c%20Normalised%20Discounted%20Cumulated%20Gain/file-20260423141619903.png)
+![](/assets/6c%20Normalised%20Discounted%20Cumulated%20Gain/file-20260423141619903.png)
 #### Analysis
 This shows how finding **relevant documents** increases the **quality** of the results to that point. 
 - **More relevant** documents contribute **more** to gain. 
@@ -69,7 +69,7 @@ IDCG=(3.0, 6.0, 7.9, 8.9, 9.8, 10.5, 10.9, 11.2, 11.5, 11.8, 11.8, 11.8, 11.8, 1
 #### NDCG
 We can **normalise** the DCG by **dividing the score** that was actually achieved at each rank by the ideal score, to yield a score between 0 and 1.
 NDCG=DCG(实际的)/IDCG
-![](assets/6c%20Normalised%20Discounted%20Cumulated%20Gain/file-20260423142338169.png)
+![](/assets/6c%20Normalised%20Discounted%20Cumulated%20Gain/file-20260423142338169.png)
 
 We still have the problem that we have **15 different scores** for the evaluation.
 similar way to Precision@n

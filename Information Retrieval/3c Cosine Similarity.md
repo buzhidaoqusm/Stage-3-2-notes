@@ -6,7 +6,7 @@ Principle: the **smaller the angle** between two vectors, the **more similar** t
 Therefore, the **cosine** function gives a value **between 0** (for very different documents) and **1** (for identical documents).
 This is **ideal for a measure of similarity**.
 
-![](assets/3c%20Cosine%20Similarity/file-20260422160036222.png)
+![](/assets/3c%20Cosine%20Similarity/file-20260422160036222.png)
 (dj ) ⃗ is a vector representing a document dj
 q ⃗  is a vector representing the query q
 T is the number of **distinct terms** in the entire document collection

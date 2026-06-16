@@ -16,7 +16,7 @@ Each **docID** in the list is a **posting**.
 > friend ->  2->3->7
 
 # Construction of an Inverted Index
-![](assets/1b%20Indexing/file-20260420195733455.png)
+![](/assets/1b%20Indexing/file-20260420195733455.png)
 ## 1. Token sequence
 Sequence (list) of pairs: **(token, docID)**
 punctuation removed
@@ -32,7 +32,7 @@ We also record the **document frequency** of each term (the **number** of docume
 
 | step1                                                | step2                                                | step3                                                |
 | ---------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- |
-| ![](assets/1b%20Indexing/file-20260420200428967.png) | ![](assets/1b%20Indexing/file-20260420200449683.png) | ![](assets/1b%20Indexing/file-20260420200501081.png) |
+| ![](/assets/1b%20Indexing/file-20260420200428967.png) | ![](/assets/1b%20Indexing/file-20260420200449683.png) | ![](/assets/1b%20Indexing/file-20260420200501081.png) |
 ## How do we process a query
 > Brutus AND Caesar
 

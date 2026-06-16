@@ -2,7 +2,7 @@
 **Completing** the project **on time** is one of the **biggest challenges**
 The **problem of schedule** is the main cause of project **conflict**
 Time is the **least flexible** factor in project planning
-![](assets/4%20Time%20Management/file-20260512150058197.png)
+![](/assets/4%20Time%20Management/file-20260512150058197.png)
 # Plan schedule management
 Plan Schedule Management is the process of **establishing** the **policies, procedures, and documentation** for **planning, developing, managing, executing, and controlling** the project schedule. 
 The key benefit of this process is that it provides guidance and direction on **how the project schedule will be managed throughout the project**.
@@ -91,7 +91,7 @@ D
 #exam 要考Project schedule network diagram
 1. **Project Schedule Network Diagramsn** 
 2. Project Documents Updates
-![](assets/4%20Time%20Management/file-20260512195027987.png)
+![](/assets/4%20Time%20Management/file-20260512195027987.png)
 # Estimate Activity Durations
 The process of estimating the **number** of **work periods** needed to complete individual activities with estimated resources
 The key benefit of this process is that it provides the amount of time each activity will take to complete, which is a **major** **input** into the Develop Schedule process.
@@ -161,7 +161,7 @@ The key benefit of this process is that by entering schedule **activities, durat
 ### Critical path method
 A method used to estimate the **minimum project duration** and determine the **amount of scheduling flexibility** on the logical network paths within the schedule model.
 
-![](assets/4%20Time%20Management/file-20260512210440217.png)
+![](/assets/4%20Time%20Management/file-20260512210440217.png)
 
 `critical path`：最长的路径（耗时最多）
 
@@ -170,16 +170,16 @@ A method used to estimate the **minimum project duration** and determine the **a
 1. 计算critical path，给其中的每个任务float=0
 2. 找到第二长的path，每个任务float=critical path-当前path的duration
 3. 再找到下一条的，同理计算。如果有交叉的节点，float保留最小的结果
-![](assets/4%20Time%20Management/file-20260512211349156.png)
+![](/assets/4%20Time%20Management/file-20260512211349156.png)
 
-![](assets/4%20Time%20Management/file-20260512211415110.png)
+![](/assets/4%20Time%20Management/file-20260512211415110.png)
 > 初始状态：
 > 如果前一个任务在第6天结束，下一个任务的最早开始时间是7
 
-![](assets/4%20Time%20Management/file-20260512211503767.png)
+![](/assets/4%20Time%20Management/file-20260512211503767.png)
 > 先算关键路径，ES=LS，EF=LF
 > 其他path的最晚时间需要回推， 从后往前计算
-![](assets/4%20Time%20Management/file-20260512211653293.png)
+![](/assets/4%20Time%20Management/file-20260512211653293.png)
 
 ### Critical chain method
 #test 
@@ -198,7 +198,7 @@ It is developed from the **critical path method** approach and considers the **e
 #### Project buffer vs Feeding buffers
 Feeding buffers只能加在进入critical chain的时候
  Project buffer 会影响critical chain，影响整个项目的完成时间
-![](assets/4%20Time%20Management/file-20260512215637746.png)
+![](/assets/4%20Time%20Management/file-20260512215637746.png)
 ### Resource optimization techniques
 #predicted 
 Used to **adjust the start and finish dates** of activities to **adjust planned resource** use to be equal to or less than resource availability.
@@ -210,8 +210,8 @@ Resource leveling
 
 > Example
 
-![](assets/4%20Time%20Management/file-20260514161105678.png)
-![](assets/4%20Time%20Management/file-20260514161114305.png)
+![](/assets/4%20Time%20Management/file-20260514161105678.png)
+![](/assets/4%20Time%20Management/file-20260514161114305.png)
 
 Resource smoothing
 - A technique that adjusts the activities of a schedule model such that the **requirements for resources** on the project do **not exceed certain predefined resource limits**

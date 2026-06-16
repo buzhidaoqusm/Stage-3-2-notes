@@ -41,14 +41,14 @@ Flow chart
 #### Cause-and-effect diagrams
 鱼骨图
 某个原因，会有什么结果
-![](assets/6%20Quality%20Management/file-20260613201420162.png)
+![](/assets/6%20Quality%20Management/file-20260613201420162.png)
 #### Flowcharts
 展示项目的流程
 process
-![](assets/6%20Quality%20Management/file-20260613201431785.png)
+![](/assets/6%20Quality%20Management/file-20260613201431785.png)
 #### Checksheets
 useful for **gathering attributes data** while performing **inspections** to identify defects
-![](assets/6%20Quality%20Management/file-20260613201441445.png)
+![](/assets/6%20Quality%20Management/file-20260613201441445.png)
 #### Histogram
 describe the **central tendency**, dispersion, and shape of a **statistical** distribution
 直方图
@@ -56,7 +56,7 @@ describe the **central tendency**, dispersion, and shape of a **statistical** di
 #exam 考试经常考
 帕累托图
 发生错误时，各个原因的可能性
-![](assets/6%20Quality%20Management/file-20260613201601724.png)
+![](/assets/6%20Quality%20Management/file-20260613201601724.png)
 ##### Pareto 80/20 rule
 80% of the effects come from 20% of the causes
 #### Control charts
@@ -64,12 +64,12 @@ whether or not a process is **stable**
 控制图
 给平均值设上下限，突破了视为异常
 Rule of Seven：在平均值上或者下连续7个点，也视为异常
-![](assets/6%20Quality%20Management/file-20260613201622338.png)
+![](/assets/6%20Quality%20Management/file-20260613201622338.png)
 #### Scatter diagrams
 判断相关关系
 正相关/负相关
 强相关/弱相关
-![](assets/6%20Quality%20Management/file-20260613201635608.png)
+![](/assets/6%20Quality%20Management/file-20260613201635608.png)
 # Perform Quality Assurance
 ## Output
 Change Requests
@@ -83,15 +83,15 @@ Change Requests
 #### Tree diagrams
 systematic diagrams
 represent decomposition hierarchies such as WBS, RBS and, OBS
-![](assets/6%20Quality%20Management/file-20260613202827034.png)
+![](/assets/6%20Quality%20Management/file-20260613202827034.png)
 #### Matrix diagrams
 perform **data analysis**
 show the **strength of relationships**
-![](assets/6%20Quality%20Management/file-20260613202843201.png)
+![](/assets/6%20Quality%20Management/file-20260613202843201.png)
 #### Prioritization matrices
 Identify the **key issues** and the **suitable alternatives** to be **prioritized** asaset of decisions
 A **combination** of **tree** diagrams and **matrix** diagram
-![](assets/6%20Quality%20Management/file-20260613203055843.png)
+![](/assets/6%20Quality%20Management/file-20260613203055843.png)
 #### Process decision program charts (PDPC)
 Used to understand a **goal in relation** to the **steps** for getting to the goal
 a method for **contingency** planning

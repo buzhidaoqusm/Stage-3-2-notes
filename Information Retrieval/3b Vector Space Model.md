@@ -31,4 +31,4 @@ wi,j refers to the weight of **term i** in **document j**
 
 query: important information  =>  (1, 0, 0, 0, 0, 1)
 the **order** of the **terms** in the vector is the same as for the **corpus**
-![](assets/3b%20Vector%20Space%20Model/file-20260422152835629.png)
+![](/assets/3b%20Vector%20Space%20Model/file-20260422152835629.png)
