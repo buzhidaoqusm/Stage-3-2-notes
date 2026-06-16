@@ -47,11 +47,11 @@ Requirements include the **quantified and documented needs** and **expectations*
 Collect Requirements is the process of determining , and managing **stakeholder needs and requirements** to meet **project objectives**
 The key benefit of this process is that it provides the **basis** for **defining** the product **scope** and the project scope.
 ## Input
-1. Scope Management Plan
-2. Requirements Management Plan
-3. Stakeholder Management Plan
-4. Project Charter
-5. Stakeholder Register
+1. **Scope** Management Plan
+2. **Requirements** Management Plan
+3. **Stakeholder** Management Plan
+4. Project **Charter**
+5. Stakeholder **Register**
 ## TT
 #test 
 You have a geographically dispersed team, from whom you would like to get expert opinion about your project. Which information gathering technique should you use:
