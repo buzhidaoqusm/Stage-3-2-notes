@@ -44,8 +44,7 @@ The detailed cost is then **summarized** or “rolled up” to higher levels for
 	1. Activity cost estimates are **quantitative assessments**
 	2. can be presented in summary form or in detail.
 2. Basis of Estimates
-## TT
-### Software project cost estimating
+## Software project cost estimating
 1. Lines Of Code (LOC) 
 2. Function point (FP) 
 3. Expert estimation method 
@@ -62,7 +61,7 @@ Software project scale measurement unit
 - FP
 	- Count the external and internal functions of the system. (**Unadjusted Function Point Count**)
 	- According to the **technical complexity factor**, they are adjusted to produce the product scale measurement results.
-#### FP计算
+### FP计算
 #exam 要考计算
 FP =UFC`*`TCF  
 - UFC(Unadjusted Function Point Count) 
@@ -91,7 +90,7 @@ Workload=15 * 45.12=676.8 hours
 > If the cost for each labor hour is ¥100/hour, what is the total cost of this project
 
 Total cost=676.8 * 100=67680¥
-#### Expert estimation method-Delphi
+### Expert estimation method-Delphi
 #exam 选择题
 给专家做问卷，填表格，让他们评估
 - Minimum ai 
@@ -101,7 +100,7 @@ Total cost=676.8 * 100=67680¥
 Calculating the average estimate of each expert.
 Ei =(ai+4mi + bi)/6 and 
 total average E=(E1+E2+…+En)/n (n represents n experts)
-#### A practical software cost estimationprocess:
+### A practical software cost estimation process:
 #predicted 
 1. Task decomposition(activity): T1, T2,…,Ti,…,Tn
 2. Estimate the cost of each task Ci
@@ -109,8 +108,8 @@ total average E=(E1+E2+…+En)/n (n represents n experts)
 	- For example: if a software project workload is 3 person-months, and the company's human cost parameter is 20,000 yuan / person-months, the cost of the project is $ 60,000
 3. Direct cost of the project =C1+C2+…+Ci+…+Cn
 	- Development workload: Effort(Dev)
-	- Management and quality work : Effort(Mgn)=a`*`Effort(Dev)
-	- Direct cost = Effort(Dev) + a`*`Effort(Dev)
+	- Management and quality work : Effort(Mgn)=a * Effort(Dev)
+	- Direct cost = Effort(Dev) + a * Effort(Dev)
 4. Indirect cost estimation
 	- Indirect costs = Direct costs `*`Indirect cost factor
 5. Total project cost = direct cost + indirect cost
