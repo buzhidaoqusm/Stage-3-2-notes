@@ -147,7 +147,7 @@ The project scope statement is the **description of the project scope**, major d
 1. **Project scope statement** 
 	1. Description of the project scope, major deliverables, assumptions, andconstraints.
 	2. Documents the entire scope, including project and product scope. 
-	3. Describes, in detail, the project’s deliverables and the work requiredtocreatethose deliverables. 
+	3. Describes, in detail, the project’s deliverables and the work required to create those deliverables. 
 2. Project Documents Updates
 # Create WBS
 #test 
