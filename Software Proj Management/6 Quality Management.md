@@ -85,7 +85,8 @@ systematic diagrams
 represent decomposition hierarchies such as WBS, RBS and, OBS
 ![](assets/6%20Quality%20Management/file-20260613202827034.png)
 #### Matrix diagrams
-perform ** **
+perform **data analysis**
+show the **strength of relationships**
 ![](assets/6%20Quality%20Management/file-20260613202843201.png)
 #### Prioritization matrices
 Identify the **key issues** and the **suitable alternatives** to be **prioritized** asaset of decisions
@@ -98,7 +99,7 @@ a method for **contingency** planning
 
 #### Interrelationship diagraphs
 relationship diagrams
-
+用来分析很多问题、原因、因素之间“谁影响谁”
 # Control Quality
 Identifying the **causes of poor process** or product quality
 **Validating** that project **deliverables** and work meet the requirements
