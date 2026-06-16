@@ -108,14 +108,14 @@ generally used when the **number of options nominated** is more than **two**
 One individual makes the decision
 #### Questionnaires and Surveys（问卷调查）
 ## Output
-1. Requirements Documentation
+1. **Requirements Documentation**
 	1. business requirements 
 	2. stakeholder requirements 
 	3. solution requirements 
 	4. transition requirements 
 	5. project requirements 
 	6. quality requirements 
-2. Requirements Traceability Matrix
+2. **Requirements Traceability Matrix**
 	1. grid that links product requirements from their **origin** to the **deliverables** that satisfy them.
 
 ## Software Requirements
