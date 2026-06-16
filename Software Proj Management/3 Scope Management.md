@@ -128,13 +128,13 @@ The key benefit of this process is that it describes the project, service, or re
 
 The project scope statement is the **description of the project scope**, major deliverables, assumptions, and constraints.
 ## Input
-1. Scope management plan
-2. Project charter
-3. Requirements documentation
+1. **Scope** management plan
+2. Project **charter**
+3. Requirements **documentation**
 4. Organizational process assets
 ## TT
 1. Expert judgment 
-2. Product analysis 
+2. **Product analysis** 
 	1. **product breakdown (WBS)** 
 	2. systems analysis 
 	3. requirements analysis 
@@ -142,7 +142,7 @@ The project scope statement is the **description of the project scope**, major d
 	5. value engineering 
 	6. value analysis. 
 3. Alternatives generation
-4. Facilitated workshops
+4. **Facilitated workshops**
 ## Output
 1. **Project scope statement** 
 	1. Description of the project scope, major deliverables, assumptions, andconstraints.
