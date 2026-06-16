@@ -16,7 +16,7 @@ the **most commonly used** contract type
 #### Cost Plus Fixed Fee Contracts (CPFF)
 买方报销卖方实际成本，再给一笔固定费用
 #### Cost Plus Incentive Fee Contrast (CPIF)
-买方报销实际成本，同时如果卖方达到某些绩效目标，可以获得激励费用
+买方报销实际成本，同时如果卖方达到某些绩效目标（客观的），可以获得激励费用
 #### Cost Plus Award Fee Contracts (CPAF)
 买方报销实际成本，但奖励费用主要根据买方的主观评价决定
 ### Time and Material contracts
