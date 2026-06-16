@@ -12,8 +12,8 @@ A **component of the project management plan** that establishes the criteria and
 
 ITTO应该不重要
 ## Inputs
-1. Project management plan
-2. Project charter
+1. Project management **plan**
+2. Project **charter**
 3. Enterprise environmental factors
 4. Organizational process assets
 ## Tools & Techniques
@@ -21,7 +21,7 @@ ITTO应该不重要
 2. Analytical techniques
 3. Meetings
 ## Outputs
-1. Schedule management plan
+1. **Schedule management plan**
 # Define Activities
 #predicted  
 #test 
@@ -37,18 +37,18 @@ The key benefit of this process is to **break down work packages into activities
 > WBS->Work packages->Activity Decomposition->Activity
 
 ## Inputs
-1. Schedule management plan
-2. Scope baseline
+1. **Schedule** management plan
+2. Scope **baseline**
 3. Enterprise environmental factors
 4. Organizational process assets
 ## Tools & Techniques
 1. Decomposition
-2. Rolling wave planning
+2. **Rolling wave planning**
 3. Expert judgment
 ## Outputs
-1. Activity List 
+1. Activity **List** 
 2. Activity Attributes 
-3. Milestone List
+3. **Milestone** List
 	1. A **milestone** is a **significant point** or event inaproject.
 	2. **Milestones** are similar to regular **schedule activities**, with the same structure and attributes, but they have **zero duration** because milestones represent a **moment** in time.
 # Sequence Activities
@@ -57,11 +57,11 @@ The key benefit of this process is that it defines the **logical sequence** of w
 
 ## Input
 2,3,4框起来了
-1. Schedule management plan
+1. Schedule management **plan**
 2. Activity list
 3. Activity attributes
 4. Milestone list
-5. Project scope statement
+5. Project **scope statement**
 6. Enterprise environmental factors
 7. Organizational process assets
 ## TT
@@ -78,18 +78,18 @@ D
 	2. Finish-to-finish (FF) 
 	3. Start-to-start (SS) 
 	4. Start-to-finish (SF)
-2. Dependency determination
+2. **Dependency determination**
 	- Mandatory/discretionary:
 		- Mandatory: often involved physical limitations
 		- discretionary: based on knowledge of best practices within a particular application area
 	- external/internal:
 		- external: relationship betweenproject activities and non-project activities
 		- internal: Involve a precedence relationship between project activities
-3. Leads and lags
+3. **Leads and lags**
 	- Lag: 前一个活动完成后，必须停止一段时间，才能开始下一个（记作SS +15 Days）
 ## Output
 #exam 要考Project schedule network diagram
-1. Project Schedule NetworkDiagramsn 
+1. **Project Schedule Network Diagramsn** 
 2. Project Documents Updates
 ![](assets/4%20Time%20Management/file-20260512195027987.png)
 # Estimate Activity Durations
