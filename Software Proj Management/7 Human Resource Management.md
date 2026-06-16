@@ -9,9 +9,11 @@ Organizational breakdown structure (OBS)
 ### Matrix-based charts
 RACI
 谁负责，谁可以咨询等等
+确保了任何一项任务只有一个人负责
 ![](assets/7%20Human%20Resource%20Management/file-20260613220655453.png)
 ### Text-oriented formats
-
+以文本格式指定
+提供职责、权限、能力和资格等信息
 ## Output
 Human Resource Managementplan
 # Acquire Project Team
