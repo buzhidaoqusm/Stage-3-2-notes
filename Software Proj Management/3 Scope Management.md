@@ -12,7 +12,7 @@ Product scope和Project Scope分别measured against什么
 	- The **features and functions** that **characterize** a product,service, or result
 	- is measured against **Product requirement**
 - Project Scope (主要是How)
-	- The **work** performed to deliver a product, service, orresultwith the specified features and functions
+	- The **work** performed to deliver a product, service, or result with the specified features and functions
 	- is measured against **Project management plan**
 ![](assets/3%20Scope%20Management/file-20260426183455671.png)
 # Plan Scope Management
