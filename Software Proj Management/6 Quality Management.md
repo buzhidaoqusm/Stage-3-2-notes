@@ -10,13 +10,13 @@ Project Quality Management
 - Project Product Quality
 
 5 aspects
-#test 识别Prevention， inspection
+#test 识别Prevention（防止错误发生）， inspection（事后检查有没有错误）
 1. Customer satisfaction
 2. Prevention over inspection（应该阻止，cost更低，比检验好）
 3. Continuous improvement（plan-do-check-act）
 4. Management responsibility
 5. Cost of Quality (COQ)
-# Plan QualityManagement
+# Plan Quality Management
 ## TT
 ### COQ
 #predicted 
