@@ -111,7 +111,7 @@ total average E=(E1+E2+…+En)/n (n represents n experts)
 	- Management and quality work : Effort(Mgn)=a * Effort(Dev)
 	- Direct cost = Effort(Dev) + a * Effort(Dev)
 4. Indirect cost estimation
-	- Indirect costs = Direct costs `*`Indirect cost factor
+	- Indirect costs = Direct costs  * Indirect cost factor
 5. Total project cost = direct cost + indirect cost
 	- = workload * **human cost parameters** （1+Indirect costcoefficient)
 	- = workload * **Cost coefficient**
@@ -120,7 +120,7 @@ total average E=(E1+E2+…+En)/n (n represents n experts)
 The process of **aggregating** the **estimated costs** of individual activities or work packages to establish an authorized **cost baseline**.
 
 ## Output
-cost baseline
+**cost baseline**
 - is the approved version of the **time-phased project budget**, **excluding** any **management reserves**
 S-curve
 # Control Costs
