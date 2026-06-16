@@ -60,9 +60,9 @@ Monte Carlo technique
  You hear that it's going to rain for the first threedays of your trip, so you bring waterproof tents andindoor projects for the team to work on in themeantime.
  Mitigate
 降低负面的
-2. Avoid
-3. Mitigate
-4. Transfer
+2. Avoid （避免危险）
+3. Mitigate （减弱风险）
+4. Transfer （把风险影响和应对责任转给第三方，买保险等等）
 5. Accept
 增加积极的
 6. Exploit
