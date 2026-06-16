@@ -85,7 +85,7 @@ systematic diagrams
 represent decomposition hierarchies such as WBS, RBS and, OBS
 ![](assets/6%20Quality%20Management/file-20260613202827034.png)
 #### Matrix diagrams
-perform data analysis
+perform ** **
 ![](assets/6%20Quality%20Management/file-20260613202843201.png)
 #### Prioritization matrices
 Identify the **key issues** and the **suitable alternatives** to be **prioritized** asaset of decisions
@@ -93,6 +93,8 @@ A **combination** of **tree** diagrams and **matrix** diagram
 ![](assets/6%20Quality%20Management/file-20260613203055843.png)
 #### Process decision program charts (PDPC)
 Used to understand a **goal in relation** to the **steps** for getting to the goal
+a method for **contingency** planning
+为了达成目标，每一步可能哪里会出问题，以及如果出问题该怎么办
 
 #### Interrelationship diagraphs
 relationship diagrams
