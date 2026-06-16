@@ -63,7 +63,7 @@ Sources of conflict
 
 How to resolve a conflict
 - Withdraw/ avoid （不管了）
-- Smooth/Accommodate（解决相同的部分）
-- Compromise/Reconcile（找一个方案，各方尽可能满意）
+- Smooth/Accommodate（解决相同的部分，强调一致的地方，淡化分歧）
+- Compromise/Reconcile（找一个方案，各方尽可能满意，各退一步）
 - Force/Direct（强迫）
 - Collaborate/Problem Solve（合作解决）

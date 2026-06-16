@@ -1,3 +1,5 @@
+negative risk = threats
+positive risk = opportunities
 # Plan Risk Management
 1. Methodology
 	1. approaches, tools, and data sources
