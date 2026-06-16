@@ -170,7 +170,7 @@ work performed at the present CPI
 - EAC = BAC/CPI
 work considering both SPI and CPI factors
 - EAC = AC+ [(BAC-EV)/(CPI×SPI)]
-VAC = BAC– EAC
+**VAC = BAC– EAC**
 ### To-Complete Performance Index (TCPI)
 TCPI=(BAC – EV)/(BAC – AC)
 TCPI=(BAC – EV)/(EAC – AC)
