@@ -20,7 +20,9 @@ positive risk = opportunities
 **4 Process**
 1. Risk Identification
 2. Qualitative Risk analysis
+	- get a good idea of the **probability** and **impact** of each risk
 3. Quantitative Risk analysis
+	- assign **numerical values** for the **probability** and impact of each risk
 4. Risk response planning
 # Identify Risk
 ## TT
