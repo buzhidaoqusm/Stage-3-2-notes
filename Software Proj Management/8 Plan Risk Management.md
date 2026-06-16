@@ -63,18 +63,24 @@ Monte Carlo technique
 2. Avoid （避免危险）
 3. Mitigate （减弱风险）
 4. Transfer （把风险影响和应对责任转给第三方，买保险等等）
-5. Accept
+5. Accept （承认这个风险存在，但不提前采取特别行动，除非它真的发生。如果风险很小）
 增加积极的
-6. Exploit
-7. Enhance
-8. Share
-9. Accept
+6. Exploit （确保这个机会一定发生，比如完成任务有奖金）
+7. Enhance （提高机会发生的概率，或者提高机会带来的好处）
+8. Share （把机会的一部分或全部交给更有能力的第三方一起实现，找合作伙伴）
+9. Accept （知道有这个机会，但不主动追求；如果它自然发生，就利用它）
 
 # Control Risks
 ## TT
 Risk reassessment
+- 重新看看风险清单还准不准
 Variance and trend analysis
+- 看实际和计划差多少，以及差距是不是越来越大
 Reserve analysis
+- 看风险备用金/备用时间还够不够
 Risk audits
+- 找别人来检查风险管理做得好不好
 Technical performance measurement
+- 看技术指标达没达到
 Status meeting
+- 大家定期开会同步风险
