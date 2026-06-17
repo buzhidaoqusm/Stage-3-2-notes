@@ -16,7 +16,7 @@ Which kind of classification model is used to identify stakeholders based on the
 #predicted 
 Stakeholder register
 - **Identification** information: **Name**, organizational position,location, role in the project, contact information
-- **Assessment** information: Major **requirements**, main **expectations**, potential influence in the project, phaseinthe life cycle with the most interest; 
+- **Assessment** information: Major **requirements**, main **expectations**, potential influence in the project, phase in the life cycle with the most interest; 
 - **Stakeholder classification**: **internal/external**, supporter/neutral/resistor, etc.
 ![](/assets/10%20Stakeholder%20Management/file-20260614011037691.png)
 
