@@ -115,7 +115,7 @@ total average E=(E1+E2+…+En)/n (n represents n experts)
 5. Total project cost = direct cost + indirect cost
 	- = workload * **human cost parameters** （1+Indirect costcoefficient)
 	- = workload * **Cost coefficient**
-	- **For example**: The workload of a project is 40 months, Cost coefficient of 20 thousand yuan/man-month, the total estimatedcost of the project is 40 * 20=800 thousand.
+	- **For example**: The workload of a project is 40 months, Cost coefficient of 20 thousand yuan/man-month, the total estimated cost of the project is 40 * 20=800 thousand.
 # Determine Budget
 The process of **aggregating** the **estimated costs** of individual activities or work packages to establish an authorized **cost baseline**.
 
