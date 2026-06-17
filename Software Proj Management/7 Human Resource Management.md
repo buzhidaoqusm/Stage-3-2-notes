@@ -39,7 +39,7 @@ Training
 Ground rules
 Co-location
 Interpersonal Skills
-Team-buildingactivities
+Team-building activities
 ## Tuckman Ladder
 #test 
 Project manager has provided each kind of training for the team members. Team members begin to work together and adjust work habits that support the team. What stage is the project team at?
