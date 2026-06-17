@@ -15,7 +15,7 @@ RACI
 以文本格式指定
 提供职责、权限、能力和资格等信息
 ## Output
-Human Resource Managementplan
+Human Resource Management plan
 # Acquire Project Team
 The process of **confirming human resource availability** and **obtaining the team** necessary to complete project activities
 ## TT
