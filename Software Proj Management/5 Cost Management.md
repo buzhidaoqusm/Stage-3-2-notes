@@ -65,7 +65,7 @@ Software project scale measurement unit
 #exam 要考计算
 FP =UFC`*`TCF  
 - UFC(Unadjusted Function Point Count) 
-- TFC(Technical Complexity Factor)
+- TCF(Technical Complexity Factor)
 
 > UFC
 > 根据complexity X 数量加起来
