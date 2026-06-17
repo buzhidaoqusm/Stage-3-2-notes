@@ -54,10 +54,10 @@ Monte Carlo technique
 # Plan Risk Response
 ## Strategy
 #test 
- If the weather's good, then there's a chance youcould see a meteor shower. If the team gets a photo thatwins the meteor photo contest, you can get extrafunding. You have your team stay up all night withtheir telescopes and cameras ready.
+ If the weather's good, then there's a chance you could see a meteor shower. If the team gets a photo that wins the meteor photo contest, you can get extrafunding. You have your team stay up all night withtheir telescopes and cameras ready.
  Exploit
  
- You hear that it's going to rain for the first threedays of your trip, so you bring waterproof tents andindoor projects for the team to work on in themeantime.
+ You hear that it's going to rain for the first threedays of your trip, so you bring waterproof tents and indoor projects for the team to work on in the mean time.
  Mitigate
 降低负面的
 2. Avoid （避免危险）
