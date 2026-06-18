@@ -8,7 +8,7 @@ Determine the largest value
 `r = 〈⊕ j : α≤ j <β : f.j 〉`
 
 # 通解
-1. Postcondition
+	1. Postcondition
    ```text
    r = 〈⊕ j : α≤ j <β : f.j 〉
    ```
