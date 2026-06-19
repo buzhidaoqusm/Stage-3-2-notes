@@ -68,8 +68,10 @@ f.(n+2) = x * f.n + y * f.(n+1) + z, 0 ≤ n
    我们发现
 
    ```text
-   α * f.n + β * f.(n+1) + γ = f.N ∧ n = 0
-   = { Leibniz }
+   P0 ∧ P1 ∧ n=0
+   = {definitions of P0, P1}
+   α * f.n + β * f.(n+1) + γ = f.N ∧ 0 ≤ n ≤ N ∧ n = 0
+   = { algebra }
    α * f.0 + β * f.1 + γ = f.N
    = { (0), (1) }
    α * a + β * b + γ = f.N
