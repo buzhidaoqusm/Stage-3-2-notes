@@ -1,4 +1,4 @@
-> Example
+> 	Example
 
 Given `f[0..N]` of int, `1 ≤ N`, and `X : int`.
 
