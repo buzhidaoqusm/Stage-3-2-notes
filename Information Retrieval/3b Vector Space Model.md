@@ -1,5 +1,5 @@
-
 # Boolean Model Disadvantages
+没有部分匹配的概念
 The model predicts that each document is **either relevant or non-relevant** to the query.
 There is **no** notion of a “**partial**” match to the query conditions
 **no ranking** occurs.

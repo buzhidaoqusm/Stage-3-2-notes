@@ -32,6 +32,7 @@ etc.>
 For phrase queries, we use a **merge** algorithm recursively at the **document level**.
 But we now need to deal with more than just equality: we **look for terms** that **follow each other**.
 ## Positional index size
+用的多
 positional index **expands** postings **storage** substantially
 positional index is now **standardly used** because of the power and usefulness of phrase queries.
 
