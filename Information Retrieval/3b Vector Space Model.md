@@ -15,7 +15,6 @@ Basic **vector algebra** is used to calculate the most **similar** documents to 
 - Other dimensions get a value of **zero**. （not contain）
 - A **similarity score** is calculated based on the **proximity of two vectors**
 
-
 the Vector Space Model facilitates **partial matching** by using **non-binary term weights**
 similarity score：**sim(q,d)** (i.e. the similarity between a query **q** and a document **d**)
 These models return a **ranked list of documents**, where the documents with the **highest similarity scores** are at the **top** of the list.
