@@ -12,11 +12,13 @@ one of the few “**advanced search**” ideas that **works**
 	- stanford university AND university palo AND palo alto
 
 **Without the documents** themselves, we **cannot verify** that the docs matching the above Boolean query do contain the exact phrase
+文档中的句子可能是：“Stanford University ... University campus in Palo Alto”
+三个 biword都出现了，但原句并不是连续短语
 
 **false positives**
 ## Issues
 - False positives
-- Index blowup due to bigger dictionary
+- **Index blowup** due to bigger dictionary（n个词会产生n-1个biword，索引会很多）
 - Biword indexes are not the standard solution (for all biwords) but **can be** part of a **compound strategy**.
 # Positional indexes
 ```
