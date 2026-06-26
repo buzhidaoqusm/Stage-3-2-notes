@@ -15,10 +15,12 @@ Basic **vector algebra** is used to calculate the most **similar** documents to 
 	- This number is known as a **term weight**.
 - Other dimensions get a value of **zero**. （not contain）
 - A **similarity score** is calculated based on the **proximity of two vectors**
+每个词有对应的权重，根据query和文档的向量的相似度计算得分
 
 the Vector Space Model facilitates **partial matching** by using **non-binary term weights**
 similarity score：**sim(q,d)** (i.e. the similarity between a query **q** and a document **d**)
 These models return a **ranked list of documents**, where the documents with the **highest similarity scores** are at the **top** of the list.
+
 ## Example
 **documents**:  
 1. Information Retrieval is an exciting subject  
