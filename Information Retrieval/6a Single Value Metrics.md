@@ -27,7 +27,7 @@ This is similar to P@n except that **n is not fixed for all queries** (because t
 $$R -Precision=\frac{\text{Relevant in top r results}}{r}$$
 ## Example
 R是人工选出来的，也就是rel
-就是取Ret的前rel个结果，看看有多少个正确的
+就是取Ret的前rel个结果，看看有多少个正确的。和P@n很相似，区别是可以每个query有不同的n
 # Mean Average Precision (MAP)
 Unlike simple precision, which is set-based, it **rewards** systems that **rank relevant documents** at the beginning of the results returned.
 Unlike P@10, it continues to **examine the later stages** of the ranked list, although with **lesser weight**.
