@@ -1,7 +1,7 @@
 # Term Weights
 We can also take the number of times a **term occurs** in a document into account (i.e. the **frequency of the term**)
 
-A weight wi,j > 0 is associated with every **index term ki** of **document dj**
+A weight **wi,j** > 0 is associated with every **index term ki** of **document dj**
 
 **Index terms** are usually assumed to be **independent**, though this is a simplification.
 # TF-IDF: 
