@@ -7,6 +7,7 @@ NDCG supports **graded relevance judgments**
 rewards systems that: 
 **Position relevant** documents in **early** positions in the ranking (MAP also rewards this)
 Rank **highly-relevant** documents **ahead** of **mildly** relevant ones (MAP treats all relevant documents equally).
+排名越靠前分数越高
 ## Graded Relevance
 The first thing that is required is a **set of graded relevance judgments**.
 **assume** that a 0-3 scale where **3** is a **highly relevant** document and **0** is a **non-relevant** document
