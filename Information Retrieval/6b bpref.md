@@ -41,7 +41,7 @@ n is a member of the first R judged non-relevant documents
 - In other words: 
 	- For each relevant document in that was retrieved in the answer set: 
 		- Count the **number of non-relevant** documents **above** it in the result set (this is |𝑛 𝑟𝑎𝑛𝑘𝑒𝑑 ℎ𝑖𝑔ℎ𝑒𝑟 𝑡ℎ𝑎𝑛 𝑟|). This **cannot be greater** than the total number of relevant documents (**R**)
-		- 排名在R上面的
+		- 对于每个R=1 - 排名在R上面的N的数量（不超过R）/R的数量
 		- The score for that document is $1 - \frac{\left|\, n \text{ ranked higher than } r \,\right|}{R}$
 ![](/assets/6b%20bpref/file-20260423134936842.png)
 ## Problems
