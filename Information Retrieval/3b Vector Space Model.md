@@ -20,7 +20,7 @@ Basic **vector algebra** is used to calculate the most **similar** documents to 
 the Vector Space Model facilitates **partial matching** by using **non-binary term weights**
 similarity score：**sim(q,d)** (i.e. the similarity between a query **q** and a document **d**)
 These models return a **ranked list of documents**, where the documents with the **highest similarity scores** are at the **top** of the list.
-
+用sim计算，分越高越排前面
 ## Example
 **documents**:  
 1. Information Retrieval is an exciting subject  
@@ -31,6 +31,6 @@ vector space will have **six dimensions**
 wi,j refers to the weight of **term i** in **document j**
 0≤w(i,j)≤1
 
-query: important information  =>  (1, 0, 0, 0, 0, 1)
+`query: important information  =>  (1, 0, 0, 0, 0, 1)`
 the **order** of the **terms** in the vector is the same as for the **corpus**
 ![](/assets/3b%20Vector%20Space%20Model/file-20260422152835629.png)
