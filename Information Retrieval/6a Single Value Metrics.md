@@ -15,6 +15,7 @@ P@3 = 2/3; P@10 = 4/10
 
 ## Problems
 One problem with using P@n is that its **performance is affected** by the **number of relevant documents available**.
+受相关文档的数量影响
 
 For a query that has **only 10 relevant documents**, a good **P@10** score is difficult.
 If there are **1,000 relevant** documents, a good P@10 score is **easy**.
