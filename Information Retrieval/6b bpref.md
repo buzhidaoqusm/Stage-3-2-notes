@@ -1,4 +1,5 @@
 # Cranfield Paradigm的问题
+所有的文档都是相关/不相关，也就是说所有的文档都必须要被人工评判过，不存在没有评判的情况
 **All of the evaluation** techniques we have mentioned so far are based on the **Cranfield Paradigm**
 - **test collections** and **queries** are created that have a **known set of relevant documents** associated with them
 
