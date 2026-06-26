@@ -1,9 +1,11 @@
 # Stopword Removal
 A **stopword** is a commonly occurring term that appears in so many documents that it does **not add to the meaning** of the document
 like `the, and, of`
+没意义的词
 
 of **little use** when **differentiating** between documents
 The fact that they are **so common** also means that **more processing power is required** to deal with these terms than others that are less common.
+处理时所需的算力高
 
 ## Zipf’s Law
 If we **rank** terms from the most commonly used to the least commonly-used in a large text collection, the **second term** is approximately **½** as common as the **first**, the **third** is approximately **⅓** as common as the first, etc.
