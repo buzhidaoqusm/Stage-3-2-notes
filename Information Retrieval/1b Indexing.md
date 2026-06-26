@@ -7,6 +7,8 @@ We frequently refer to this **data structure** as an **index**, and the process 
 
 incidence matrix is one possibility
 # Inverted Index
+term->文档id->文档id
+
 An **inverted index** is a type of data structure where each **term t** is mapped to **a list of documents** that **contain t**.
 - term: term as being a **word**
 
