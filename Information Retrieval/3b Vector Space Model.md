@@ -7,6 +7,7 @@ There is **no** notion of a “**partial**” match to the query conditions
 # Vector Space Model
 This **models** both **documents** and **queries** in an N-dimensional space.
 Basic **vector algebra** is used to calculate the most **similar** documents to a query.
+使用向量代数计算query和文档的相似度
 
 - A collection contains a set of **documents** each of which is **composed of** a “bag of words” (also known as **terms**).
 - **Each unique term** in the collection is represented by **a dimension** in the vector space
