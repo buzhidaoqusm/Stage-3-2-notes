@@ -23,7 +23,7 @@ If we **rank** terms from the most commonly used to the least commonly-used in a
 	- **Recognise** when **combinations** of stopwords are **meaningful**, and include these as terms in the index.
 	- 将停用词的组合作为索引项
 # Stemming
-将一些词转为共同的词干
+将一些词转为共同的词干（不是真实的词）
 - **Stemming** is the process that maps these **terms** to a **common root**. 
 	- e.g. “computing”, “computer” → “comput”
 	- Note: a stem does not need to be a real word.
@@ -52,6 +52,7 @@ The **stem** for all of these is “**accept**”
 	- bank: 银行/河岸
 	- often needs to see the word in context
 # Lemmatisation
+将单词变成词元（是真实的词）
 converting **words** into **lemmas** (i.e. **base words** found in **dictionaries**)
 - Unlike a stem, a lemma is always a **real word**.
 **slower** than stemming, but is usually more **effective**
