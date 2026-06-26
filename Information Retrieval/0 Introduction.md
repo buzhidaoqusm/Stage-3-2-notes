@@ -41,7 +41,7 @@ It merely informs on the **existence** (or non-existence) and **whereabouts** of
 - Existence: Tells the user that a **document exists** that **helps** to satisfy the information need.
 - Whereabouts: Tells the user **where that document is.**
 
-principal function: give users a **list of documents** that are relevant to the user’s information need
+**principal function**: give users a **list of documents** that are relevant to the user’s information need
 
 It makes **no** attempt to **take a subset of the information** contained **in a document** and present that to the user
 ## Relevance
