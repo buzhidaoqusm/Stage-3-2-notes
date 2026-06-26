@@ -15,22 +15,25 @@ key attribute allow users to access the information
 This should happen in a timely and efficient manner
 
 # information need
+#exam Describe what is meant by “information need” in the context of Information Retrieval. What are the different types of information need?
+#exam The information need of a user is said to have 4 stages. Describe these stages.
+
 Users only use IR systems when there is **some information that they are interested** in reading
 
 # Information Need: 4 Stages
-1. visceral need: **unexpressed** need for information
-2. conscious need: conscious within-brain description of the need(**ambiguous**)
-3. formalised need: formal statement of the question
+1. **visceral** need: **unexpressed** need for information
+2. **conscious** need: conscious within-brain description of the need(**ambiguous**)
+3. **formalised** need: formal statement of the question
 	1. Who are the 10 best golfers in the world?
-4. compromised need: question as presented to the information system
+4. **compromised** need: question as presented to the information system
 
 ## Query
-the expression of an information need (compromised need)
+the **expression** of an information need (**compromised** **need**)
 
-- Keyword-Based Querying: **A keyword** (or list of keywords) is supplied to the IR system.
-- Context Queries: These specify **sequences of words** that should appear close together in documents that are retrieved. Physical proximity has semantic value.
-- Boolean Queries: The oldest method of combining keywords allows a user to specify keywords that **should or should not be contained** in the documents that are desired
-- Natural Language Queries: Queries are provided in their natural form.
+- **Keyword-Based** Querying: **A keyword** (or list of keywords) is supplied to the IR system.
+- **Context** Queries: These specify **sequences of words** that should appear close together in documents that are retrieved. Physical proximity has semantic value.
+- **Boolean** Queries: The oldest method of combining keywords allows a user to specify keywords that **should or should not be contained** in the documents that are desired
+- **Natural Language** Queries: Queries are provided in their natural form.
 
 # Role of an IR
 An information retrieval system does **not inform** (i.e. change the knowledge of) the user on the subject of his inquery. 
