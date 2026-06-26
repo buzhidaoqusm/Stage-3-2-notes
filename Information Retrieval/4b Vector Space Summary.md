@@ -6,7 +6,7 @@ IDF会降低在文档集合中出现多的词的权重，这些词信息量低
 # Vector Space Model: Advantages and Disadvantages
 - Advantages
 	- The term weighting schemes can **improve retrieval performance**. 
-	- Partial matching strategy allows for retrieval of documents that match part of the query. 
+	- **Partial matching strategy** allows for retrieval of documents that match part of the query. 
 	- The cosine similarity can be used to return a **ranked list** of documents .
 - Disadvantage
 	- assumption that **terms** are **independent**, which can sometimes harm performance
