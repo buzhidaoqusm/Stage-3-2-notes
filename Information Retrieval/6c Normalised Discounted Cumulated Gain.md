@@ -4,7 +4,7 @@
 
 NDCG supports **graded relevance judgments**
 ## Motivation
-rewards systems that:
+rewards systems that: 
 **Position relevant** documents in **early** positions in the ranking (MAP also rewards this)
 Rank **highly-relevant** documents **ahead** of **mildly** relevant ones (MAP treats all relevant documents equally).
 ## Graded Relevance
