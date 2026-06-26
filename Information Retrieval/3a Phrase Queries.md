@@ -19,7 +19,7 @@ one of the few “**advanced search**” ideas that **works**
 ## Issues
 - False positives
 - **Index blowup** due to bigger dictionary（n个词会产生n-1个biword，索引会很多）
-- Biword indexes are not the standard solution (for all biwords) but **can be** part of a **compound strategy**.
+- Biword indexes are not the standard solution (for all biwords) but **can be** part of a **compound strategy**. （不够泛化）
 # Positional indexes
 ```
 <term, number of docs containing term;
