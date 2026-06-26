@@ -21,7 +21,9 @@ If we **rank** terms from the most commonly used to the least commonly-used in a
 - **solutions**
 	- **Don’t remove stopwords**. Use all words as terms
 	- **Recognise** when **combinations** of stopwords are **meaningful**, and include these as terms in the index.
+	- 将停用词的组合作为索引项
 # Stemming
+将一些词转为共同的词干
 - **Stemming** is the process that maps these **terms** to a **common root**. 
 	- e.g. “computing”, “computer” → “comput”
 	- Note: a stem does not need to be a real word.
