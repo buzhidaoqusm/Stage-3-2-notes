@@ -25,6 +25,7 @@ Which is most important?
 
 Ideally every IR system would have **both recall and precision of 100%** (the answer set is equal to the relevant set).
 # Problems with Precision
+没有考虑排序，顶部的应该更重要
 Basic Precision is a **set-based**, **unranked** retrieval metric (as is recall)
 Most IR systems **return ranked lists**, not sets of documents, so **users** are most likely to look at the **top of the list first**.
 
