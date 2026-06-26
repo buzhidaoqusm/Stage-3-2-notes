@@ -1,7 +1,7 @@
 There are many measureable quantities for this: 
-1. Processing: How quickly does the user receive a response? How well are resources utilised?
-2. User Experience: Does the user enjoy using the system? 
-3. Search: How effective is the system in satisfying the user’s information need?
+1. Processing: How **quickly** does the user receive a response? How well are resources utilised?
+2. User Experience: Does the user **enjoy** using the system? 
+3. Search: How **effective** is the system in **satisfying** the user’s information **need**?
 
 关注3
 # The Cranfield Paradigm
