@@ -26,6 +26,7 @@ An alternative is a **non-linear pipeline**, where some **stages** can happen in
 A typical modern IR system will use **multiple different process** to create the final ranking.
 ![](/assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423145941528.png)
 # Increasing Recall
+
 However, in modern architectures, the **output** of the **basic approaches** (e.g. Boolean retrieval, BM25) will not be shown directly to the users – they are **inputs** to **further processing** to improve the final ranking.
 
 Therefore, **recall** is more important at this stage
