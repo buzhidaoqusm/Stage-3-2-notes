@@ -73,13 +73,16 @@ INTERSECT(p1, p2)
 AND is used to **narrow a search** by ensuring that all the search terms should appear in the results
 It is commonly used to **search** for **relationships** between two concepts or terms.
 more terms in search, fewer records
+`P ∩ C`
 ## Or
 OR is used to **broaden a search** by retrieving any, some or all of the keywords used in the search statement.
 It is commonly used to search for **synonymous terms** or concepts.
 The effect of using OR is that documents containing **any number of the terms** specified will be returned.
+`C ∪ U`
 ## NOT
 NOT is used to **specifically exclude** a term from your search.
 more terms in search, fewer records
+`P \ C`
 
 # Question
 ## Adapting the Merge Algorithm

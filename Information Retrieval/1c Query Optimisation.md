@@ -1,3 +1,4 @@
+#exam Briefly describe two ways in which the process of running Boolean queries can be optimised so that they can be processed more efficiently.
 # Query Optimisation
 - Process in order of increasing frequency
 	- Start with the smallest set
