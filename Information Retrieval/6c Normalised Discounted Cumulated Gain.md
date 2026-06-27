@@ -9,6 +9,7 @@ rewards systems that:
 Rank **highly-relevant** documents **ahead** of **mildly** relevant ones (MAP treats all relevant documents equally).
 排名越靠前分数越高
 ## Graded Relevance
+每个文档会被打分（不是之前固定只有1）
 The first thing that is required is a **set of graded relevance judgments**.
 **assume** that a 0-3 scale where **3** is a **highly relevant** document and **0** is a **non-relevant** document
 ## Example
