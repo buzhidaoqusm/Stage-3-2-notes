@@ -406,6 +406,14 @@ bpref 用于 incomplete judgments。不要把 unjudged documents 当成 non-rele
 
 NDCG 适合 graded relevance，例如 0-3 分相关性。它通过 DCG 折扣后面位置，再除以 ideal DCG 得到 0 到 1 的分数。
 
+## Exam example - 2024 Q1.b
+
+**Question:** The Cranfield Paradigm is typically used as the basis of evaluation strategies for Information Retrieval. Explain in detail what is meant by this.
+
+**Answer:** The Cranfield Paradigm evaluates IR systems using a standard test collection. This consists of a fixed document corpus, a set of standard queries or topics, and relevance judgments made by human experts that identify which documents are relevant to each query. A system is evaluated by running the standard queries over the corpus and comparing the returned set or ranked list against the relevance judgments using metrics such as precision, recall, MAP, bpref or NDCG.
+
+**解析:** 必写三件套：corpus, queries, relevance judgments。然后写目的：用同一套标准集合比较不同 IR systems。
+
 ## Metric comparison example - 2024 Q3.b(i)
 
 **Question:** Compare and contrast P@10, MAP and NDCG. Suggest situations where each is appropriate.
@@ -413,6 +421,22 @@ NDCG 适合 graded relevance，例如 0-3 分相关性。它通过 DCG 折扣后
 **Answer:** P@10 measures the proportion of relevant documents in the first ten results. It is simple and appropriate for web search, where users often inspect only the top results, but it ignores all results after rank 10 and does not consider the total number of relevant documents. MAP averages precision at every rank where a relevant document is found, so it rewards systems that rank relevant documents early and is useful when binary relevance judgments are complete. However, it treats all relevant documents equally. NDCG uses graded relevance judgments and discounts lower-ranked documents, so it is appropriate when relevance has different levels, but it requires graded judgments and an ideal ranking for normalisation.
 
 **解析:** 比较题建议按 metric -> advantage -> disadvantage -> best situation 写，避免只背公式。
+
+## Metric comparison example - 2023 Q3.b
+
+**Question:** Compare the MAP, bpref and NDCG evaluation metrics. Outline advantages or disadvantages of each, and suggest a situation where each is more appropriate than the others.
+
+**Answer:** MAP uses binary relevance judgments and averages precision at every rank where a relevant document is retrieved. It rewards ranking relevant documents early and is appropriate when complete binary relevance judgments are available, but it treats all relevant documents as equally relevant and is affected by incomplete judgments. bpref is designed for incomplete relevance judgments by considering judged relevant and judged non-relevant documents while ignoring unjudged documents. It is more suitable for large collections where complete judgments are unavailable, but it can be unstable when there are very few relevant documents. NDCG uses graded relevance judgments and discounts documents found later in the ranking, making it suitable when documents have different relevance levels, such as web search or graded assessment tasks. Its disadvantage is that it requires graded judgments and an ideal ranking for normalisation.
+
+**解析:** 2023 这题不是 P@10，而是 MAP/bpref/NDCG。重点区别：MAP = complete binary; bpref = incomplete judgments; NDCG = graded relevance。
+
+## Exam example - 2024 Q3.b(ii)
+
+**Question:** Explain how the creators of the bpref evaluation metric showed that it is suitable for dealing with incomplete relevance judgments.
+
+**Answer:** They tested bpref by comparing evaluation behaviour under different levels of judgment completeness. Starting from collections with relevance judgments, they removed or reduced judgments to simulate incomplete judgments and then compared how stable different metrics were as the judgment set became less complete. bpref remained more stable than traditional metrics that treated unjudged documents as non-relevant, showing that it is more suitable when many documents are unjudged.
+
+**解析:** 答题关键词：simulate incomplete judgments, remove judgments, compare metric stability, bpref less affected because it ignores unjudged documents。
 
 ## Worked example - 2023 Q3.c(i-iii)
 
@@ -616,7 +640,15 @@ Query expansion adds related terms to the query to reduce vocabulary mismatch an
 
 Query expansion 的主要目标是解决 vocabulary mismatch。常考 three sources of synonyms：manual thesaurus, automatically derived thesaurus, word embeddings。也可以写 query log mining。
 
-## Exam example 1 - 2023 Q4.a
+## Exam example 1 - 2023 Q2.c(i-ii)
+
+**Question:** The probabilistic model of IR uses `P(ki|R)`, the probability that a relevant document contains term `ki`, and `P(ki|R')`, the probability that a non-relevant document contains term `ki`. These probabilities cannot be calculated directly and must be estimated. Describe how initial values may be generated and how these estimates can be improved with user feedback.
+
+**Answer:** Initial estimates can be generated using assumptions and collection statistics. Since no relevance judgments are available at first, the system can assume query terms are likely to occur in relevant documents, often using a neutral or high initial estimate for `P(ki|R)`, and estimate `P(ki|R')` from how often the term occurs in the whole collection, using document frequency as evidence. After an initial ranked list is returned, the user can mark some documents as relevant and non-relevant. The system can then update the probabilities by counting how often each query term appears in the judged relevant set and the judged non-relevant set. Terms that occur frequently in judged relevant documents should receive higher `P(ki|R)`, while terms common in judged non-relevant documents should receive higher `P(ki|R')` and therefore become less useful for ranking.
+
+**解析:** 题目没有要求具体公式，重点是：初始值靠 assumption / collection statistics；反馈后用 judged relevant 和 judged non-relevant documents 重新估计。
+
+## Exam example 2 - 2023 Q4.a
 
 **Question:** The Rocchio Algorithm uses a modified query vector to achieve relevance feedback. Explain why this is effective and how the modified query vector can be calculated.
 
@@ -630,7 +662,7 @@ where `q0` is the original query, `Dr` is the judged relevant set, `Dnr` is the 
 
 **解析:** 公式必须配解释。不要只写公式；要写 why effective：relevant cluster assumption。
 
-## Exam example 2 - 2023 Q4.d / 2024 Q4.d
+## Exam example 3 - 2023 Q4.d / 2024 Q4.d
 
 **Question:** Briefly describe three sources of synonyms for use in query expansion.
 
@@ -650,6 +682,9 @@ Related notes:
 - [[10a Fusion Score Based#CombSUM]]
 - [[10a Fusion Score Based#Score Normalisation]]
 - [[10a Fusion Score Based#CombMNZ]]
+- [[10b Probability Based Fusion#ProbFuse]]
+- [[10b Probability Based Fusion#SegFuse]]
+- [[10b Probability Based Fusion#SlideFuse]]
 
 Fusion combines the ranked outputs of multiple IR systems into one final ranked result set. It can be used for metasearch, distributed IR, internal metasearch and data fusion.
 
@@ -690,6 +725,29 @@ $$
 Borda Fuse is rank-based. If there are `c` unique candidate documents, the top-ranked document receives `c` points, the second receives `c-1`, and so on. If a document is unranked by a system, the remaining points are divided evenly among unranked documents.
 
 Borda 不看原始 score，只看 rank；CombSUM/CombMNZ 看 score，所以不同系统 score range 不同时必须先 normalise。
+
+## Exam example - 2023 Q4.c
+
+**Question:** Different levels of corpus overlap can influence the design of a data fusion algorithm. Explain why this is the case.
+
+**Answer:** Corpus overlap affects how much evidence can be inferred from a document appearing or not appearing in multiple result sets. With disjoint databases, each input system searches a different corpus, so a document cannot be returned by more than one system and the chorus effect cannot be used. With identical databases, all systems search the same documents, so if a document appears in several result sets, that agreement is strong evidence of relevance and data fusion methods such as CombSUM or CombMNZ can exploit it. With partially overlapping databases, interpretation is difficult: if a document is absent from one result set, it may be because the system judged it non-relevant, or simply because that system's corpus did not contain it.
+
+**解析:** 核心是 corpus overlap 决定 **Chorus Effect** 是否可靠。disjoint = collection fusion；identical = data fusion；partial overlap = ambiguous。
+
+## Exam example - 2024 Q4.c(i-ii)
+
+**Question:** Three effects can be exploited when designing a fusion algorithm. Describe the three effects. Based on the fusion algorithms studied, give four examples where one effect is exploited and explain how.
+
+**Answer:** The three effects are the skimming effect, the chorus effect and the dark horse effect. The skimming effect says that top-ranked documents from each input system are more likely to be relevant. The chorus effect says that a document returned by multiple systems has stronger evidence of relevance. The dark horse effect says that one input system may be unusually good or unusually bad for a particular query, although this is difficult to identify.
+
+Examples:
+- Interleaving exploits the skimming effect by repeatedly taking documents from the top of each input result set.
+- Borda Fuse exploits the skimming effect because higher-ranked documents receive more points.
+- CombSUM exploits both skimming and chorus: high normalised scores contribute strongly, and documents appearing in multiple systems have their scores added.
+- CombMNZ emphasises the chorus effect by multiplying the summed score by the number of non-zero systems that returned the document.
+- ProbFuse/SegFuse/SlideFuse exploit skimming by assigning probabilities based on rank segments or nearby ranks, and exploit chorus by adding scores from multiple systems.
+
+**解析:** 题目要 four examples，写 4 个即可；这里多给一个备选。Dark Horse 一般难以直接利用，课件也说 generally not used in fusion algorithms。
 
 ## Worked fusion example - 2024 Q4.b(i-iii)
 
@@ -812,6 +870,54 @@ Examples include keyword stuffing in meta tags, hidden text, cloaking, sneaky Ja
 **Answer:** Adversarial Information Retrieval occurs when some participants try to manipulate the retrieval system so that results are ranked in a way that benefits them but does not reflect true relevance. In web search, one example is hidden text or keyword stuffing, where extra query terms are added to a page, sometimes in text invisible to users, to increase term frequency. Another example is cloaking, where a server detects crawlers and serves them different, keyword-targeted content from what normal users see. Link farms and comment spam are also examples because they attempt to manipulate PageRank.
 
 **解析:** 定义要写 "conflicting goals / manipulation"。例子要说明它怎么影响 ranking，不要只列名词。
+
+# Complete Exam Coverage Audit
+
+## 2023 paper
+
+| Question | Topic | Covered in this note |
+|---|---|---|
+| 2023 Q1.a | information need and types | [[#Exam example - 2023 Q1.a]] |
+| 2023 Q1.b | positional index phrase query | [[#Exam example 5 - 2023 Q1.b]] |
+| 2023 Q1.c | modern IR pipeline | [[#Exam example - 2023 Q1.c / 2024 Q1.a]] |
+| 2023 Q1.d | BM25 principles | [[#Exam example - 2023 Q1.d]] |
+| 2023 Q1.e | stemming vs lemmatisation | [[#Exam example - 2023 Q1.e / 2024 Q2.b(iii)]] |
+| 2023 Q2.a | Boolean AND/OR/NOT | [[#Exam example 3 - 2023 Q2.a]] |
+| 2023 Q2.b | Boolean query optimisation | [[#Exam example 4 - 2023 Q2.b]] |
+| 2023 Q2.c(i-ii) | probabilistic model estimates and feedback | [[#Exam example 1 - 2023 Q2.c(i-ii)]] |
+| 2023 Q2.d(i-iv) | preprocessing, TF-IDF, cosine, stemming effect | [[#Exam example - 2023 Q2.d(i-iv)]] |
+| 2023 Q3.a | PageRank calculation | [[#Worked PageRank example - 2023 Q3.a]] |
+| 2023 Q3.b | MAP vs bpref vs NDCG | [[#Metric comparison example - 2023 Q3.b]] |
+| 2023 Q3.c(i-iii) | MAP, Recall, R-Precision | [[#Worked example - 2023 Q3.c(i-iii)]] |
+| 2023 Q4.a | Rocchio relevance feedback | [[#Exam example 2 - 2023 Q4.a]] |
+| 2023 Q4.b(i-iii) | CombSUM, CombMNZ, Borda | [[#Worked fusion example - 2023 Q4.b(i-iii)]] |
+| 2023 Q4.c | corpus overlap in fusion | [[#Exam example - 2023 Q4.c]] |
+| 2023 Q4.d | synonym sources for query expansion | [[#Exam example 3 - 2023 Q4.d / 2024 Q4.d]] |
+
+## 2024 paper
+
+| Question | Topic | Covered in this note |
+|---|---|---|
+| 2024 Q1.a | modern IR pipeline | [[#Exam example - 2023 Q1.c / 2024 Q1.a]] |
+| 2024 Q1.b | Cranfield Paradigm | [[#Exam example - 2024 Q1.b]] |
+| 2024 Q1.c | four stages of information need | [[#Exam example - 2024 Q1.c]] |
+| 2024 Q1.d | non-English tokenisation issues | [[#Exam example - 2024 Q1.d]] |
+| 2024 Q1.e | Adversarial IR | [[#Exam example 2 - 2024 Q1.e]] |
+| 2024 Q2.a(i) | inverted index vs incidence matrix | [[#Exam example 1 - 2024 Q2.a(i)]] |
+| 2024 Q2.a(ii) | creating postings lists | [[#Exam example 2 - 2024 Q2.a(ii)]] |
+| 2024 Q2.b(i) | stopword removal | [[#Exam example - 2024 Q2.b(i)]] |
+| 2024 Q2.b(ii) | Zipf's Law and stopwords | [[#Exam example - 2024 Q2.b(ii)]] |
+| 2024 Q2.b(iii) | stemming and lemmatisation | [[#Exam example - 2023 Q1.e / 2024 Q2.b(iii)]] |
+| 2024 Q2.c(i-ii) | TF-IDF and cosine | [[#Exam example - 2024 Q2.c(i-ii)]] |
+| 2024 Q3.a(i) | damping factor | [[#Exam example - 2024 Q3.a(i)]] |
+| 2024 Q3.a(ii) | PageRank calculation | [[#Worked PageRank example - 2024 Q3.a(ii)]] |
+| 2024 Q3.b(i) | P@10 vs MAP vs NDCG | [[#Metric comparison example - 2024 Q3.b(i)]] |
+| 2024 Q3.b(ii) | bpref and incomplete judgments | [[#Exam example - 2024 Q3.b(ii)]] |
+| 2024 Q3.c(i-iv) | Precision, Recall, MAP, bpref | [[#Worked example - 2024 Q3.c(i-iv)]] |
+| 2024 Q4.a | web crawler design | [[#Exam example 1 - 2024 Q4.a]] |
+| 2024 Q4.b(i-iii) | CombMNZ, Borda, CombSUM | [[#Worked fusion example - 2024 Q4.b(i-iii)]] |
+| 2024 Q4.c(i-ii) | fusion effects and examples | [[#Exam example - 2024 Q4.c(i-ii)]] |
+| 2024 Q4.d | synonym sources for query expansion | [[#Exam example 3 - 2023 Q4.d / 2024 Q4.d]] |
 
 # Quick Exam Checklist
 
