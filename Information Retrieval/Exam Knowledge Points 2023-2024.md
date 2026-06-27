@@ -383,15 +383,9 @@ Full vectors in the vocabulary order:
 
 ```text
 D1 = (0, 0.195, 0, 0, 0, 1.585, 0, 0, 0.195, 0)
-D2 = (0, 0, 0.585, 0, 1.585, 1.585? no, rain=0, sport=1.585, the=0, today=0.585, watch=0)
+D2 = (0, 0, 0.585, 0, 1.585, 0, 1.585, 0, 0.585, 0)
 D3 = (1.585, 0.585, 0.585, 1.585, 0, 0, 0, 1.585, 0, 1.585)
 Q  = (0, 0.585, 0, 1.585, 0, 0, 0, 0, 0, 0)
-```
-
-Corrected D2 vector in the same vocabulary order:
-
-```text
-D2 = (0, 0, 0.585, 0, 1.585, 0, 1.585, 0, 0.585, 0)
 ```
 
 ### (iii) Cosine similarity and ranking
