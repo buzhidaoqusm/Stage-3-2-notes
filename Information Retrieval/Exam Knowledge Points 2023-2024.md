@@ -34,6 +34,22 @@ A modern IR pipeline often uses multiple stages: Boolean retrieval or candidate 
 
 现代 IR pipeline 的核心是 speed-quality trade-off：前面用 Boolean/BM25 快速找 candidate set，尽量别漏掉相关文档；后面用 LTR/ML reranking 结合 TF, IDF, PageRank, document length, user behaviour 等特征优化最终排序。
 
+## Exam example - 2023 Q1.a
+
+**Question:** Describe what is meant by "information need" in the context of Information Retrieval. What are the different types of information need?
+
+**Answer:** An information need is the information that a user is interested in finding. In IR, the system does not directly answer or change the user's knowledge; instead, it tells the user about the existence and location of documents that may satisfy the need. The need may be expressed to the system as different query types: keyword-based queries, context or phrase queries, Boolean queries, and natural language queries.
+
+**解析:** 这题容易把 **information need** 和 **query** 混在一起。information need 是用户真正想知道的内容；query 是 compromised need，是提交给系统的表达形式。types 可以按课件中的 query expression types 写：keyword, context, Boolean, natural language。
+
+## Exam example - 2024 Q1.c
+
+**Question:** The information need of a user is said to have 4 stages. Describe these stages.
+
+**Answer:** The four stages are: visceral need, which is the actual but unexpressed need for information; conscious need, which is the user's internal and possibly ambiguous description of the need; formalised need, which is a formal statement of the question that could be explained to another person; and compromised need, which is the version of the question presented to the IR system according to the inputs it supports.
+
+**解析:** 四个英文名要写准：visceral, conscious, formalised, compromised。最后一个 compromised need 基本就是 query。
+
 ## Exam example - 2023 Q1.c / 2024 Q1.a
 
 **Question:** A modern Information Retrieval pipeline may include Boolean searches, simple ranking using BM25, and reranking based on machine learning. Explain why each of these are useful to make an effective Information Retrieval system.
@@ -51,6 +67,8 @@ Related notes:
 - [[1b Indexing#Construction of an Inverted Index]]
 - [[1b Indexing#Merging postings lists]]
 - [[1b Indexing#Boolean Operators]]
+- [[1c Query Optimisation#Query Optimisation]]
+- [[1c Query Optimisation#skip pointer]]
 - [[3a Phrase Queries]]
 
 An **inverted index** maps each term to a postings list of documents that contain that term. Each posting usually stores a document ID, and postings lists are sorted by docID so that Boolean operations can be implemented efficiently.
@@ -85,7 +103,31 @@ Phrase queries require a **positional index**. A phrase can match only if all te
 
 **解析:** 关键词：sparse, space-efficient, variable-sized postings lists, sorted docID, efficient merge。
 
-## Exam example 2 - 2023 Q1.b
+## Exam example 2 - 2024 Q2.a(ii)
+
+**Question:** Describe in detail how a set of postings lists can be created to represent a document corpus. Your answer should include details of the data structures that are used during this process.
+
+**Answer:** First, each document is tokenised into a sequence of `(token, docID)` pairs, usually after normalisation such as lowercasing and punctuation removal. Second, these pairs are sorted alphabetically by token and then by docID. Third, repeated occurrences of the same term in the same document are merged for a Boolean postings list. The final data structure contains a dictionary of terms, and each dictionary entry points to a postings list containing the sorted docIDs of documents containing that term. The dictionary may also store document frequency, and a positional or ranked index may store positions or term frequencies as extra information.
+
+**解析:** 这题要写 data structure：dictionary + postings lists。过程要写 token sequence -> sort -> merge -> split into dictionary and postings。
+
+## Exam example 3 - 2023 Q2.a
+
+**Question:** The Boolean Model makes use of the query operators AND, OR and NOT. Explain how these work and how they affect the number of documents returned by an IR system. Also show how each can be implemented using operations from Set Theory.
+
+**Answer:** `AND` narrows a search by requiring all query terms to appear; it is implemented as set intersection, `A ∩ B`. `OR` broadens a search by returning documents containing any of the terms; it is implemented as set union, `A ∪ B`. `NOT` excludes documents containing a term; it is implemented as set difference, `A \ B`. Adding more `AND` or `NOT` constraints generally reduces the number of returned documents, while using `OR` generally increases it.
+
+**解析:** 答案必须同时包含三件事：operator meaning、对结果数量的影响、set theory notation。
+
+## Exam example 4 - 2023 Q2.b
+
+**Question:** Briefly describe two ways in which the process of running Boolean queries can be optimised so that they can be processed more efficiently.
+
+**Answer:** One optimisation is to process postings lists in increasing order of document frequency. For an `AND` query, starting with the shortest postings list reduces intermediate result sizes and can stop comparisons earlier. For queries involving `OR` groups, the system can estimate the size of each `OR` result and process smaller estimated sets first. A second optimisation is to use skip pointers in long sorted postings lists. If the current docID in one list is far behind the other list, a skip pointer can jump over several postings that cannot match, reducing the number of comparisons.
+
+**解析:** 两个最稳的点：按 document frequency 从小到大处理；skip pointers。说明 skip pointer 依赖 sorted postings list。
+
+## Exam example 5 - 2023 Q1.b
 
 **Question:** The positional index for term `same` is:
 
@@ -143,6 +185,30 @@ Stemming 是 suffix stripping，快但粗糙，可能 overstemming；lemmatisati
 **Answer:** Stemming removes suffixes or applies simple rules to map words to a common stem. It is fast, simple and can improve recall by matching variants such as `compute`, `computer` and `computing`. However, stems may not be real words and overstemming can merge unrelated words. Lemmatisation converts words to dictionary lemmas using linguistic analysis, often including part-of-speech information. It is usually more accurate and produces real words, but it is slower and more complex to implement.
 
 **解析:** 对比题要成对写：stemming = fast/simple/less accurate；lemmatisation = real lemma/more effective/slower/requires linguistic knowledge。
+
+## Exam example - 2024 Q1.d
+
+**Question:** When tokenising text, the natural language that the documents are written in can influence the strategy being used. Discuss three examples of issues that can arise when tokenising languages other than English.
+
+**Answer:** Chinese and Japanese do not normally use spaces between words, so the tokeniser must perform word segmentation rather than simply splitting on whitespace. Arabic is written from right to left, which affects text processing and token ordering. French contractions such as `L'ensemble` create ambiguity about whether the text should be treated as one token or split into multiple tokens. German compound words can also be difficult because a long compound may contain several meaningful components.
+
+**解析:** 题目要求 three examples，写三个就够；可以多写一个 German compound word 作为保险。关键是每个例子都要说明为什么影响 tokenisation strategy。
+
+## Exam example - 2024 Q2.b(i)
+
+**Question:** What is meant by stopword removal, and how can this help to improve the Information Retrieval process?
+
+**Answer:** Stopword removal is the preprocessing step of removing very common terms, such as `the`, `and` and `of`, that occur in many documents and usually contribute little to distinguishing one document from another. It can improve IR by reducing index size and reducing the processing cost of handling very long postings lists for high-frequency terms. However, removing stopwords can harm phrase queries and queries where stopwords carry meaning.
+
+**解析:** 优点写 space + processing；缺点可以顺手写，体现 trade-off。
+
+## Exam example - 2024 Q2.b(ii)
+
+**Question:** In what way is Zipf's Law related to stopword removal?
+
+**Answer:** Zipf's Law states that if terms are ranked by frequency, the second most frequent term appears about half as often as the first, the third appears about one third as often, and so on. This means a small number of terms occur extremely frequently in a collection. These high-frequency terms are often poor at distinguishing documents and are therefore candidates for stopword removal.
+
+**解析:** Zipf's Law 不是 stopword removal 的算法，而是解释为什么会存在一小批特别高频、低区分度的词。
 
 # 4. Vector Space Model, TF-IDF and Cosine Similarity
 
