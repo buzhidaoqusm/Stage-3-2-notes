@@ -1,4 +1,5 @@
 # Classical IR Pipeline
+预处理-创建索引-排序
 1. Documents are **preprocessed** to prepare them for use in the IR system. (Tokenisation...)
 2. The **indexer** creates a suitable data structure so that retrieval can happen.
 3. A **ranking** method matches queries against the index to **produce a ranked list** of results for the user (or to an **evaluation step**).
