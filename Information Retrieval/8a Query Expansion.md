@@ -22,6 +22,7 @@ Generally **increases recall**, but may significantly **reduce precision**.
 Widely used in specialised search engines for **science and engineering**. 
 Creating and maintaining a **manual** thesaurus is **expensive**, and is a lot of work!
 ### Automatic Thesaurus Creation
+自动构建同义词词典：如果2个词和相似的词出现；两个词和相同的词处于特定语法关系中
 A thesaurus can be created automatically by **analysing the distribution** of words in documents. 
 2 possible definitions: 
 1. Two words are similar if they **co-occur** with **similar words** 
@@ -29,10 +30,10 @@ A thesaurus can be created automatically by **analysing the distribution** of wo
 2. Two words are similar if they occur in particular **grammatical relations** with the same words 
 	- (e.g. you can “harvest”, “peel”, “eat”, “prepare” apples and pears, so apples and pears may be similar).
 ## Word Embeddings for Query Expansion
+将词变成向量，用余弦相似度计算相似程度
 **neural network** approaches to create **word embeddings**: a **representation of word** as **vectors** in an n-dimensional space.
 
 Because words are represented as vectors, a **similarity between words** can easily be calculated.
-余弦相似度
 ## Search Engine Query Expansion(Query Log Mining)
 The query log stores details about **previous queries** and **user behaviour**. 
 - Example: After searching for “palm”, many users next search for “palm oil”. 
