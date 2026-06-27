@@ -548,19 +548,13 @@ NDCG 适合 graded relevance，例如 0-3 分相关性。它通过 DCG 折扣后
 **Question:** Below is a set of results and relevance judgments for a query:
 
 Retrieved = `d13, d21, d19, d12, d6, d24, d11, d1, d3, d17, d9, d23, d10, d14`
-
 Relevant = `{d2, d3, d7, d9, d12, d15, d17, d23}`
-
 Calculate the following metrics:
-
 (i) Mean Average Precision (MAP)
-
 (ii) Recall
-
 (iii) R-Precision
 
 **Answer:**
-
 Relevant documents retrieved at ranks:
 
 ```text
@@ -572,7 +566,7 @@ rank 12: d23 -> P@12 = 5/12 = 0.417
 ```
 
 ```text
-AP = (0.250 + 0.222 + 0.300 + 0.364 + 0.417) / 8 = 0.194
+MAP = (0.250 + 0.222 + 0.300 + 0.364 + 0.417) / 8 = 0.194
 Recall = 5 / 8 = 0.625
 R-Precision = relevant in top 8 / 8 = 1 / 8 = 0.125
 ```
