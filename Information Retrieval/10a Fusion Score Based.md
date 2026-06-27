@@ -34,7 +34,7 @@ $$
 # CombMNZ
 Although CombSUM makes use of the **Chorus Effect** by adding the normalised scores, CombMNZ **emphasises this even further**.
 It does this by **multiplying** each document's **CombSUM** score by the **number of result sets** it was contained in
-MNZ stands for "Multiply by Non Zero".
+MNZ stands for "**Multiply by Non Zero**".
 
 - Example 1:
 	- Document #1 is given a score of 0.45 by System A
@@ -52,6 +52,7 @@ MNZ stands for "Multiply by Non Zero".
 
 CombMNZ should only be used for **data fusion tasks**
 # Linear Combination
+每个IR给不同的权重
 CombMNZ and CombSUM: every **input result set** is assumed to be of **equal** quality
 Linear Combination Model apply a **weighting**
 
