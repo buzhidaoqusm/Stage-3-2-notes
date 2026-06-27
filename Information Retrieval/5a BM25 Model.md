@@ -1,3 +1,5 @@
+#exam The BM25 method of Information Retrieval is based on the belief that a good term weighting scheme is based on three principles. Briefly describe each of these principles.
+
 Based on the belief that good term weighting comes from **three principles**: 
 - **Inverse document frequency**: (terms that are rare across a collection should carry more weight). 
 - **Term frequency**: (terms that are common within a document should carry more weight). 

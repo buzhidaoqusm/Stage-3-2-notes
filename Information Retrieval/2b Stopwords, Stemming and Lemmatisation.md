@@ -23,6 +23,8 @@ If we **rank** terms from the most commonly used to the least commonly-used in a
 	- **Recognise** when **combinations** of stopwords are **meaningful**, and include these as terms in the index.
 	- 将停用词的组合作为索引项
 # Stemming
+#exam Compare and contrast the preprocessing steps of stemming and lemmatisation. In particular, what are the advantages and disadvantages of each?
+
 将一些词转为共同的词干（不是真实的词）
 - **Stemming** is the process that maps these **terms** to a **common root**. 
 	- e.g. “computing”, “computer” → “comput”
@@ -32,7 +34,6 @@ If we **rank** terms from the most commonly used to the least commonly-used in a
 
 ## Porter’s Stemming Algorithm
 the most famous
-
 ## Example
 - accept: FAI decides to accept rescue deal. 
 - acceptable: FAI deems rescue deal acceptable. 
@@ -41,7 +42,11 @@ the most famous
 - accepts: FAI accepts rescue deal.
 
 The **stem** for all of these is “**accept**”
-
+## 优点
+- **Fast and simple** (rule-based, no deep analysis needed)
+- **Improves recall** by matching word variants  
+    e.g. computing / computer → comput
+- **Widely used** in IR systems (e.g. Porter stemmer)
 ## Problems
 - **overstemming**
 	- **suffixes** can be **removed** from words that are **not related**, but that end up being the same afterwards
@@ -57,4 +62,6 @@ converting **words** into **lemmas** (i.e. **base words** found in **dictionarie
 - Unlike a stem, a lemma is always a **real word**.
 **slower** than stemming, but is usually more **effective**
 a lemmatiser will often need to know **the part of speech** that the word is being used as (verb, noun, etc.)
+**requires** **more text analysis** than stemming
 ![](/assets/2b%20Stopwords,%20Stemming%20and%20Lemmatisation/file-20260421213211943.png)
+## 优点
