@@ -1,3 +1,6 @@
+#exam The probabilistic model of Information Retrieval makes use of two probabilities relating to query terms. These are 𝑃(𝑘!|𝑅) (the probability that a relevant document will contain the term ki) and 𝑃(𝑘!|𝑅') (the probability that a non-relevant document will contain the term ki). However, these probabilities cannot be calculated directly and must be estimated. 
+(i) Briefly describe how initial values for these probabilities may be generated. (ii) Explain how these initial estimates can be improved with user feedback.
+
 Typical process: 
 1. User provides a **query** (usually short and simple) 
 2. The system returns an **initial set of results**. 
