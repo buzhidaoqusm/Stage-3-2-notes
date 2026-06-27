@@ -55,6 +55,27 @@ Pseudo-Relevance Feedback simulates relevance feedback by **assuming** that the 
 - Why does this work? “**Terms** that **occur consistently** in relevant documents also tend to **appear consistently** in **top ranked** documents.”
 - But it’s not perfect: danger of **query drift** towards the topic of the top-ranked documents.
 # Modern IR
+#exam A modern Information Retrieval pipeline may include Boolean searches, simple ranking and reranking based on machine learning. Explain why these are all useful to make an effective Information Retrieval system.
+1. Boolean search（候选集生成 / 高召回）
+	- 用于快速过滤文档
+	- 生成一个“可能相关”的文档集合（candidate set）
+	- 优点：计算快、覆盖广（high recall）
+2. Simple ranking（如 BM25 / VSM）
+	- 对候选文档进行初步排序
+	- 利用 TF-IDF / BM25 等方法计算相关性
+	- 优点：
+	    - 高效
+	    - 可扩展到大规模语料
+	    - 提供初始 ranking
+3. Machine Learning reranking（Learning to Rank）
+	- 在初始排序结果基础上进行优化排序
+	- 使用更多特征（TF, IDF, PageRank, 文档长度等）
+	- 优点：
+	    - 提升 precision（尤其 top results）
+	    - 融合多种信号（text + link + user behavior）
+> 答案：Modern IR systems use a pipeline approach where Boolean retrieval is used to generate a high-recall candidate set, simple ranking models such as BM25 provide an efficient initial ranking, and machine learning reranking is applied on top to improve final precision by combining multiple relevance signals; this multi-stage design is necessary because of the trade-off between scalability, speed, and retrieval quality.
+
+
 ![](/assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423155331348.png)
 - QL: Query Likelihood 
 - DocLen: Document Length 
