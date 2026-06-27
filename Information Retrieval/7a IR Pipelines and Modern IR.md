@@ -62,6 +62,7 @@ Pseudo-Relevance Feedback simulates relevance feedback by **assuming** that the 
 - RF: Random Forest 
 - CEDR: Contextualized Embeddings for Document Ranking
 ## Fusion
+根据多个输入产生一个新的输出
 Input: a set of **results** (for one query) from several Ranked Retrieval systems. 
 Output: a **single, combined set** of results that are (hopefully) **better than the input** results in isolation.
 
@@ -70,6 +71,7 @@ Can be based on:
 - the **rank of the documents** in each results list; 
 - the **probability** of a document **being relevant**, based on past performance.
 ## Learning to Rank (LTR)
+用机器学习给文档重排
 **Machine Learning** used to **re-rank** the documents that have been retrieved.
 - Aim: improve the result by putting the **most-relevant** documents at the **top** of the ranked list of results.
 **Different** to a lot of **classical machine learning** where problems are either **classification** or **regression**
