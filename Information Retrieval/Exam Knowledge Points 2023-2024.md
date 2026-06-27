@@ -52,7 +52,9 @@ A modern IR pipeline often uses multiple stages: Boolean retrieval or candidate 
 
 ## Exam example - 2023 Q1.c / 2024 Q1.a
 
-**Question:** A modern Information Retrieval pipeline may include Boolean searches, simple ranking using BM25, and reranking based on machine learning. Explain why each of these are useful to make an effective Information Retrieval system.
+**Original question - 2023 Q1.c:** A modern Information Retrieval pipeline may include Boolean searches, simple ranking and reranking based on machine learning. Explain why these are all useful to make an effective Information Retrieval system.
+
+**Original question - 2024 Q1.a:** A modern Information Retrieval pipeline may include Boolean searches, simple ranking (using BM25, for example) and reranking based on machine learning. Explain why each of these are useful to make an effective Information Retrieval system.
 
 **Answer:** Boolean retrieval is useful for quickly filtering a very large collection and generating a high-recall candidate set. BM25 or another simple ranking model provides an efficient first ranking based on term matching, term frequency, inverse document frequency and document length normalisation. Machine-learning reranking is then applied to the initial ranked list, combining textual and non-textual features such as BM25 score, PageRank, URL depth, document quality and user behaviour to improve precision among the top results.
 
@@ -97,7 +99,9 @@ Phrase queries require a **positional index**. A phrase can match only if all te
 
 ## Exam example 1 - 2024 Q2.a(i)
 
-**Question:** Explain why an inverted index is more suitable than a term-document incidence matrix.
+**Question:** This question relates to using postings lists to index a document corpus.
+
+(i) Explain why an inverted index is a more suitable data structure for representing a document corpus, compared to a term-document incidence matrix.
 
 **Answer:** A term-document incidence matrix has one cell for every term-document pair, so it is extremely sparse for large document collections. An inverted index stores only the documents in which a term actually occurs, making it much more space-efficient. Since postings lists are sorted, Boolean operations can also be processed efficiently by merging postings lists.
 
@@ -105,7 +109,9 @@ Phrase queries require a **positional index**. A phrase can match only if all te
 
 ## Exam example 2 - 2024 Q2.a(ii)
 
-**Question:** Describe in detail how a set of postings lists can be created to represent a document corpus. Your answer should include details of the data structures that are used during this process.
+**Question:** This question relates to using postings lists to index a document corpus.
+
+(ii) Describe in detail how a set of postings lists can be created to represent a document corpus. Your answer should include details of the data structures that are used during this process.
 
 **Answer:** First, each document is tokenised into a sequence of `(token, docID)` pairs, usually after normalisation such as lowercasing and punctuation removal. Second, these pairs are sorted alphabetically by token and then by docID. Third, repeated occurrences of the same term in the same document are merged for a Boolean postings list. The final data structure contains a dictionary of terms, and each dictionary entry points to a postings list containing the sorted docIDs of documents containing that term. The dictionary may also store document frequency, and a positional or ranked index may store positions or term frequencies as extra information.
 
@@ -113,7 +119,7 @@ Phrase queries require a **positional index**. A phrase can match only if all te
 
 ## Exam example 3 - 2023 Q2.a
 
-**Question:** The Boolean Model makes use of the query operators AND, OR and NOT. Explain how these work and how they affect the number of documents returned by an IR system. Also show how each can be implemented using operations from Set Theory.
+**Question:** The Boolean Model makes use of the query operators AND, OR and NOT. Explain how these work and how they affect the number of documents returned by an Information Retrieval system. Also show how each of these can be implemented by using operations from Set Theory.
 
 **Answer:** `AND` narrows a search by requiring all query terms to appear; it is implemented as set intersection, `A ∩ B`. `OR` broadens a search by returning documents containing any of the terms; it is implemented as set union, `A ∪ B`. `NOT` excludes documents containing a term; it is implemented as set difference, `A \ B`. Adding more `AND` or `NOT` constraints generally reduces the number of returned documents, while using `OR` generally increases it.
 
@@ -129,17 +135,17 @@ Phrase queries require a **positional index**. A phrase can match only if all te
 
 ## Exam example 5 - 2023 Q1.b
 
-**Question:** The positional index for term `same` is:
+**Question:** Below is part of a positional index relating to the term "same". In creating this index, stopword removal and stemming have not been used. Postings lists begin at 1 for the first term in each document. Which document(s) could contain the phrase "the same day at the same time"? Explain your answer.
 
 ```text
+<same: 41825;
 1: 120, 124, 167
 2: 9, 10, 13
 3: 121, 162
 4: 4, 101, 105, 106
 5: 1, 5, 88, 888, 889
+...>
 ```
-
-Which documents could contain the phrase `"the same day at the same time"`?
 
 **Answer:** The phrase contains two occurrences of `same`, and their positions must differ by 4. The only clear matching candidate is `d1`: positions 120 and 124 differ by 4, so the document could contain `the same day at the same time` with `the` at 119 and `time` at 125.
 
@@ -180,7 +186,9 @@ Stemming 是 suffix stripping，快但粗糙，可能 overstemming；lemmatisati
 
 ## Exam example - 2023 Q1.e / 2024 Q2.b(iii)
 
-**Question:** Compare and contrast stemming and lemmatisation. What are the advantages and disadvantages of each?
+**Original question - 2023 Q1.e:** Compare and contrast the preprocessing steps of stemming and lemmatisation. In particular, what are the advantages and disadvantages of each?
+
+**Original question - 2024 Q2.b(iii):** Explain what is meant by stemming and lemmatisation? Give advantages and disadvantages of each.
 
 **Answer:** Stemming removes suffixes or applies simple rules to map words to a common stem. It is fast, simple and can improve recall by matching variants such as `compute`, `computer` and `computing`. However, stems may not be real words and overstemming can merge unrelated words. Lemmatisation converts words to dictionary lemmas using linguistic analysis, often including part-of-speech information. It is usually more accurate and produces real words, but it is slower and more complex to implement.
 
@@ -256,7 +264,7 @@ Exam wording note: if the question says **"Describe the preprocessing steps you 
 
 ## Exam example - 2024 Q2.c(i-ii)
 
-**Question:** Calculate a TF-IDF vector for each document, then calculate cosine similarity for query `"What is her news?"`.
+**Question:** Below is a small document collection, containing three documents. Answer the questions that follows. All calculations should be presented in decimal format, and be correct to three decimal places.
 
 Stopwords: `a, an, is, some, the`
 
@@ -264,6 +272,10 @@ Documents:
 1. `Her doctor gave her some very, very bad news.`
 2. `A no news day is a good news day.`
 3. `An apple a day keeps the doctor away.`
+
+(i) Calculate a vector to represent each document, using the TF-IDF weighting system. You should use the stopword list provided, but do not perform stemming or lemmatisation.
+
+(ii) Calculate the cosine similarity for each vector using the query "What is her news?" and show the final ranked list of documents for this query.
 
 **Answer:**
 
@@ -325,7 +337,23 @@ Final ranking: `D1 > D2 > D3`.
 
 ## Exam example - 2023 Q2.d(i-iv)
 
-**Question:** This question has four parts: describe preprocessing steps; calculate TF-IDF vectors using the stopword list and no stemming; calculate cosine similarity for query `"going to play football"`; explain the effect of using stemming.
+**Question:** Below is a small document collection, containing three documents. Answer the questions that follow.
+
+Stopwords: `and, be, is, it, to, will`
+
+Document 1: `It is going to rain and rain and rain today.`
+
+Document 2: `Today I will be playing sport.`
+
+Document 3: `I am going to watch the play.`
+
+(i) Describe the preprocessing steps you would use when creating an index for these documents.
+
+(ii) Calculate a vector to represent each document, using the TF-IDF weighting system. You should use the stopword list provided, but do not perform stemming.
+
+(iii) Calculate the cosine similarity for each vector using the query "going to play football", and show the final ranked list of documents for this query.
+
+(iv) What effect on the results would you see if you had used stemming for this corpus?
 
 **Answer:**
 
@@ -430,7 +458,7 @@ Document length normalisation prevents long documents from receiving unfair adva
 
 ## Exam example - 2023 Q1.d
 
-**Question:** The BM25 method is based on the belief that a good term weighting scheme is based on three principles. Briefly describe each.
+**Question:** The BM25 method of Information Retrieval is based on the belief that a good term weighting scheme is based on three principles. Briefly describe each of these principles.
 
 **Answer:** First, inverse document frequency gives more weight to terms that occur in fewer documents, because rare terms are more useful for distinguishing relevant documents. Second, term frequency gives more weight when a query term occurs more often in a document, but BM25 applies saturation so repeated occurrences have diminishing returns. Third, document length normalisation adjusts scores so that long documents do not receive an unfair advantage simply because they contain more terms.
 
@@ -493,7 +521,7 @@ NDCG 适合 graded relevance，例如 0-3 分相关性。它通过 DCG 折扣后
 
 ## Metric comparison example - 2024 Q3.b(i)
 
-**Question:** Compare and contrast P@10, MAP and NDCG. Suggest situations where each is appropriate.
+**Question:** Compare and contrast the P@10, MAP and NDCG evaluation metrics. In your answer, outline any advantages and disadvantages of each. For each metric, suggest a situation where it is more appropriate than the others.
 
 **Answer:** P@10 measures the proportion of relevant documents in the first ten results. It is simple and appropriate for web search, where users often inspect only the top results, but it ignores all results after rank 10 and does not consider the total number of relevant documents. MAP averages precision at every rank where a relevant document is found, so it rewards systems that rank relevant documents early and is useful when binary relevance judgments are complete. However, it treats all relevant documents equally. NDCG uses graded relevance judgments and discounts lower-ranked documents, so it is appropriate when relevance has different levels, but it requires graded judgments and an ideal ranking for normalisation.
 
@@ -501,7 +529,7 @@ NDCG 适合 graded relevance，例如 0-3 分相关性。它通过 DCG 折扣后
 
 ## Metric comparison example - 2023 Q3.b
 
-**Question:** Compare the MAP, bpref and NDCG evaluation metrics. Outline advantages or disadvantages of each, and suggest a situation where each is more appropriate than the others.
+**Question:** Compare the MAP, bpref and NDCG evaluation metrics. In your answer, outline any advantages or disadvantages of each. For each metric, suggest a situation where it is more appropriate than the others.
 
 **Answer:** MAP uses binary relevance judgments and averages precision at every rank where a relevant document is retrieved. It rewards ranking relevant documents early and is appropriate when complete binary relevance judgments are available, but it treats all relevant documents as equally relevant and is affected by incomplete judgments. bpref is designed for incomplete relevance judgments by considering judged relevant and judged non-relevant documents while ignoring unjudged documents. It is more suitable for large collections where complete judgments are unavailable, but it can be unstable when there are very few relevant documents. NDCG uses graded relevance judgments and discounts documents found later in the ranking, making it suitable when documents have different relevance levels, such as web search or graded assessment tasks. Its disadvantage is that it requires graded judgments and an ideal ranking for normalisation.
 
@@ -517,7 +545,19 @@ NDCG 适合 graded relevance，例如 0-3 分相关性。它通过 DCG 折扣后
 
 ## Worked example - 2023 Q3.c(i-iii)
 
-**Question:** Retrieved = `d13, d21, d19, d12, d6, d24, d11, d1, d3, d17, d9, d23, d10, d14`; Relevant = `{d2, d3, d7, d9, d12, d15, d17, d23}`. Calculate MAP, Recall and R-Precision.
+**Question:** Below is a set of results and relevance judgments for a query:
+
+Retrieved = `d13, d21, d19, d12, d6, d24, d11, d1, d3, d17, d9, d23, d10, d14`
+
+Relevant = `{d2, d3, d7, d9, d12, d15, d17, d23}`
+
+Calculate the following metrics:
+
+(i) Mean Average Precision (MAP)
+
+(ii) Recall
+
+(iii) R-Precision
 
 **Answer:**
 
@@ -541,7 +581,23 @@ R-Precision = relevant in top 8 / 8 = 1 / 8 = 0.125
 
 ## Worked example - 2024 Q3.c(i-iv)
 
-**Question:** Retrieved = `d7 d1 d10 d14 d8 d2 d18 d17 d4 d20 d21 d3 d11 d12 d5 d24`; Judged Relevant = `{d1, d3, d6, d7, d8, d13, d17, d19, d21, d24}`; Judged Non-relevant = `{d9, d10, d11, d12, d18, d25}`. Calculate Precision, Recall, MAP and bpref.
+**Question:** Below is a set of results that were returned by a search engine in response to a query.
+
+Retrieved = `d7 d1 d10 d14 d8 d2 d18 d17 d4 d20 d21 d3 d11 d12 d5 d24`
+
+Judged Relevant = `{d1, d3, d6, d7, d8, d13, d17, d19, d21, d24}`
+
+Judged Non-relevant = `{d9, d10, d11, d12, d18, d25}`
+
+Calculate the following evaluation metrics for this query. Your results should be presented in decimal format, and be correct to three places of decimals:
+
+(i) Precision
+
+(ii) Recall
+
+(iii) Mean Average Precision (MAP)
+
+(iv) bpref
 
 **Answer:**
 
@@ -610,13 +666,23 @@ $$
 
 ## Exam example - 2024 Q3.a(i)
 
-**Question:** In PageRank, what is a damping factor and why is it important?
+**Question:** In the context of PageRank, what is a damping factor and why is it important?
 
 **Answer:** The damping factor controls how much PageRank is passed through outgoing links. In the course formula, only a proportion `d` of the link-based score is passed on, while `(1-d)` is added as a base score. This prevents rank sinks, where a closed group of pages keeps accumulating PageRank without linking outside the group, and also prevents pages with no backlinks from necessarily having zero score.
 
 **解析:** damping factor 不只是公式符号，要解释 rank sink / random jump / base score 的作用。
 
 ## Worked PageRank example - 2024 Q3.a(ii)
+
+**Question:** The link structure of some web pages is shown below. There are five web pages shown (`d1`, `d2`, `d3`, `d4` and `d5`), and the arrows show the links between the pages.
+
+![](/assets/Exam%20Knowledge%20Points%202023-2024/2024_q3_pagerank.png)
+
+Using this structure as an example, describe in detail how a PageRank score is calculated. Use a damping factor of 0.85 and show at least 3 iterations (the first step of assigning the same initial PageRank to each page does not count as an iteration).
+
+Your answer must include a description of the steps you take, in addition to the calculations.
+
+Answers must be given in decimal format and be correct to three places of decimals.
 
 Assumption from the exam diagram:
 
@@ -658,6 +724,12 @@ d5 = 0.950
 **解析:** 每轮必须用上一轮的 PageRank 统一更新，不能一边算一边覆盖。考试写三轮即可，不要求收敛。
 
 ## Worked PageRank example - 2023 Q3.a
+
+**Question:** The link structure of some web pages is shown below. There are six web pages shown (`d1`, `d2`, `d3`, `d4`, `d5` and `d6`), and the arrows show links between the pages (e.g. `d4` contains links to `d3` and `d6`).
+
+![](/assets/Exam%20Knowledge%20Points%202023-2024/2023_q3_pagerank.png)
+
+Show a worked example of how PageRank scores are calculated for these documents. Use a damping factor of 0.8 and show at least 3 iterations.
 
 Assumption from the exam diagram:
 
@@ -719,7 +791,11 @@ Query expansion 的主要目标是解决 vocabulary mismatch。常考 three sour
 
 ## Exam example 1 - 2023 Q2.c(i-ii)
 
-**Question:** The probabilistic model of IR uses `P(ki|R)`, the probability that a relevant document contains term `ki`, and `P(ki|R')`, the probability that a non-relevant document contains term `ki`. These probabilities cannot be calculated directly and must be estimated. Describe how initial values may be generated and how these estimates can be improved with user feedback.
+**Question:** The probabilistic model of Information Retrieval makes use of two probabilities relating to query terms. These are `P(ki|R)` (the probability that a relevant document will contain the term `ki`) and `P(ki|R')` (the probability that a non-relevant document will contain the term `ki`). However, these probabilities cannot be calculated directly and must be estimated.
+
+(i) Briefly describe how initial values for these probabilities may be generated.
+
+(ii) Explain how these initial estimates can be improved with user feedback.
 
 **Answer:** Initial estimates can be generated using assumptions and collection statistics. Since no relevance judgments are available at first, the system can assume query terms are likely to occur in relevant documents, often using a neutral or high initial estimate for `P(ki|R)`, and estimate `P(ki|R')` from how often the term occurs in the whole collection, using document frequency as evidence. After an initial ranked list is returned, the user can mark some documents as relevant and non-relevant. The system can then update the probabilities by counting how often each query term appears in the judged relevant set and the judged non-relevant set. Terms that occur frequently in judged relevant documents should receive higher `P(ki|R)`, while terms common in judged non-relevant documents should receive higher `P(ki|R')` and therefore become less useful for ranking.
 
@@ -813,7 +889,11 @@ Borda 不看原始 score，只看 rank；CombSUM/CombMNZ 看 score，所以不�
 
 ## Exam example - 2024 Q4.c(i-ii)
 
-**Question:** Three effects can be exploited when designing a fusion algorithm. Describe the three effects. Based on the fusion algorithms studied, give four examples where one effect is exploited and explain how.
+**Question:** Three effects can be exploited when designing a fusion algorithm.
+
+(i) Describe the three effects.
+
+(ii) Based on the fusion algorithms you have studied, give four examples where one of these effects is exploited, and explain how they exploit this effect.
 
 **Answer:** The three effects are the skimming effect, the chorus effect and the dark horse effect. The skimming effect says that top-ranked documents from each input system are more likely to be relevant. The chorus effect says that a document returned by multiple systems has stronger evidence of relevance. The dark horse effect says that one input system may be unusually good or unusually bad for a particular query, although this is difficult to identify.
 
@@ -828,7 +908,15 @@ Examples:
 
 ## Worked fusion example - 2024 Q4.b(i-iii)
 
-**Question:** Calculate the score for `d16` using CombMNZ, `d18` using Borda Fuse, and `d10` using CombSum.
+**Question:** The table below shows results from four search engines in response to the same query. Each set of results consists of a ranked list of unique document identifiers (DocID), along with the ranking score. Complete the following tasks, showing your workings for each. Answers should be correct to three places of decimals.
+
+(i) Calculate the score that document `d16` would have using `CombMNZ`.
+
+(ii) Calculate the score that document `d18` would have using `Borda Fuse`.
+
+(iii) Calculate the score that document `d10` would have using `CombSum`.
+
+![](/assets/Exam%20Knowledge%20Points%202023-2024/2024_q4_fusion_table.png)
 
 **Answer:**
 
@@ -866,7 +954,15 @@ Borda(d18)=17+20+8+13=58
 
 ## Worked fusion example - 2023 Q4.b(i-iii)
 
-**Question:** Calculate `D6` using CombSUM, `D10` using CombMNZ, and `D5` using Borda Fuse.
+**Question:** The table below shows results from three search engines in response to the same query. Each set of results consists of a ranked list of unique document identifiers (DocID), along with the ranking score. Complete the following tasks, showing your workings for each.
+
+(i) Calculate the ranking score that document `D6` would have using `CombSum`.
+
+(ii) Calculate the ranking score that document `D10` would have using `CombMNZ`.
+
+(iii) Calculate the ranking score that document `D5` would have using `Borda Fuse`.
+
+![](/assets/Exam%20Knowledge%20Points%202023-2024/2023_q4_fusion_table.png)
 
 **Answer:**
 
@@ -934,7 +1030,7 @@ Examples include keyword stuffing in meta tags, hidden text, cloaking, sneaky Ja
 
 ## Exam example 1 - 2024 Q4.a
 
-**Question:** Describe how you would design a web crawler to find information for an IR index. Include standards it should follow and situations where accessing information is difficult.
+**Question:** Describe in detail how you would design a web crawler to find information that could be included in the index of an Information Retrieval system. In your answer, include details about what standards the crawler should follow, and situations where accessing information is difficult.
 
 **Answer:** I would start with a queue of seed URLs and use a breadth-first crawling strategy. For each URL, the crawler downloads the page, extracts hyperlinks, normalises and deduplicates URLs, and adds unseen URLs to the queue. It should store downloaded content for indexing and schedule revisits for pages likely to change. The crawler should be polite: obey `robots.txt`, respect crawl-delay, avoid overloading a server, limit bandwidth use and identify itself using a user-agent string. Difficult situations include duplicate URLs for the same page, dynamic content, JavaScript-generated links, CAPTCHA, pages requiring login and constantly changing pages.
 
