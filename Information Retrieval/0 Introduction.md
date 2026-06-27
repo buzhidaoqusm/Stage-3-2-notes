@@ -21,6 +21,7 @@ This should happen in a timely and efficient manner
 Users only use IR systems when there is **some information that they are interested** in reading
 
 # Information Need: 4 Stages
+#exam The information need of a user is said to have 4 stages. Describe these stages.
 1. **visceral** need: **unexpressed** need for information
 2. **conscious** need: conscious within-brain description of the need(**ambiguous**)
 3. **formalised** need: formal statement of the question

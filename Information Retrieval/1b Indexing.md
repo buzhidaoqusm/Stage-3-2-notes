@@ -68,6 +68,7 @@ INTERSECT(p1, p2)
 - Worst case (two distinct lists with **nothing in common**)
 
 # Boolean Operators
+#exam The Boolean Model makes use of the query operators AND, OR and NOT. Explain how these work and how they affect the number of documents returned by an Information Retrieval system. Also show how each of these can be implemented by using operations from Set Theory.
 ## And
 AND is used to **narrow a search** by ensuring that all the search terms should appear in the results
 It is commonly used to **search** for **relationships** between two concepts or terms.

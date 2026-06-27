@@ -1,3 +1,5 @@
+#exam Explain what is meant by the phrase Adversarial Information Retrieval. In the context of web search, show two examples of where this can occur.
+
 Search Engine Optimisation (SEO)
 SEO involves taking steps to **get your page** high **up** in search engine **rankings**.
 
