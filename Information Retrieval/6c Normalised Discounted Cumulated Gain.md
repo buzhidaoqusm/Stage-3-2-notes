@@ -63,6 +63,7 @@ The Ideal DCG vector is the DCG vector that we would see if the IR system had pe
 
 We calculate an Ideal DCG vector to be the **same length** as the **DCG vector** (with **0 relevance values inserted** at the end if there are not enough relevant documents).
 #### IDCG
+最优的CG，大的放前面，小的放后面
 R = {[d3 , 3], [d5 , 3], [d9 , 3], [d25, 2], [d39, 2], [d44, 2], [d56,1], [d71, 1], [d89, 1], [d123, 1]}
 Ideal Gain vector:
 IG = (3, 3, 3, 2, 2, 2, 1, 1, 1, 1, 0, 0, 0, 0, 0)
