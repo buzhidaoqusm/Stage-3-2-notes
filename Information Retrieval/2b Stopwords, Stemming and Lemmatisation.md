@@ -1,4 +1,6 @@
 # Stopword Removal
+#exam What is meant by stopword removal, and how can this help to improve the Information Retrieval process?
+
 A **stopword** is a commonly occurring term that appears in so many documents that it does **not add to the meaning** of the document
 like `the, and, of`
 没意义的词
@@ -8,6 +10,8 @@ The fact that they are **so common** also means that **more processing power is 
 处理时所需的算力高
 
 ## Zipf’s Law
+#exam In what way is Zipf’s Law related to stopword removal?
+
 If we **rank** terms from the most commonly used to the least commonly-used in a large text collection, the **second term** is approximately **½** as common as the **first**, the **third** is approximately **⅓** as common as the first, etc.
 
 ## Tradeoff
@@ -24,6 +28,7 @@ If we **rank** terms from the most commonly used to the least commonly-used in a
 	- 将停用词的组合作为索引项
 # Stemming
 #exam Compare and contrast the preprocessing steps of stemming and lemmatisation. In particular, what are the advantages and disadvantages of each?
+#exam Explain what is meant by stemming and lemmatisation? Give advantages and disadvantages of each.
 
 将一些词转为共同的词干（不是真实的词）
 - **Stemming** is the process that maps these **terms** to a **common root**. 
