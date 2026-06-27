@@ -65,3 +65,12 @@ a lemmatiser will often need to know **the part of speech** that the word is bei
 **requires** **more text analysis** than stemming
 ![](/assets/2b%20Stopwords,%20Stemming%20and%20Lemmatisation/file-20260421213211943.png)
 ## 优点
+real word
+more **effective**
+能处理复杂词形变化（irregular forms）e.g. go / went / gone → go
+适合nlp任务
+
+## 缺点
+computationally slower
+requires **more text analysis**
+实现复杂，requires linguistic knowledge

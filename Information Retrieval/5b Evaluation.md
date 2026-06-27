@@ -5,6 +5,8 @@ There are many measureable quantities for this:
 
 关注3
 # The Cranfield Paradigm
+#exam The Cranfield Paradigm is typically used as the basis of evaluation strategies for Information Retrieval. Explain in detail what is meant by this.
+
 ![](/assets/5b%20Evaluation/file-20260422203740753.png)
 
 A **relevant document** is one that (at least partially) **satisfies** a user’s information **need**.
