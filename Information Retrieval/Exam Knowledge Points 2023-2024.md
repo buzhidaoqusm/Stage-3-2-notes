@@ -250,9 +250,13 @@ $$
 
 如果 query 中有 term 不在 corpus vocabulary 里，通常无法从 index 中匹配，计算时忽略该维度。
 
+Exam wording note: if the question says **"Describe the preprocessing steps you would use when creating an index"**, it is asking for the text-processing pipeline, such as tokenisation, lowercasing, punctuation removal, stopword removal, and whether stemming/lemmatisation is used. It is **not** asking for a binary incidence vector like `(1,0,0,1)`. You can show the processed term list for each document because that becomes the input to the index and to TF-IDF.
+
+注意：`creating an index` 这句话不是让你必须完整写 inverted index，也不是让你写 `(1,0,0,1)` 这种 term-document incidence vector。更稳的答法是：先描述 preprocessing steps，然后列出每个 document 处理后的 terms；后面的小问再用这些 terms 算 TF-IDF vector。
+
 ## Exam example - 2024 Q2.c(i-ii)
 
-**Question:** Use TF-IDF to represent the documents and calculate cosine similarity for query `"What is her news?"`.
+**Question:** Calculate a TF-IDF vector for each document, then calculate cosine similarity for query `"What is her news?"`.
 
 Stopwords: `a, an, is, some, the`
 
@@ -263,6 +267,8 @@ Documents:
 
 **Answer:**
 
+### (i) TF-IDF document vectors
+
 After stopword removal:
 
 ```text
@@ -272,16 +278,20 @@ D3: apple day keeps doctor away
 Query: what her news -> her news (what is not in the corpus vocabulary)
 ```
 
-Important IDF values:
+Use vocabulary order:
 
 ```text
-idf(her)=log2(3/1)=1.585
-idf(news)=log2(3/2)=0.585
-idf(day)=log2(3/2)=0.585
-idf(doctor)=log2(3/2)=0.585
+[apple, away, bad, day, doctor, gave, good, her, keeps, news, no, very]
 ```
 
-Non-zero document weights:
+IDF values:
+
+```text
+idf=1.585 for apple, away, bad, gave, good, her, keeps, no, very
+idf=0.585 for day, doctor, news
+```
+
+Non-zero weights:
 
 ```text
 D1: her=1.585, very=1.585, bad=0.792, gave=0.792, doctor=0.292, news=0.292
@@ -289,6 +299,17 @@ D2: news=0.585, day=0.585, no=0.792, good=0.792
 D3: apple=1.585, away=1.585, keeps=1.585, doctor=0.585, day=0.585
 Q:  her=1.585, news=0.585
 ```
+
+Full vectors in the vocabulary order:
+
+```text
+D1 = (0, 0, 0.792, 0, 0.292, 0.792, 0, 1.585, 0, 0.292, 0, 1.585)
+D2 = (0, 0, 0, 0.585, 0, 0, 0.792, 0, 0, 0.585, 0.792, 0)
+D3 = (1.585, 1.585, 0, 0.585, 0.585, 0, 0, 0, 1.585, 0, 0, 0)
+Q  = (0, 0, 0, 0, 0, 0, 0, 1.585, 0, 0.585, 0, 0)
+```
+
+### (ii) Cosine similarity and ranking
 
 Cosine similarity:
 
@@ -304,9 +325,24 @@ Final ranking: `D1 > D2 > D3`.
 
 ## Exam example - 2023 Q2.d(i-iv)
 
-**Question:** Use TF-IDF and cosine similarity for query `"going to play football"` with stopwords `and, be, is, it, to, will`, without stemming.
+**Question:** This question has four parts: describe preprocessing steps; calculate TF-IDF vectors using the stopword list and no stemming; calculate cosine similarity for query `"going to play football"`; explain the effect of using stemming.
 
 **Answer:**
+
+### (i) Preprocessing steps for creating an index
+
+Use the following preprocessing steps:
+
+```text
+1. Tokenise each document into word tokens.
+2. Lowercase all tokens.
+3. Remove punctuation.
+4. Remove the given stopwords: and, be, is, it, to, will.
+5. Do not apply stemming, because the question explicitly says not to.
+6. Use the remaining terms to build the vocabulary/index and count term frequencies.
+```
+
+This gives:
 
 After stopword removal:
 
@@ -316,6 +352,49 @@ D2: today i playing sport
 D3: i am going watch the play
 Query: going play football -> going play (football is not in the corpus)
 ```
+
+This is not asking for an incidence matrix such as `(1,0,0,1)`. If you want to mention indexing, the processed terms would become dictionary entries with postings lists, but the next part asks for **TF-IDF vectors**, so the main output here is the processed term list and term frequencies.
+
+### (ii) TF-IDF document vectors
+
+Use vocabulary order:
+
+```text
+[am, going, i, play, playing, rain, sport, the, today, watch]
+```
+
+IDF values:
+
+```text
+idf=1.585 for am, play, playing, rain, sport, the, watch
+idf=0.585 for going, i, today
+```
+
+Non-zero weights:
+
+```text
+D1: going=0.195, rain=1.585, today=0.195
+D2: i=0.585, playing=1.585, sport=1.585, today=0.585
+D3: am=1.585, going=0.585, i=0.585, play=1.585, the=1.585, watch=1.585
+Q:  going=0.585, play=1.585
+```
+
+Full vectors in the vocabulary order:
+
+```text
+D1 = (0, 0.195, 0, 0, 0, 1.585, 0, 0, 0.195, 0)
+D2 = (0, 0, 0.585, 0, 1.585, 1.585? no, rain=0, sport=1.585, the=0, today=0.585, watch=0)
+D3 = (1.585, 0.585, 0.585, 1.585, 0, 0, 0, 1.585, 0, 1.585)
+Q  = (0, 0.585, 0, 1.585, 0, 0, 0, 0, 0, 0)
+```
+
+Corrected D2 vector in the same vocabulary order:
+
+```text
+D2 = (0, 0, 0.585, 0, 1.585, 0, 1.585, 0, 0.585, 0)
+```
+
+### (iii) Cosine similarity and ranking
 
 Cosine similarity:
 
@@ -327,7 +406,11 @@ cos(D3,Q)=0.516
 
 Final ranking: `D3 > D1 > D2`.
 
-**解析:** 因为题目要求不要 stemming，所以 `playing` 不等于 `play`，D2 不匹配 query。若使用 stemming，`playing` 和 `play` 会合并，D2 会获得非零相似度，ranking 会更有利于 D2。
+### (iv) Effect of stemming
+
+If stemming were used, `playing` and `play` would likely be mapped to the same stem. This means Document 2 would match the query term `play`, so `D2` would no longer have cosine similarity 0. The ranking would likely improve for `D2`. Stemming may increase recall by matching word variants, but it can also reduce precision if unrelated words are incorrectly merged.
+
+**解析:** 因为题目要求不要 stemming，所以 `playing` 不等于 `play`，D2 不匹配 query。若使用 stemming，`playing` 和 `play` 会合并，D2 会获得非零相似度，ranking 会更有利于 D2。`Describe preprocessing steps` 不是让你写 binary vector；真正的 document vector 是 (ii) 里的 TF-IDF weighted vector。
 
 # 5. BM25
 
