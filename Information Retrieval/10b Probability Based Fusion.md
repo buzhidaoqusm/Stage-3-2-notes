@@ -58,6 +58,7 @@ In particular, **adjacent documents** could be **treated very differently**, for
 - Document 20 would be grouped with documents 6-20 
 - Document 21 would be grouped with documents 21-55
 ## Overview
+为什么不直接用排名当做分数：因为有很多没有被评价的文档，但是不能直接给这些文档0
 **Aside**: Why not just **use the probability** at **each rank** in the result set? 
 - Expecially for large-scale tasks, there may be **few judged relevant documents** available, but we **don't want to** give a probability of **zero** to a rank just because **no relevant document was returned** in that exact rank during training
 
