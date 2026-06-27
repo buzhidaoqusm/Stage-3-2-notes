@@ -1,4 +1,5 @@
 # ProbFuse
+根据位置给分
 ## Motivation
 Using a **single weight** for each system **only reflects** that the **overall average performance** of one system is better (or worse) than another
 may miss some characteristics:
@@ -32,6 +33,7 @@ The score assigned to a document by each underlying input system is the **probab
 
 only suitable for data fusion
 # SegFuse
+segment的大小随着k增大而增大
 ## Motivation
 ProbFuse 分成 25 segments 时效果优于CombMNZ
 
