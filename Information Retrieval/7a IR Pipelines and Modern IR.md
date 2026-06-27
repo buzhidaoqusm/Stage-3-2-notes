@@ -26,13 +26,15 @@ An alternative is a **non-linear pipeline**, where some **stages** can happen in
 A typical modern IR system will use **multiple different process** to create the final ranking.
 ![](/assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423145941528.png)
 # Increasing Recall
-
+bm25会作为后续步骤的输入，而不是直接输出
 However, in modern architectures, the **output** of the **basic approaches** (e.g. Boolean retrieval, BM25) will not be shown directly to the users – they are **inputs** to **further processing** to improve the final ranking.
 
+recall很重要，因为一开始没有找到相关文档，后面永远不会找到
 Therefore, **recall** is more important at this stage
 - If the early retrieval **does not find** some relevant document, that can **never appear** in the final result. 
 - If the early retrieval **finds some non-relevant** documents then these can be **moved down** the rankings (or **filtered out** of the results list) by the more sophisticated **techniques later** in the process, before they reach the user.
 
+提高recall的方式：查询扩展，伪相关反馈
 **Two classical techniques** that are used to increase recall: **query expansion** and **pseudo-relevance feedback**.
 ## Query Expansion
 **Related terms** are **added** to the **query** to increase the chance of matching relevant documents.
@@ -44,6 +46,8 @@ Many sources of related terms:
 ![](/assets/7a%20IR%20Pipelines%20and%20Modern%20IR/file-20260423153655027.png)
 using “OR”
 ## Pseudo-Relevance Feedback
+IR输出文档-用户给反馈-重新输出结果
+可能会有query drift的问题
 Relevance Feedback is when users are **shown** a set of **documents** in response to a query, and tell the system **which ones are relevant**.
 - The system can then **use** this **information** to **re-run the search** (with different term weights) and hopefully find more relevant documents that are similar to the ones the user has said are relevant.
 - However, **users don’t like** giving relevance feedback!
