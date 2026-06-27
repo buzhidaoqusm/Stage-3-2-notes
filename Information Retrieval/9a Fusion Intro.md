@@ -27,12 +27,15 @@ it is **difficult to draw reliable conclusions** about these **documents** that 
 External Metasearch
 
 # Three Fusion “Effects”
+三种解释为什么“融合多个检索系统结果会更好”
 ## The Skimming Effect
+优先取排名靠前的
 top documents = 相关的文档
 The Skimming Effect argues that "**skimming**" the **top documents** from each result set and using these for **fusion** should give better performance.
 
 **used for all** popular fusion algorithms
 ## The Chorus Effect
+多个IR都认为某个文档重要，那么这个文档重要
 If **multiple input systems** agree that a **document is relevant**, the Chorus Effect argues that this evidence of relevance should be taken into account and **that document** should be **highly ranked** in the fused result set.
 
 **Whether** this effect is **applicable** **depends** on the level of **overlap** between the corpora
@@ -40,6 +43,7 @@ If **multiple input systems** agree that a **document is relevant**, the Chorus 
 - Collection Fusion: not a factor at all
 - Partially overlapping: Difficult to gauge
 ## The Dark Horse Effect
+某个表现一般的IR可能对于特定的query表现很好
 The Dark Horse Effect is where **one** input **system** returns **results** of a **much different** quality than the others.
 either unusually accurate or unusually inaccurate
 
