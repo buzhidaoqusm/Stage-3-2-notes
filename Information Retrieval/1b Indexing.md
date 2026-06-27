@@ -8,6 +8,7 @@ We frequently refer to this **data structure** as an **index**, and the process 
 incidence matrix is one possibility
 # Inverted Index
 #exam Explain why an inverted index is a more suitable data structure for representing a document corpus, compared to a term-document incidence matrix.
+#exam Describe in detail how a set of postings lists can be created to represent a document corpus. Your answer should include details of the data structures that are used during this process.
 
 term->文档id->文档id
 
