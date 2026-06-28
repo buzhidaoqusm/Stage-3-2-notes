@@ -38,7 +38,7 @@ A modern IR pipeline often uses multiple stages: Boolean retrieval or candidate 
 
 **Question:** Describe what is meant by "information need" in the context of Information Retrieval. What are the different types of information need?
 
-**Answer:** An information need is the information that a user is interested in finding. In IR, the system does not directly answer or change the user's knowledge; instead, it tells the user about the existence and location of documents that may satisfy the need. The need may be expressed to the system as different query types: keyword-based queries, context or phrase queries, Boolean queries, and natural language queries.
+**Answer:** An information need is the information that a user is **interested in finding**. In IR, the system does **not** directly **answer** or change the user's knowledge; instead, it tells the user about the **existence** and **location** of **documents** that may satisfy the need. The need may be expressed to the system as different query types: keyword-based queries, context or phrase queries, Boolean queries, and natural language queries.
 
 **解析:** 这题容易把 **information need** 和 **query** 混在一起。information need 是用户真正想知道的内容；query 是 compromised need，是提交给系统的表达形式。types 可以按课件中的 query expression types 写：keyword, context, Boolean, natural language。
 
