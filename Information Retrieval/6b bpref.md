@@ -53,7 +53,9 @@ bpref10 = \frac{1}{R}\sum_{r \in R}\left(1 - \frac{\left|\, n \text{ ranked high
 $$
 where **n** is a member of the **first 10+R judged** nonrelevant documents.
 ## Comparison
+#exam Explain how the creators of the bpref evaluation metric showed that it is suitable for dealing with incomplete relevance judgments.
+
 As the judgments become less complete, bpref is more **stable** than the others.
 ![](/assets/6b%20bpref/file-20260423135609187.png)
 y 轴：评估指标得分
-x 轴：使用判断的百分比（他们不断删除判断文件并重新评估）
+x 轴：判断过的文件所占的百分比（他们不断删除判断文件并重新评估）

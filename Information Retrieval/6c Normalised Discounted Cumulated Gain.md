@@ -83,6 +83,10 @@ NDCG@10 is a very commonly used metric: here it is 0.29
 - NDCG@n only considers relevant documents found **to that point**: not affected by many relevant documents being found very late. 
 - Gives **less weight** to relevant documents found **late** in the ranking.
 # Which metric should I use?
+#exam Compare the MAP, bpref and NDCG evaluation metrics. In your answer, outline any advantages or disadvantages of each. For each metric, suggest a situation where it is more appropriate than the others.
+#exam Compare and contrast the P@10, MAP and NDCG evaluation metrics. In your answer, outline any advantages and disadvantages of each. For each metric, suggest a situation where it is more appropriate than the others.
+
+
 if **complete judgments** are available **any metric** can be used
 
 **MAP** gives a good indication of performance within a **single metric** as it is averaging the results over multiple queries. 
