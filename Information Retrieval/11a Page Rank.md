@@ -51,6 +51,7 @@ we can give an **arbitrary score** to every document
 These **continue to be recalculated** until the **scores converge** (i.e. calculating again **does not change** the scores, or changes them **very little**)
 
 ## rank sink
+#exam In the context of PageRank, what is a damping factor and why is it important?
 
 which refers to a group of pages that have at least one backlink and link to one another, but do **not link** to anywhere else **outside** the group
 ![](/assets/11a%20Page%20Rank/file-20260601165413442.png)
