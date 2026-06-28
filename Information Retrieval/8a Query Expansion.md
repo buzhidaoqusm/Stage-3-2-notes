@@ -8,6 +8,8 @@ suggested some query expansion options for the user to choose
 The original query “cancer” has been automatically expanded with several related search terms.
 ![](/assets/8a%20Query%20Expansion/file-20260423165556625.png)
 ## Resources for Query Expansion
+#exam Briefly describe three sources of synonyms for use in query expansion.
+
 main information used is **synonymy**
 A **thesaurus** is a type of database that **collects synonyms** (or near-synonyms) 
 - **Manual** thesaurus (maintained by human editors) 
