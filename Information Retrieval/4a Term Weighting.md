@@ -29,3 +29,16 @@ ni is the number of **documents** in the collection that **contain term i**.
 ### TF-IDF
 term i in a document j
 𝑤𝑖,𝑗 = 𝑡𝑓𝑖,𝑗 × 𝑖𝑑𝑓i
+
+#exam Below is a small document collection, containing three documents. Answer the questions that follows. All calculations should be presented in decimal format, and be correct to three decimal places.
+
+Stopwords: `a, an, is, some, the`
+
+Documents:
+1. `Her doctor gave her some very, very bad news.`
+2. `A no news day is a good news day.`
+3. `An apple a day keeps the doctor away.`
+
+(i) Calculate a vector to represent each document, using the TF-IDF weighting system. You should use the stopword list provided, but do not perform stemming or lemmatisation.
+
+(ii) Calculate the cosine similarity for each vector using the query "What is her news?" and show the final ranked list of documents for this query.
