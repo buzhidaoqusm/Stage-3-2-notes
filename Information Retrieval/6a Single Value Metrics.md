@@ -43,5 +43,5 @@ n is the number of retrieved documents
 P@k is precision at rank k. 
 rel@k is 1 if the document at rank k is relevant, or 0 if not. 
 r is the number of relevant documents available for retrieval (i.e. |Rel|)
-
+	
 (1+0.67+0.5+0.4+0.33)/10
