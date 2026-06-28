@@ -7,6 +7,8 @@ query给多个IR system，每个IR system会返回Documents，将所有Documents
 - **Distributed Information Retrieval**: Numerous IR systems are designed to **co-operate with one another**, each working on a **subset** of the document collection.
 - **Internal Metasearch**: Numerous algorithms perform searches on the **same document collection** (data fusion)
 # Corpus Overlap
+#exam Different levels of corpus overlap can influence the design of a data fusion algorithm. Explain why this is the case.
+
 ## Disjoint Databases
 完全不同
 input systems search **separate, disjoint document** collections that have **no documents in common**
@@ -27,6 +29,13 @@ it is **difficult to draw reliable conclusions** about these **documents** that 
 External Metasearch
 
 # Three Fusion “Effects”
+#exam 
+Three effects can be exploited when designing a fusion algorithm.
+
+(i) Describe the three effects.
+
+(ii) Based on the fusion algorithms you have studied, give four examples where one of these effects is exploited, and explain how they exploit this effect.
+
 三种解释为什么“融合多个检索系统结果会更好”
 ## The Skimming Effect
 优先取排名靠前的
