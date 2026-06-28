@@ -38,9 +38,16 @@ A modern IR pipeline often uses multiple stages: Boolean retrieval or candidate 
 
 **Question:** Describe what is meant by "information need" in the context of Information Retrieval. What are the different types of information need?
 
-**Answer:** An information need is the information that a user is **interested in finding**. In IR, the system does **not** directly **answer** or change the user's knowledge; instead, it tells the user about the **existence** and **location** of **documents** that may satisfy the need. The need may be expressed to the system as different query types: keyword-based queries, context or phrase queries, Boolean queries, and natural language queries.
+**Answer:** An information need is the information that a user is **interested in finding**. In IR, the system does **not** directly **answer** the user or change the user's knowledge; instead, it tells the user about the **existence** and **location** of **documents** that may satisfy the need.
 
-**解析:** 这题容易把 **information need** 和 **query** 混在一起。information need 是用户真正想知道的内容；query 是 compromised need，是提交给系统的表达形式。types 可以按课件中的 query expression types 写：keyword, context, Boolean, natural language。
+The different types/stages of information need are:
+
+1. **Visceral need**: the actual but unexpressed need for information.
+2. **Conscious need**: the user's internal, possibly ambiguous description of the need.
+3. **Formalised need**: a formal statement of the question, suitable for explaining to another person.
+4. **Compromised need**: the question as presented to the IR system, according to the input type it supports.
+
+**解析:** 这里我之前写成了 query types，这不够准确。根据课件，`information need` 是 Taylor 定义的四个 stages：visceral, conscious, formalised, compromised。Keyword / context / Boolean / natural language 是 **query types**，也就是 compromised need 的表达方式；如果考试答案有余力，可以最后补一句，但主答案应该写 4 stages。
 
 ## Exam example - 2024 Q1.c
 
