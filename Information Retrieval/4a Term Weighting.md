@@ -42,3 +42,21 @@ Documents:
 (i) Calculate a vector to represent each document, using the TF-IDF weighting system. You should use the stopword list provided, but do not perform stemming or lemmatisation.
 
 (ii) Calculate the cosine similarity for each vector using the query "What is her news?" and show the final ranked list of documents for this query.
+
+#exam Below is a small document collection, containing three documents. Answer the questions that follow.
+
+Stopwords: `and, be, is, it, to, will`
+
+Document 1: `It is going to rain and rain and rain today.`
+
+Document 2: `Today I will be playing sport.`
+
+Document 3: `I am going to watch the play.`
+
+(i) Describe the preprocessing steps you would use when creating an index for these documents.
+
+(ii) Calculate a vector to represent each document, using the TF-IDF weighting system. You should use the stopword list provided, but do not perform stemming.
+
+(iii) Calculate the cosine similarity for each vector using the query "going to play football", and show the final ranked list of documents for this query.
+
+(iv) What effect on the results would you see if you had used stemming for this corpus?
