@@ -27,6 +27,7 @@ $$
 Centroid(C) = \frac{1}{|C|} \sum_{\vec{d}_j \in C} \vec{d}_j
 $$
 ## Rocchio Algorithm
+#exam The Rocchio Algorithm uses a modified query vector to achieve relevance feedback. Explain why this is effective and how the modified query vector can be calculated.
 
 $$
 \vec{q}_{opt} = \frac{1}{|C_r|} \sum_{\vec{d}_j \in C_r} \vec{d}_j - \frac{1}{|C_{nr}|} \sum_{\vec{d}_j \in C_{nr}} \vec{d}_j
