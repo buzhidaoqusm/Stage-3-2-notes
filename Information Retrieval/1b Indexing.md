@@ -9,6 +9,18 @@ incidence matrix is one possibility
 # Inverted Index
 #exam Explain why an inverted index is a more suitable data structure for representing a document corpus, compared to a term-document incidence matrix.
 #exam Describe in detail how a set of postings lists can be created to represent a document corpus. Your answer should include details of the data structures that are used during this process.
+#exam Below is part of a positional index relating to the term "same". In creating this index, stopword removal and stemming have not been used. Postings lists begin at 1 for the first term in each document. Which document(s) could contain the phrase "the same day at the same time"? Explain your answer.
+
+```text
+<same: 41825;
+1: 120, 124, 167
+2: 9, 10, 13
+3: 121, 162
+4: 4, 101, 105, 106
+5: 1, 5, 88, 888, 889
+...>
+```
+
 
 term->文档id->文档id
 
