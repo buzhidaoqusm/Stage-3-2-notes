@@ -16,6 +16,7 @@
 
 ## Problems with Tokenisation
 #exam When tokenising text, the natural language that the documents are written in can influence the strategy being used. Discuss three examples of issues that can arise when tokenising languages other than English.
+
 - Finland’s capital → Finland AND s? Finlands? Finland’s?
 - Mercedes-Benz → Mercedes and Benz as two tokens?
 - San Francisco: one token or two?
