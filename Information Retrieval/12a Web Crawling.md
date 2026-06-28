@@ -1,3 +1,5 @@
+#exam Describe in detail how you would design a web crawler to find information that could be included in the index of an Information Retrieval system. In your answer, include details about what standards the crawler should follow, and situations where accessing information is difficult.
+
 **Web Crawlers** or **Web Spiders** are programs that automatically **look for documents** on the web that will be included in the index so that users can find them when searching.
 They do this by **extracting the hyperlinks** from each page they find, which will in turn point them to new pages to index.
 
